@@ -1,0 +1,6 @@
+@import "../mixins.css";
+@import "../variables.css";
+
+.header {
+  background: var(--color-1);
+}

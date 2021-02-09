@@ -17,4 +17,11 @@
   .mega-menu-is-open & {
     display: block;
   }
+
+  &__content {
+    width: 300px;
+    height: 100%;
+    background: var(--color-3);
+    color: white
+  }
 }

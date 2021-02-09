@@ -1,11 +1,16 @@
-import * as React from "react"
+import React from 'react';
 import "./header.css"
 
-// markup
 const Header = () => {
+  const MegaMenuOpenClass = "mega-menu-is-open"
+
+  function toggleMegaMenuClass() {
+    document.body.classList.toggle(MegaMenuOpenClass)
+  }
+
   return (
     <header className="header">
-      <button>
+      <button onClick={toggleMegaMenuClass}>
         Menu
       </button>
     </header>

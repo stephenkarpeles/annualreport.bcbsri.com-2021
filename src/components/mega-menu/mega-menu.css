@@ -13,4 +13,8 @@
   width: 100vw;
   background-size: cover;
   background-position: center center;
+
+  .mega-menu-is-open & {
+    display: block;
+  }
 }

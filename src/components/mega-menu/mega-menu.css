@@ -2,7 +2,7 @@
 @import "../variables.css";
 
 .mega-menu {
-  visibility: hidden;
+  display: none;
   position: absolute;
   z-index: 9000;
   left: 0;
@@ -15,7 +15,7 @@
   background-position: center center;
 
   .mega-menu-is-open & {
-    visibility: visible;
+    display: block;
   }
 
   &__content {

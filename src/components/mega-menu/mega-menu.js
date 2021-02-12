@@ -15,9 +15,15 @@ const MegaMenu = () => {
     <div className="mega-menu" style={{ backgroundImage:`url(${BgImg})` }}>
       <Slide left>
         <div className="mega-menu__content">
-          <button onClick={toggleMegaMenuClass}>
-            CLOSE
-          </button>
+          <div className="mega-menu__close-btn" onClick={toggleMegaMenuClass}>
+            <div className="mega-menu__close-btn-x">
+              <span></span>
+              <span></span>
+            </div>
+            <div className="mega-menu__close-btn-text">
+              Close
+            </div>
+          </div>
         </div>
       </Slide>
     </div>

@@ -17,7 +17,7 @@ const Header = () => {
             <span></span>
             <span></span>
           </div>
-            <div className="header__toggle-menu-btn-text">
+          <div className="header__toggle-menu-btn-text">
             Menu
           </div>
         </div>

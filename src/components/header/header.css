@@ -2,5 +2,34 @@
 @import "../variables.css";
 
 .header {
-  background: var(--color-1);
+  background: white;
+  padding: 1rem 0;
+
+  &__container {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  &__toggle-menu-btn {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    position: relative;
+  }
+
+  &__toggle-menu-btn-burger {
+    span {
+      width: 32px;
+      height: 2px;
+      background: var(--color-4);
+      display: block;
+      margin-bottom: 8px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }

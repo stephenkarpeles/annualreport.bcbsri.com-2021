@@ -10,9 +10,18 @@ const Header = () => {
 
   return (
     <header className="header">
-      <button onClick={toggleMegaMenuClass}>
-        Menu
-      </button>
+      <div className="header__container">
+        <div className="header__toggle-menu-btn" onClick={toggleMegaMenuClass}>
+          <div className="header__toggle-menu-btn-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+            <div className="header__toggle-menu-btn-text">
+            Menu
+          </div>
+        </div>
+      </div>
     </header>
   )
 }

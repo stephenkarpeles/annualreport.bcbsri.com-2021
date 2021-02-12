@@ -3,6 +3,7 @@
 
 .mega-menu {
   display: none;
+  animation: fadeOut .5s;
   position: absolute;
   z-index: 9000;
   left: 0;
@@ -16,10 +17,11 @@
 
   .mega-menu-is-open & {
     display: block;
+    animation: fadeIn .5s;
   }
 
   &__content {
-    width: 300px;
+    width: 400px;
     height: 100%;
     background: var(--color-3);
     color: white

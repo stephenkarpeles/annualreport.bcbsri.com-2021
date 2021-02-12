@@ -1,6 +1,9 @@
 :root { 
-
   /* Colors */
-  --color-1: red;
+  --color-1: #4B7D91;
   --color-3: #112930;
+  --color-4: #17292F;
+
+  /* Fonts */
+  --font-stack-1: 'benton-sans', Helvetica, Arial, sans-serif;
 }

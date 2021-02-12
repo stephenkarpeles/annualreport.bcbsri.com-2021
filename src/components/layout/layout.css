@@ -1,6 +1,14 @@
 @import "../mixins.css";
 @import "../variables.css";
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 html, 
 body {
   margin: 0;

@@ -3,12 +3,18 @@ import "./mega-menu.css"
 import BgImg from "../../images/bg-city.jpg"
 // import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
+import { Link } from "gatsby";
 
 const MegaMenu = () => {
   const MegaMenuOpenClass = "mega-menu-is-open"
+  const SubnavOneOpenClass = "subnav-1-is-open"
   
   function toggleMegaMenuClass() {
     document.body.classList.toggle(MegaMenuOpenClass)
+  }
+
+  function toggleSubnavOne() {
+    document.querySelector('.mega-menu__subnav--1').classList.toggle(SubnavOneOpenClass)
   }
 
   return (
@@ -26,9 +32,9 @@ const MegaMenu = () => {
           </div>
           <nav className="mega-menu__nav">
             <ul>
-              <li className="mega-menu__nav-item">
+              <li className="mega-menu__nav-item" onClick={toggleSubnavOne}>
                 <span>Health &amp;<br/>Well-being</span>
-                <span>01</span>                
+                <span>01</span> 
               </li>
               <li className="mega-menu__nav-item">
                 <span>Customer<br/>Convenience</span>
@@ -40,6 +46,20 @@ const MegaMenu = () => {
               </li>
             </ul>
           </nav>
+          <div className="mega-menu__subnav mega-menu__subnav--1">
+            <ul>
+              <li><Link to="/">Temporary COVID Benefits</Link></li>
+              <li><Link to="/">COVID Partnership with State</Link></li> 
+              <li><Link to="/">What We Live For summit</Link></li> 
+              <li><Link to="/">COVID-related Community Activities</Link></li> 
+              <li><Link to="/">Blue Across RI</Link></li> 
+              <li><Link to="/">RI Life Index</Link></li> 
+              <li><Link to="/">Oak Street Health</Link></li> 
+              <li><Link to="/">New Safe Zones</Link></li> 
+              <li><Link to="/">Diversity Week: Ibram X. Kendi</Link></li> 
+              <li><Link to="/">Bell Seal for Mental Health</Link></li>           
+            </ul>
+          </div>
         </div>
       </Slide>
     </div>

@@ -10,4 +10,7 @@
 
   /* Fonts */
   --font-stack-1: 'benton-sans', Helvetica, Arial, sans-serif;
+
+  /* Layout */
+  --mega-menu-width: 560px;
 }

@@ -4,6 +4,8 @@
   --color-3: #112930;
   --color-4: #17292F;
 
+  --border-color-1: rgba(86, 124, 143, .6);
+
   /* Fonts */
   --font-stack-1: 'benton-sans', Helvetica, Arial, sans-serif;
 }

@@ -27,7 +27,56 @@
     color: white;
     padding-left: 4%;
     padding-right: 4%;
-    padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  &__close-btn {
+    display: flex;
+    cursor: pointer;
+    padding-right: .25rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    width: 6.5rem;
+    border-right: 1px solid var(--border-color-1);
+    transition: opacity .2s ease;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  &__close-btn-x {
+    margin-right: .65rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    span {
+      background: white;
+      width: 32px;
+      height: 2px;
+      display: block;
+      position: relative;
+
+      &:first-child {
+        transform: rotate(45deg);
+      }
+
+      &:last-child {
+        transform: rotate(-45deg);
+        top: -2px;
+      }
+    }
+  }
+
+  &__close-btn-text {
+    color: var(--color-1);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .75rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 1px;
   }
 }

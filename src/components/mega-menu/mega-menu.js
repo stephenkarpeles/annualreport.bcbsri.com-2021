@@ -51,15 +51,15 @@ const MegaMenu = () => {
           </div>
           <nav className="mega-menu__nav">
             <ul>
-              <li className="mega-menu__nav-item" onClick={toggleSubnavOne}>
+              <li className="mega-menu__nav-item" onClick={toggleSubnavOne} onKeyDown={toggleSubnavOne}>
                 <span>Health &amp;<br/>Well-being</span>
                 <span>01</span> 
               </li>
-              <li className="mega-menu__nav-item" onClick={toggleSubnavTwo}>
+              <li className="mega-menu__nav-item" onClick={toggleSubnavTwo} onKeyDown={toggleSubnavTwo}>
                 <span>Customer<br/>Convenience</span>
                 <span>02</span>                
               </li>
-              <li className="mega-menu__nav-item" onClick={toggleSubnavThree}>
+              <li className="mega-menu__nav-item" onClick={toggleSubnavThree} onKeyDown={toggleSubnavThree}>
                 <span>Financial<br/>Relief</span>
                 <span>03</span>                
               </li>

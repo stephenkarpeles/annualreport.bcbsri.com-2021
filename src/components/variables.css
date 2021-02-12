@@ -1,8 +1,10 @@
 :root { 
   /* Colors */
   --color-1: #4B7D91;
+  --color-2: #567C8F;
   --color-3: #112930;
-  --color-4: #17292F;
+  --color-4: #17292F;  
+  --color-5: #75C0E3;
 
   --border-color-1: rgba(86, 124, 143, .6);
 

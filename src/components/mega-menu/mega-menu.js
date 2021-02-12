@@ -15,7 +15,7 @@ const MegaMenu = () => {
     <div className="mega-menu" style={{ backgroundImage:`url(${BgImg})` }}>
       <Slide left>
         <div className="mega-menu__content">
-          <div className="mega-menu__close-btn" onClick={toggleMegaMenuClass}>
+          <div className="mega-menu__close-btn" role="button" tabIndex={0} onClick={toggleMegaMenuClass} onKeyDown={toggleMegaMenuClass} >
             <div className="mega-menu__close-btn-x">
               <span></span>
               <span></span>
@@ -24,6 +24,22 @@ const MegaMenu = () => {
               Close
             </div>
           </div>
+          <nav className="mega-menu__nav">
+            <ul>
+              <li className="mega-menu__nav-item">
+                <span>Health &amp;<br/>Well-being</span>
+                <span>01</span>                
+              </li>
+              <li className="mega-menu__nav-item">
+                <span>Customer<br/>Convenience</span>
+                <span>02</span>                
+              </li>
+              <li className="mega-menu__nav-item">
+                <span>Financial<br/>Relief</span>
+                <span>03</span>                
+              </li>
+            </ul>
+          </nav>
         </div>
       </Slide>
     </div>

@@ -20,6 +20,7 @@
     cursor: pointer;
     display: flex;
     transition: opacity .2s ease;
+    width: 6.5rem;
 
     &:hover {
       opacity: .7;

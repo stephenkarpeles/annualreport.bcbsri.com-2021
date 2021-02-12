@@ -25,9 +25,6 @@
     height: 100%;
     background: var(--color-3);
     color: white;
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-bottom: 1.5rem;
   }
 
   &__close-btn {
@@ -39,6 +36,9 @@
     width: 6.5rem;
     border-right: 1px solid var(--border-color-1);
     transition: opacity .2s ease;
+    position: relative;
+    z-index: 9999;
+    margin-left: 4vw;
 
     &:hover {
       opacity: .7;
@@ -82,6 +82,10 @@
 
   &__nav {
     margin-top: 4rem;
+    padding: 0 4vw;
+    position: relative;
+    z-index: 2000;
+    background: var(--color-3);
 
     ul {
       margin: 0;
@@ -132,23 +136,19 @@
     bottom: 0;
     top: 0;
     height: 100%;
-    padding: 10rem 2.5rem 3rem;
-    left: var(--mega-menu-width);
-    width: 400px;
+    padding: 0;
+    left: 0;
+    width: var(--mega-menu-width);
     z-index: 500;
     background: var(--color-3);
-
-    &::after {
-      height: calc(100% - 10rem);
-      content: '';
-      width: 1px;
-      background: var(--color-3);
-      display: block;
-    }
+    -webkit-transition: all .5s linear 0s;
+    transition: all .5s linear 0s;
 
     ul {
-      margin: 0;
-      padding: 0;
+      margin: 10rem 0 0;
+      height: 100%;
+      padding: 0 3rem;
+      border-left: 1px solid var(--border-color-1);
     }
 
     li {
@@ -167,7 +167,19 @@
 
     &--1 {
       &.subnav-1-is-open {
-        left: 500px;
+        left: var(--mega-menu-width);
+      }
+    }
+
+    &--2 {
+      &.subnav-2-is-open {
+        left: var(--mega-menu-width);
+      }
+    }
+
+    &--3 {
+      &.subnav-3-is-open {
+        left: var(--mega-menu-width);
       }
     }
   }

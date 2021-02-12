@@ -5,6 +5,7 @@
   --color-3: #112930;
   --color-4: #17292F;  
   --color-5: #75C0E3;
+  --color-6: #B6BDC0;
 
   --border-color-1: rgba(86, 124, 143, .6);
 
@@ -12,5 +13,5 @@
   --font-stack-1: 'benton-sans', Helvetica, Arial, sans-serif;
 
   /* Layout */
-  --mega-menu-width: 560px;
+  --mega-menu-width: 520px;
 }

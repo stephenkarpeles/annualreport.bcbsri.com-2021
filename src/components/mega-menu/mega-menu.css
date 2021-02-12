@@ -83,6 +83,7 @@
   &__nav {
     margin-top: 4rem;
     padding: 0 4vw;
+    height: 100vh;
     position: relative;
     z-index: 2000;
     background: var(--color-3);

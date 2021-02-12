@@ -13,6 +13,9 @@ const MegaMenu = () => {
   
   function toggleMegaMenuClass() {
     document.body.classList.toggle(MegaMenuOpenClass)
+    document.querySelector('.mega-menu__subnav--1').classList.remove(SubnavOneOpenClass);
+    document.querySelector('.mega-menu__subnav--2').classList.remove(SubnavTwoOpenClass);
+    document.querySelector('.mega-menu__subnav--3').classList.remove(SubnavThreeOpenClass);
   }
 
   function toggleSubnavOne() {

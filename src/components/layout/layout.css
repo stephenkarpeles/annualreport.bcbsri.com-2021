@@ -1,5 +1,6 @@
 @import "../mixins.css";
 @import "../variables.css";
+@import "../breakpoints.css";
 
 *,
 *:before,
@@ -17,9 +18,12 @@ body {
 
 body {
   font-family: var(--font-stack-1);
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+
+  &.mega-menu-is-open {
+    @media (--small-breakpoint-down) {
+      background: var(--color-3;)
+    }
+  }
 }
 
 img,

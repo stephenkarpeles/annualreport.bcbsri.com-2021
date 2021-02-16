@@ -8,11 +8,17 @@ import { Link } from "gatsby";
 const MegaMenu = () => {
   const MegaMenuOpenClass = "mega-menu-is-open"
   const SubnavOneOpenClass = "subnav-1-is-open"
+  const SubnavOneBodyClass = "body-subnav-1-is-open"
   const SubnavTwoOpenClass = "subnav-2-is-open"
+  const SubnavTwoBodyClass = "body-subnav-2-is-open"
   const SubnavThreeOpenClass = "subnav-3-is-open"
+  const SubnavThreeBodyClass = "body-subnav-3-is-open"
   
   function toggleMegaMenuClass() {
-    document.body.classList.toggle(MegaMenuOpenClass)
+    document.body.classList.toggle(MegaMenuOpenClass);
+    document.body.classList.remove(SubnavOneBodyClass);
+    document.body.classList.remove(SubnavTwoBodyClass);
+    document.body.classList.remove(SubnavThreeBodyClass);
     document.querySelector('.mega-menu__subnav--1').classList.remove(SubnavOneOpenClass);
     document.querySelector('.mega-menu__subnav--2').classList.remove(SubnavTwoOpenClass);
     document.querySelector('.mega-menu__subnav--3').classList.remove(SubnavThreeOpenClass);
@@ -22,18 +28,28 @@ const MegaMenu = () => {
     document.querySelector('.mega-menu__subnav--1').classList.toggle(SubnavOneOpenClass);
     document.querySelector('.mega-menu__subnav--2').classList.remove(SubnavTwoOpenClass);
     document.querySelector('.mega-menu__subnav--3').classList.remove(SubnavThreeOpenClass);
+    document.body.classList.toggle(SubnavOneBodyClass);
+    document.body.classList.remove(SubnavTwoBodyClass);
+    document.body.classList.remove(SubnavThreeBodyClass);
   }
 
   function toggleSubnavTwo() {
     document.querySelector('.mega-menu__subnav--2').classList.toggle(SubnavTwoOpenClass);
     document.querySelector('.mega-menu__subnav--1').classList.remove(SubnavOneOpenClass);
     document.querySelector('.mega-menu__subnav--3').classList.remove(SubnavThreeOpenClass);
+    document.body.classList.toggle(SubnavTwoBodyClass);
+    document.body.classList.remove(SubnavOneBodyClass);
+    document.body.classList.remove(SubnavThreeBodyClass);
+    
   }
 
   function toggleSubnavThree() {
     document.querySelector('.mega-menu__subnav--3').classList.toggle(SubnavThreeOpenClass);
     document.querySelector('.mega-menu__subnav--1').classList.remove(SubnavOneOpenClass);
     document.querySelector('.mega-menu__subnav--2').classList.remove(SubnavTwoOpenClass);
+    document.body.classList.toggle(SubnavThreeBodyClass);
+    document.body.classList.remove(SubnavOneBodyClass);
+    document.body.classList.remove(SubnavTwoBodyClass);
   }
 
   return (
@@ -51,15 +67,15 @@ const MegaMenu = () => {
           </div>
           <nav className="mega-menu__nav">
             <ul>
-              <li className="mega-menu__nav-item" onClick={toggleSubnavOne} onKeyDown={toggleSubnavOne}>
+              <li className="mega-menu__nav-item mega-menu__nav-item--1" onClick={toggleSubnavOne} onKeyDown={toggleSubnavOne}>
                 <span>Health &amp;<br/>Well-being</span>
                 <span>01</span> 
               </li>
-              <li className="mega-menu__nav-item" onClick={toggleSubnavTwo} onKeyDown={toggleSubnavTwo}>
+              <li className="mega-menu__nav-item mega-menu__nav-item--2" onClick={toggleSubnavTwo} onKeyDown={toggleSubnavTwo}>
                 <span>Customer<br/>Convenience</span>
                 <span>02</span>                
               </li>
-              <li className="mega-menu__nav-item" onClick={toggleSubnavThree} onKeyDown={toggleSubnavThree}>
+              <li className="mega-menu__nav-item mega-menu__nav-item--3" onClick={toggleSubnavThree} onKeyDown={toggleSubnavThree}>
                 <span>Financial<br/>Relief</span>
                 <span>03</span>                
               </li>

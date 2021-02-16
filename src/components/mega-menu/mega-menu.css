@@ -1,5 +1,6 @@
 @import "../mixins.css";
 @import "../variables.css";
+@import "../breakpoints.css";
 
 .mega-menu {
   position: absolute;
@@ -14,6 +15,7 @@
   background-position: center center;
   visibility: hidden;
   opacity: 0;
+  overflow: hidden;
   transition: visibility 0s, opacity 0.5s linear;
 
   .mega-menu-is-open & {
@@ -28,7 +30,11 @@
     height: 100%;
     background: var(--color-3);
     color: white; 
-    transition: left 0.75s linear; 
+    transition: left .9s linear; 
+
+    @media (--small-breakpoint-down) {
+      width: 100%;
+    }
   }
 
   &-is-open .mega-menu__content {
@@ -41,7 +47,7 @@
     padding-right: .25rem;
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
-    width: 6.5rem;
+    width: 7rem;
     border-right: 1px solid var(--border-color-1);
     transition: opacity .2s ease;
     position: relative;
@@ -153,11 +159,21 @@
     -webkit-transition: all .5s linear 0s;
     transition: all .5s linear 0s;
 
+    @media (--small-breakpoint-down) {
+      width: 100%;
+    }
+
     ul {
       margin: 10rem 0 0;
       height: 100%;
       padding: 0 3rem;
       border-left: 1px solid var(--border-color-1);
+
+      @media (--small-breakpoint-down) {
+        padding: 0 4vw;
+        border-left: none;
+        margin: 0;
+      }
     }
 
     li {
@@ -175,21 +191,92 @@
     }
 
     &--1 {
+      @media (--small-breakpoint-down) {
+        top: 580px;
+        bottom: auto;
+      }
+
       &.subnav-1-is-open {
         left: var(--mega-menu-width);
+
+        @media (--small-breakpoint-down) {
+          left: 0;
+          top: 310px;
+        }
       }
     }
 
     &--2 {
+      @media (--small-breakpoint-down) {
+        top: 580px;
+        bottom: auto;
+      }
+
       &.subnav-2-is-open {
         left: var(--mega-menu-width);
+
+        @media (--small-breakpoint-down) {
+          left: 0;
+          top: 480px;
+        }
       }
     }
 
     &--3 {
+      @media (--small-breakpoint-down) {
+        top: 558px;
+        bottom: auto;
+      }
+
       &.subnav-3-is-open {
         left: var(--mega-menu-width);
+
+        @media (--small-breakpoint-down) {
+          left: 0;
+          top: 630px;
+        }
       }
+    }
+  }
+}
+
+@media (--small-breakpoint-down) {
+  .body-subnav-1-is-open {
+    .mega-menu__nav-item--2,
+    .mega-menu__nav-item--3 {
+      transform: translateY(400px);
+    }
+
+    .mega-menu__subnav--1 {
+      z-index: 9000;
+    }
+
+    .mega-menu {
+      overflow: visible;
+    }
+  }
+
+  .body-subnav-2-is-open {
+    .mega-menu__nav-item--3 {
+      transform: translateY(400px);
+    }
+
+    .mega-menu__subnav--2 {
+      z-index: 9000;
+    }
+
+    .mega-menu {
+      overflow: visible;
+    }
+  }
+
+  .body-subnav-3-is-open {
+    .mega-menu__subnav--3 {
+      z-index: 9000;
+    }
+
+    .mega-menu {
+      overflow: visible;
     }
   }
 }

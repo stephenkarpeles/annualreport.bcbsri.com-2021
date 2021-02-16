@@ -25,10 +25,18 @@
     "postcss-calc": "^8.0.0",
     "postcss-import": "^14.0.0",
     "postcss-nested": "^5.0.3",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-pxtorem": "^5.1.1",
+    "precss": "^4.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
     "sass": "^1.32.5"
+  },
+  "devDependencies": {
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-custom-media": "^8.0.0",
+    "postcss-mixins": "^7.0.3"
   }
 }

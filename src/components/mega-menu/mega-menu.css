@@ -3,7 +3,11 @@
 @import "../breakpoints.css";
 
 .mega-menu {
-  background-image: url('../../images/bg-city.jpg');
+  background-image: 
+    /* Load them all in advance so there's no delay on swap */
+    url('../../images/bg-city.jpg'),
+    url('../../images/bg-menu-2.jpg'),
+    url('../../images/bg-menu-3.jpg');
   position: absolute;
   z-index: 9000;
   left: 0;

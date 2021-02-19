@@ -1,0 +1,103 @@
+@import "../mixins.css";
+@import "../variables.css";
+@import "../breakpoints.css";
+
+.hero {
+  background-size: cover;
+  padding: 140px 0 220px;
+  position: relative;
+  background-position: center right;
+
+  &::after {
+    content: '';
+    background: var(--color-7);
+    height: 100%;
+    width: 60%;
+    min-width: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: calc((100% - var(--container-max-width)) / 2);
+    width: 100%;
+    background: white;
+    height: 130px;
+    z-index: 100;
+  }
+  
+
+  h1 {
+    color: white;
+    font-size: var(--font-size-h1);
+    line-height: var(--line-height-h1);
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+
+  h4 {
+    color: white;
+    font-size: var(--font-size-h4);
+    line-height: var(--line-height-h4);
+    font-weight: 400;
+    margin: 0;
+    position: relative;
+    padding-left: 30px;
+
+    &::before {
+      position: absolute;
+      z-index: 20;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--color-8);
+    }
+  }
+
+  .container {
+    position: relative;
+    z-index: 10;
+  }
+
+  &__content {
+    max-width: 100%;
+    width: 600px;
+  }
+
+  &__scroll-indicator {
+    margin-top: 60px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .25);
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 700;
+
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+    
+    @keyframes bounce {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(6px); }
+      100% { transform: translateY(0); }
+    }    
+  }
+}

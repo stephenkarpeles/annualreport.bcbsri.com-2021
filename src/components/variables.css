@@ -6,12 +6,27 @@
   --color-4: #17292F;  
   --color-5: #75C0E3;
   --color-6: #B6BDC0;
+  --color-7: #013e52; 
+  --color-8: #5A8F3E; 
 
   --border-color-1: rgba(86, 124, 143, .6);
 
   /* Fonts */
   --font-stack-1: 'benton-sans', Helvetica, Arial, sans-serif;
 
+  /* Typography */
+  --font-size-h1: 96px;
+  --font-size-h2: 60px;
+  --font-size-h3: 40px;
+  --font-size-h4: 22px;
+
+  --line-height-h1: 110px;
+  --line-height-h2: 72px;
+  --line-height-h3: 56px;
+  --line-height-h4: 36px;
+
   /* Layout */
   --mega-menu-width: 520px;
+  --container-width: 92%;
+  --container-max-width: 1280px;
 }

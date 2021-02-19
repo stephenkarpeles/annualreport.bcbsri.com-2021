@@ -28,3 +28,9 @@ img,
 video {
   max-width: 100%;
 }
+
+.container {
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+}

@@ -53,7 +53,7 @@ const MegaMenu = () => {
   }
 
   return (
-    <div className="mega-menu" style={{ backgroundImage:`url(${BgImg})` }}>
+    <div className="mega-menu">
       <Slide left>
         <div className="mega-menu__content">
           <div className="mega-menu__close-btn" role="button" tabIndex={0} onClick={toggleMegaMenuClass} onKeyDown={toggleMegaMenuClass} >

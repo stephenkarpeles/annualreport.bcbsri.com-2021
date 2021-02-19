@@ -13,6 +13,7 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 1px;
+    margin-bottom: 20px;
   }
 
   &__intro {
@@ -27,6 +28,8 @@
       font-size: var(--font-size-h2);
       line-height: var(--line-height-h2);
       color: #003E51;
+      margin: 0;
+      padding-bottom: 20px;
     }
   }
 
@@ -37,7 +40,7 @@
 
   &__col {
     width: 45%;
-    
+
     p {
       font-size: 16px;
       line-height: 24px;

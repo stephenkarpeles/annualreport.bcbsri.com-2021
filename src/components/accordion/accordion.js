@@ -7,7 +7,7 @@ const accordionItems = [
   {
     id: 1,
     title: 'Title 1',
-    content: ["Financial", <br/>, "Relief"],
+    content: ["In 2019, premium reserves that we held for the protection of our members totaled $372 million at year end.", <br/>, "In 2019, premium reserves that we held for the protection of our members totaled $372 million at year end."],
   },
   {
     id: 2,

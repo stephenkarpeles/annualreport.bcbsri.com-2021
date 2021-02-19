@@ -35,5 +35,8 @@ To set 0 padding on an element when the viewport is 441px or greater
 @custom-media --large-breakpoint-down (max-width: 1200px);
 @custom-media --large-breakpoint-up (min-width: 961px);
 
+@custom-media --x-large-breakpoint-down (max-width: 1400px);
+@custom-media --x-large-breakpoint-up (min-width: 1201px);
+
 /* Confine hero images to pixel height in the design, even though viewport width can expand */
 @custom-media --hero-image-up (min-width: 1441px);

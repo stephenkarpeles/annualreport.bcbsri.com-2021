@@ -254,7 +254,7 @@
 
 .body-subnav-2-is-open {
   .mega-menu {
-    background-image: url('../../images/bg-menu-2.jpg');
+    background-image: url('../../images/backgrounds/nav-bcg-customer-convenience.jpg');
   }
 
   .mega-menu__nav-item.mega-menu__nav-item--2 {
@@ -264,7 +264,7 @@
 
 .body-subnav-3-is-open {
   .mega-menu {
-    background-image: url('../../images/bg-menu-3.jpg');
+    background-image: url('../../images/backgrounds/nav-bcg-financial-relief.jpg');
   }
 
   .mega-menu__nav-item.mega-menu__nav-item--3 {

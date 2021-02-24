@@ -3,7 +3,11 @@
 @import "../breakpoints.css";
 
 .mega-menu {
-  background-image: url('../../images/bg-city.jpg');
+  background-image: 
+    /* Load them all in advance so there's no delay on swap */
+    url('../../images/backgrounds/nav-bcg-health-well-being.jpg'),
+    url('../../images/backgrounds/nav-bcg-customer-convenience.jpg'),
+    url('../../images/backgrounds/nav-bcg-financial-relief.jpg');
   position: absolute;
   z-index: 9000;
   left: 0;
@@ -13,12 +17,11 @@
   height: 100vh;
   width: 100vw;
   background-size: cover;
-  background-position: center center;
+  background-position: right center;
   visibility: hidden;
   opacity: 0;
   overflow: hidden;
-  transition: visibility 0s, opacity 0.5s linear;
-  transition: background-image 0.6s ease;
+  transition: visibility 0s, opacity 0.5s, background-image 0.6s ease;
 
   .mega-menu-is-open & {
     visibility: visible;
@@ -251,7 +254,7 @@
 
 .body-subnav-2-is-open {
   .mega-menu {
-    background-image: url('../../images/bg-menu-2.jpg');
+    background-image: url('../../images/backgrounds/nav-bcg-customer-convenience.jpg');
   }
 
   .mega-menu__nav-item.mega-menu__nav-item--2 {
@@ -261,7 +264,7 @@
 
 .body-subnav-3-is-open {
   .mega-menu {
-    background-image: url('../../images/bg-menu-3.jpg');
+    background-image: url('../../images/backgrounds/nav-bcg-financial-relief.jpg');
   }
 
   .mega-menu__nav-item.mega-menu__nav-item--3 {

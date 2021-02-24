@@ -5,9 +5,9 @@
 .mega-menu {
   background-image: 
     /* Load them all in advance so there's no delay on swap */
-    url('../../images/bg-city.jpg'),
-    url('../../images/bg-menu-2.jpg'),
-    url('../../images/bg-menu-3.jpg');
+    url('../../images/backgrounds/nav-bcg-health-well-being.jpg'),
+    url('../../images/backgrounds/nav-bcg-customer-convenience.jpg'),
+    url('../../images/backgrounds/nav-bcg-financial-relief.jpg');
   position: absolute;
   z-index: 9000;
   left: 0;

@@ -2,33 +2,6 @@
 @import "../variables.css";
 @import "../breakpoints.css";
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-html, 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: var(--font-stack-1);
-
-  &.mega-menu-is-open {
-    overflow: hidden;
-  }
-}
-
-img,
-video {
-  max-width: 100%;
-}
-
 .container {
   width: var(--container-width);
   max-width: var(--container-max-width);
@@ -46,3 +19,4 @@ video {
   max-width: var(--x-small-container-max-width);
   margin: 0 auto;
 }
+

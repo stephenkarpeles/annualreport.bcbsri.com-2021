@@ -18,7 +18,11 @@
   --border-color-1: rgba(86, 124, 143, .6);
 
   /* Fonts */
-  --font-stack-1: 'benton-sans', Helvetica, Arial, sans-serif;
+  --font-stack-light:   'Benton Sans Lt', Helvetica, Arial, sans-serif;
+  --font-stack-regular: 'Benton Sans Reg', Helvetica, Arial, sans-serif;
+  --font-stack-medium:  'Benton Sans Med', Helvetica, Arial, sans-serif;
+  --font-stack-bold:    'Benton Sans Bd', Helvetica, Arial, sans-serif;
+  --font-stack-book:    'Benton Sans Bk', Helvetica, Arial, sans-serif;
 
   /* Typography */
   --font-size-h1: 96px;

@@ -11,6 +11,9 @@
   --color-9: #2B5D70;
   --color-10: #37494F;
   --color-11: rgba(0, 62, 81, 1);
+  --color-11-alt: rgba(0, 62, 81, .94);
+  --color-12: #479130;
+  --color-13: #D04A02;
 
   --border-color-1: rgba(86, 124, 143, .6);
 
@@ -29,7 +32,7 @@
   --line-height-h4: 36px;
 
   /* Layout */
-  --mega-menu-width: 520px;
+  --mega-menu-width: 480px;
   --container-width: 92%;
   --container-max-width: 1280px;
 

@@ -66,7 +66,7 @@ const MegaMenu = () => {
             </div>
           </div>
           <div className="mega-menu__title">
-            <span>2020 Annual Report</span>
+            <span>2020 Annual and Community Report</span>
           </div>
           <nav className="mega-menu__nav">
             <ul>

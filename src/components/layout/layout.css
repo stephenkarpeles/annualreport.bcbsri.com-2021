@@ -46,3 +46,39 @@ video {
   max-width: var(--x-small-container-max-width);
   margin: 0 auto;
 }
+
+/* Font Faces from Type Network */
+.bentonsansregular {
+  font-family: "Benton Sans Reg";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bentonsanslight {
+  font-family: "Benton Sans Lt";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bentonsansmedium {
+  font-family: "Benton Sans Med";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bentonsansbold {
+  font-family: "Benton Sans Bd";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bentonsansbook {
+  font-family: "Benton Sans Bk";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}

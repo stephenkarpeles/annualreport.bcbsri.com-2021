@@ -65,6 +65,9 @@ const MegaMenu = () => {
               Close
             </div>
           </div>
+          <div className="mega-menu__title">
+            <span>2020 Annual Report</span>
+          </div>
           <nav className="mega-menu__nav">
             <ul>
               <li className="mega-menu__nav-item mega-menu__nav-item--1" onClick={toggleSubnavOne} onKeyDown={toggleSubnavOne}>

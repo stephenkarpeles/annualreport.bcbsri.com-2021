@@ -42,6 +42,20 @@
     }
   }
 
+  &__title {
+    margin-top: 4rem;
+    position: relative;
+    z-index: 8000;
+    padding: 0 4vw;
+
+    span {
+      font-size: 16px;
+      line-height: 24px;
+      color: white;
+      font-weight: 400;
+    }
+  }
+
   &-is-open .mega-menu__content {
     left: 0; 
   }
@@ -100,8 +114,7 @@
   }
 
   &__nav {
-    margin-top: 4rem;
-    padding: 0 4vw;
+    padding: 1rem 4vw 0;
     height: 100vh;
     position: relative;
     z-index: 2000;
@@ -207,7 +220,7 @@
 
         @media (--small-breakpoint-down) {
           left: 0;
-          top: 310px;
+          top: 340px;
         }
       }
     }

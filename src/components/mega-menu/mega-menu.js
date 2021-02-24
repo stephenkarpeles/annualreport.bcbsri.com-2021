@@ -65,6 +65,9 @@ const MegaMenu = () => {
               Close
             </div>
           </div>
+          <div className="mega-menu__title">
+            <span>2020 Annual and Community Report</span>
+          </div>
           <nav className="mega-menu__nav">
             <ul>
               <li className="mega-menu__nav-item mega-menu__nav-item--1" onClick={toggleSubnavOne} onKeyDown={toggleSubnavOne}>
@@ -83,44 +86,31 @@ const MegaMenu = () => {
           </nav>
           <div className="mega-menu__subnav mega-menu__subnav--1">
             <ul>
-              <li><Link to="/">Temporary COVID Benefits</Link></li>
-              <li><Link to="/">COVID Partnership with State</Link></li> 
-              <li><Link to="/">What We Live For summit</Link></li> 
-              <li><Link to="/">COVID-related Community Activities</Link></li> 
-              <li><Link to="/">Blue Across RI</Link></li> 
-              <li><Link to="/">RI Life Index</Link></li> 
-              <li><Link to="/">Oak Street Health</Link></li> 
-              <li><Link to="/">New Safe Zones</Link></li> 
-              <li><Link to="/">Diversity Week: Ibram X. Kendi</Link></li> 
-              <li><Link to="/">Bell Seal for Mental Health</Link></li>           
+              <li><Link to="/">Expanding coverage during COVID-19—at no cost</Link></li>
+              <li><Link to="/">Volunteering with a focus on community and safety</Link></li>
+              <li><Link to="/">Using data and philanthropy to address housing</Link></li>
+              <li><Link to="/">Keeping kids playing during a pandemic</Link></li>
+              <li><Link to="/">Bringing Oak Street Health to more members</Link></li>
+              <li><Link to="/">Achieving our vision through Diversity, Equity &amp; Inclusion</Link></li>      
             </ul>
           </div>
           <div className="mega-menu__subnav mega-menu__subnav--2">
             <ul>
-              <li><Link to="/">RI Life Index</Link></li> 
-              <li><Link to="/">Oak Street Health</Link></li> 
-              <li><Link to="/">New Safe Zones</Link></li> 
-              <li><Link to="/">Diversity Week: Ibram X. Kendi</Link></li> 
-              <li><Link to="/">Bell Seal for Mental Health</Link></li>
-              <li><Link to="/">Temporary COVID Benefits</Link></li>
-              <li><Link to="/">COVID Partnership with State</Link></li> 
-              <li><Link to="/">What We Live For summit</Link></li> 
-              <li><Link to="/">COVID-related Community Activities</Link></li> 
-              <li><Link to="/">Blue Across RI</Link></li>                          
+              <li><Link to="/">Accelerating the use of telehealth</Link></li> 
+              <li><Link to="/">Bringing Your Blue Store into homes</Link></li> 
+              <li><Link to="/">Making healthcare easier for Medicare members</Link></li> 
+              <li><Link to="/">Delivering free groceries to high-risk Medicare members</Link></li> 
+              <li><Link to="/">Giving members more control</Link></li>                          
             </ul>
           </div>
           <div className="mega-menu__subnav mega-menu__subnav--3">
             <ul>
-              <li><Link to="/">What We Live For summit</Link></li> 
-              <li><Link to="/">COVID-related Community Activities</Link></li> 
-              <li><Link to="/">Blue Across RI</Link></li> 
-              <li><Link to="/">RI Life Index</Link></li> 
-              <li><Link to="/">Oak Street Health</Link></li> 
-              <li><Link to="/">New Safe Zones</Link></li> 
-              <li><Link to="/">Diversity Week: Ibram X. Kendi</Link></li> 
-              <li><Link to="/">Bell Seal for Mental Health</Link></li>
-              <li><Link to="/">Temporary COVID Benefits</Link></li>
-              <li><Link to="/">COVID Partnership with State</Link></li>                          
+              <li><Link to="/">Delivering premium relief to customers</Link></li> 
+              <li><Link to="/">Supporting COVID-19 relief efforts</Link></li> 
+              <li><Link to="/">Offering grants to behavioral health practices</Link></li> 
+              <li><Link to="/">Helping small businesses during the pandemic</Link></li> 
+              <li><Link to="/">Navigating the CARES Act</Link></li> 
+              <li><Link to="/">Supporting providers with the rapid adoption of telehealth, advance payments</Link></li>                         
             </ul>
           </div>         
         </div>

@@ -2,33 +2,6 @@
 @import "../variables.css";
 @import "../breakpoints.css";
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-html, 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: var(--font-stack-1);
-
-  &.mega-menu-is-open {
-    overflow: hidden;
-  }
-}
-
-img,
-video {
-  max-width: 100%;
-}
-
 .container {
   width: var(--container-width);
   max-width: var(--container-max-width);
@@ -47,38 +20,3 @@ video {
   margin: 0 auto;
 }
 
-/* Font Faces from Type Network */
-.bentonsansregular {
-  font-family: "Benton Sans Reg";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.bentonsanslight {
-  font-family: "Benton Sans Lt";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.bentonsansmedium {
-  font-family: "Benton Sans Med";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.bentonsansbold {
-  font-family: "Benton Sans Bd";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.bentonsansbook {
-  font-family: "Benton Sans Bk";
-  font-display: swap;
-  font-style: normal;
-  font-weight: normal;
-}

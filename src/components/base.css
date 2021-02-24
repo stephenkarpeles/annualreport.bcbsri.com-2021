@@ -1,0 +1,96 @@
+@import "variables.css";
+@import "breakpoints.css";
+@import "mixins.css";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html, 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-stack-regular);
+
+  &.mega-menu-is-open {
+    overflow: hidden;
+  }
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+/* Font Faces from Type Network */
+.bentonsansregular {
+  font-family: "Benton Sans Reg";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bentonsanslight {
+  font-family: "Benton Sans Lt";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bentonsansmedium {
+  font-family: "Benton Sans Med";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bentonsansbold {
+  font-family: "Benton Sans Bd";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bentonsansbook {
+  font-family: "Benton Sans Bk";
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Typography */
+h1,
+.h1 {
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
+  font-family: var(--font-stack-light);
+}
+
+h2,
+.h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+  font-family: var(--font-stack-light);
+}
+
+h3,
+.h4 {
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+  font-family: var(--font-stack-light);
+}
+
+h4,
+.h4 {
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-h4);
+  font-family: var(--font-stack-light);
+}
+

@@ -3,7 +3,7 @@ import Layout from "../components/layout/layout"
 import Hero from "../components/hero/hero"
 import ContentBlock from "../components/content-block/content-block"
 import ByTheNumbers from "../components/by-the-numbers/by-the-numbers"
-import HeroImg from "../images/hero-bg-1.jpg"
+import HeroImg from "../images/hero-bcg-financial-relief.jpg"
 
 const FinancialReliefPage = () => {
   return (

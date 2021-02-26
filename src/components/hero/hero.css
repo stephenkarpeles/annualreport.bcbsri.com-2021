@@ -6,10 +6,10 @@
   background-size: cover;
   padding: 140px 0 220px;
   position: relative;
-  background-position: center right;
+  background-position: top left;
   overflow: hidden;
 
-  &::after {
+  /* &::after {
     content: '';
     background: var(--color-7);
     height: 100%;
@@ -18,7 +18,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-  }
+  } */
 
   &::before {
     content: '';

@@ -13,7 +13,12 @@ const FinancialReliefPage = () => {
         heading={["Financial", <br/>, "Relief"]}
         subheading="BCBSRI helped providers and businesses through the pandemic not just with monetary assistance, but also with empathy and flexibility."
       />
-      <ContentBlock/>
+      <ContentBlock
+        featNumSymbol="$"
+        featNumNumber="25"
+        featNumValue="M"
+        featNumText="In Premium Relief"
+      />
       <ByTheNumbers/>
     </Layout>
   )

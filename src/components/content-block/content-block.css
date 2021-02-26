@@ -29,7 +29,7 @@
       line-height: var(--line-height-h2);
       color: #003E51;
       margin: 0;
-      padding-bottom: 20px;
+      padding-bottom: 30px;
     }
   }
 
@@ -45,6 +45,55 @@
       font-size: 16px;
       line-height: 24px;
       color: #37494F;
+      margin: 0;
+      padding-bottom: 1.25rem;
+    }
+  }
+}
+
+.featured-number {
+  position: relative;
+  padding-top: 20px;
+
+  &__symbol {
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--color-17);
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &__number {
+    font-size: 200px;
+    line-height: 220px;
+    color: var(--color-17);
+    display: inline-block;
+  }
+
+  &__value {
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--color-17);
+    display: inline-block;
+  }
+
+  &__text {
+    position: relative;
+    color: var(--color-18);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 10px;
+    font-family: var(--font-stack-bold);
+
+    &::before {
+      top: 0;
+      content: '';
+      width: 120px;
+      height: 1px;
+      background: var(--color-19);
+      position: absolute;
     }
   }
 }

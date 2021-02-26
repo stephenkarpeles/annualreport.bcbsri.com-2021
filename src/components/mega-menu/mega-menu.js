@@ -1,11 +1,11 @@
 import * as React from "react"
 import "./mega-menu.css"
-import BgImg from "../../images/bg-city.jpg"
 // import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import { Link } from "gatsby";
 
 const MegaMenu = () => {
+  // TODO - refactor this setup, to be more DRY
   const MegaMenuOpenClass = "mega-menu-is-open"
   const SubnavOneOpenClass = "subnav-1-is-open"
   const SubnavOneBodyClass = "body-subnav-1-is-open"

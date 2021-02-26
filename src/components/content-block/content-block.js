@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import Slide from 'react-reveal/Slide';
 import "./content-block.css"
 import piggyBankImg from '../../images/illustration-delivering-premium-relief.png'

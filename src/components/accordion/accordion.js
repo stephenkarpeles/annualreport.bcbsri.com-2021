@@ -33,7 +33,7 @@ const AccordionItem = ({
   isActive = false,
 }) => {
   return (
-    <div className={isActive ? 'accordion-item' : 'accordion-item accordion-item--inactive'} onClick={onItemClicked}>
+    <div className={isActive ? 'accordion-item' : 'accordion-item accordion-item--inactive'} onClick={onItemClicked} onKeyDown={onItemClicked} role="button" tabIndex="0">
       <div className="accordion-item__title">
         <h4>{title}</h4>
       </div>

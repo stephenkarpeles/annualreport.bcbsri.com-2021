@@ -17,6 +17,11 @@
   a {
     text-decoration: none;
     color: var(--color-15);
+    transition: .35s opacity ease;
+
+    &:hover {
+      opacity: .7;
+    }
   }
 
   &__col-wrap {

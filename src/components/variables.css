@@ -30,6 +30,8 @@
   --font-stack-bold:    'Benton Sans Bd', Helvetica, Arial, sans-serif;
   --font-stack-book:    'Benton Sans Bk', Helvetica, Arial, sans-serif;
 
+  --font-serif: 'lexia', Georgia, sans-serif;
+
   /* Typography */
   --font-size-h1: 96px;
   --font-size-h2: 60px;

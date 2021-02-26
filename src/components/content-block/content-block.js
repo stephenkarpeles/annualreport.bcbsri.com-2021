@@ -1,13 +1,13 @@
 import React from "react"
 // import { Link } from "gatsby"
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 import "./content-block.css"
 import piggyBankImg from '../../images/illustration-delivering-premium-relief.png'
 
 const ContentBlock = (props) => {
   return (
-    <section className="content-block">
-      <Slide bottom>
+    <section className="content-block" style={{ backgroundColor: props.bgColor}}>
+      <Fade>
         <div className="container container--small">
           <div className="content-block__intro">
             <div className="eyebrow">Financial Relief</div>
@@ -42,7 +42,7 @@ const ContentBlock = (props) => {
             </div> 
           </div>     
         </div>
-      </Slide>
+      </Fade>
     </section>
   )
 }

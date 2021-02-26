@@ -14,6 +14,14 @@ const FinancialReliefPage = () => {
         subheading="BCBSRI helped providers and businesses through the pandemic not just with monetary assistance, but also with empathy and flexibility."
       />
       <ContentBlock
+        bgColor="#fff"
+        featNumSymbol="$"
+        featNumNumber="25"
+        featNumValue="M"
+        featNumText="In Premium Relief"
+      />
+      <ContentBlock
+        bgColor="#F7F9FA"
         featNumSymbol="$"
         featNumNumber="25"
         featNumValue="M"

@@ -10,8 +10,8 @@ const ContentBlock = (props) => {
       <Fade>
         <div className="container container--small">
           <div className="content-block__intro">
-            <div className="eyebrow">Financial Relief</div>
-            <h2>Delivering premium relief to customers</h2>
+            <div className="eyebrow">{props.eyebrow}</div>
+            <h2>{props.heading}</h2>
           </div>
           <div className="content-block__col-wrap">
             <div className="content-block__col content-block__col--left">

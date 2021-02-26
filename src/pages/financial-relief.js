@@ -15,6 +15,8 @@ const FinancialReliefPage = () => {
       />
       <ContentBlock
         bgColor="#fff"
+        eyebrow="Financial Relief"
+        heading="Delivering premium relief to customers"
         featNumSymbol="$"
         featNumNumber="25"
         featNumValue="M"
@@ -22,10 +24,12 @@ const FinancialReliefPage = () => {
       />
       <ContentBlock
         bgColor="#F7F9FA"
+        eyebrow="Financial Relief"
+        heading="Supporting COVID-19 relief efforts"
         featNumSymbol="$"
-        featNumNumber="25"
-        featNumValue="M"
-        featNumText="In Premium Relief"
+        featNumNumber="250"
+        featNumValue="K"
+        featNumText="Donated to COVID-19 relief efforts"
       />
       <ByTheNumbers/>
     </Layout>

@@ -11,6 +11,7 @@ const Layout = props => {
     <div>
       <Helmet>
         <link href="//cloud.typenetwork.com/projects/5316/fontface.css/" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://use.typekit.net/mpp0kpf.css">
       </Helmet>
       <Header />
       <MegaMenu />

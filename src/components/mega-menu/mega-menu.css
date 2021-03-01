@@ -148,7 +148,7 @@
     }
 
     span {
-      display: block;
+      display: inline-block;
 
       &:first-child {
         font-size: 2.25rem;
@@ -156,17 +156,17 @@
       }
 
       &:last-child {
-        display: none;
-        font-size: 5.75rem;
-        line-height: .9;
-        color: var(--color-11);
-        font-weight: 700;
-        font-family: var(--font-stack-bold);
-        text-shadow:
-          -1px -1px 0 var(--border-color-1),  
-          1px -1px 0 var(--border-color-1),
-          -1px 1px 0 var(--border-color-1),
-          1px 1px 0 var(--border-color-1);
+        img:first-child {
+          height: 85px;
+          width: 85px;
+          opacity: .15;
+        }
+
+        img:last-child {
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
       }
     }
   }
@@ -269,6 +269,22 @@
 .body-subnav-1-is-open {
   .mega-menu__nav-item.mega-menu__nav-item--1 {
     border-bottom: 1px solid var(--color-5);
+
+    span {
+      &:last-child {
+        img:first-child {
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+
+        img:last-child {
+          opacity: 1;
+          width: 85px;
+          height: 85px;
+        }
+      }
+    }
   }
 }
 
@@ -278,7 +294,23 @@
   }
 
   .mega-menu__nav-item.mega-menu__nav-item--2 {
-    border-bottom: 1px solid var(--color-12);
+    border-bottom: 1px solid var(--color-20);
+
+    span {
+      &:last-child {
+        img:first-child {
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+
+        img:last-child {
+          opacity: 1;
+          width: 85px;
+          height: 85px;
+        }
+      }
+    }
   }
 }
 
@@ -288,7 +320,23 @@
   }
 
   .mega-menu__nav-item.mega-menu__nav-item--3 {
-    border-bottom: 1px solid var(--color-13);
+    border-bottom: 1px solid var(--color-21);
+
+    span {
+      &:last-child {
+        img:first-child {
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+
+        img:last-child {
+          opacity: 1;
+          width: 85px;
+          height: 85px;
+        }
+      }
+    }
   }
 }
 

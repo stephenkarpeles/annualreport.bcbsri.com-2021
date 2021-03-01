@@ -3,6 +3,12 @@ import "./mega-menu.css"
 // import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import { Link } from "gatsby";
+import iconCustomerConvenienceWhite from '../../images/icons/icon-nav-customer-convenience_white.png'
+import iconFinancialReliefWhite from '../../images/icons/icon-nav-financial-relief_white.png'
+import iconHealthWellbeingWhite from '../../images/icons/icon-nav-health-well-being_white.png'
+import iconCustomerConvenience from '../../images/icons/icon-nav-customer-convenience.png'
+import iconFinancialRelief from '../../images/icons/icon-nav-financial-relief.png'
+import iconHealthWellbeing from '../../images/icons/icon-nav-health-well-being.png'
 
 const MegaMenu = () => {
   // TODO - refactor this setup, to be more DRY
@@ -72,15 +78,24 @@ const MegaMenu = () => {
             <ul>
               <li className="mega-menu__nav-item mega-menu__nav-item--1" onClick={toggleSubnavOne} onKeyDown={toggleSubnavOne}>
                 <span>Health &amp;<br/>Well-being</span>
-                <span>01</span> 
+                <span>
+                  <img src={iconHealthWellbeingWhite} alt="Icon"/>
+                  <img src={iconHealthWellbeing} alt="Icon"/>
+                </span> 
               </li>
               <li className="mega-menu__nav-item mega-menu__nav-item--2" onClick={toggleSubnavTwo} onKeyDown={toggleSubnavTwo}>
                 <span>Customer<br/>Convenience</span>
-                <span>02</span>                
+                <span>
+                  <img src={iconCustomerConvenienceWhite} alt=""/>
+                  <img src={iconCustomerConvenience} alt=""/>
+                </span>                
               </li>
               <li className="mega-menu__nav-item mega-menu__nav-item--3" onClick={toggleSubnavThree} onKeyDown={toggleSubnavThree}>
                 <span>Financial<br/>Relief</span>
-                <span>03</span>                
+                <span>
+                  <img src={iconFinancialReliefWhite} alt=""/>
+                  <img src={iconFinancialRelief} alt=""/>
+                </span>                
               </li>
             </ul>
           </nav>

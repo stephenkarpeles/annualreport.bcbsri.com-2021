@@ -21,6 +21,10 @@ body {
 
   &.mega-menu-is-open {
     overflow: hidden;
+
+    @media (--small-breakpoint-down) {
+      overflow: visible;
+    }
   }
 }
 

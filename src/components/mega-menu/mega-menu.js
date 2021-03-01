@@ -1,6 +1,6 @@
 import * as React from "react"
 import "./mega-menu.css"
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import { Link } from "gatsby";
 import iconCustomerConvenienceWhite from '../../images/icons/icon-nav-customer-convenience_white.png'

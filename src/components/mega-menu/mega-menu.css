@@ -201,6 +201,9 @@ ul.mega-menu__subnav {
     padding: 2rem 0;
     z-index: 100;
     position: relative;
+    transform: scaleY(0);
+    height: 0;
+    padding: 0;
   }
 
   ul {
@@ -274,6 +277,10 @@ ul.mega-menu__subnav {
 }
 
 .body-subnav-1-is-open {
+  .mega-menu__subnav.mega-menu__subnav--1 {
+    display: block;
+  }
+
   .mega-menu__nav-item.mega-menu__nav-item--1 .mega-menu__nav-item-title {
     border-bottom: 1px solid var(--color-5);
 
@@ -300,6 +307,10 @@ ul.mega-menu__subnav {
     background-image: url('../../images/backgrounds/nav-bcg-customer-convenience.jpg');
   }
 
+  .mega-menu__subnav.mega-menu__subnav--2 {
+    display: block;
+  }
+
   .mega-menu__nav-item.mega-menu__nav-item--2 .mega-menu__nav-item-title {
     border-bottom: 1px solid var(--color-20);
 
@@ -324,6 +335,10 @@ ul.mega-menu__subnav {
 .body-subnav-3-is-open {
   .mega-menu {
     background-image: url('../../images/backgrounds/nav-bcg-financial-relief.jpg');
+  }
+
+  .mega-menu__subnav.mega-menu__subnav--3 {
+    display: block;
   }
 
   .mega-menu__nav-item.mega-menu__nav-item--3 .mega-menu__nav-item-title {

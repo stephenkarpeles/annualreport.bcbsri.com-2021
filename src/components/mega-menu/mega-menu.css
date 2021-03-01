@@ -127,6 +127,7 @@
 
     @media (--small-breakpoint-down) {
       height: auto;
+      padding: 0 0 6rem;
     }
 
     ul {
@@ -201,9 +202,7 @@ ul.mega-menu__subnav {
     padding: 2rem 0;
     z-index: 100;
     position: relative;
-    transform: scaleY(0);
-    height: 0;
-    padding: 0;
+    display: none;
   }
 
   ul {

@@ -8,10 +8,25 @@ const Header = () => {
     document.body.classList.toggle(MegaMenuOpenClass)
   }
 
+  function scrollTop() {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <header className="header">
       <div className="header__container">
-        <div className="header__toggle-menu-btn" role="button" tabIndex={0} onClick={toggleMegaMenuClass} onKeyDown={toggleMegaMenuClass}>
+        <div className="header__toggle-menu-btn" 
+          role="button" 
+          tabIndex={0} 
+          onClick={() => {
+            scrollTop();
+            toggleMegaMenuClass();
+          }} 
+          onKeyDown={() => {
+            scrollTop();
+            toggleMegaMenuClass();
+          }}
+        >
           <div className="header__toggle-menu-btn-burger">
             <span></span>
             <span></span>

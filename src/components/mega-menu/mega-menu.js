@@ -77,57 +77,57 @@ const MegaMenu = () => {
           <nav className="mega-menu__nav">
             <ul>
               <li className="mega-menu__nav-item mega-menu__nav-item--1" onClick={toggleSubnavOne} onKeyDown={toggleSubnavOne}>
-                <span>Health &amp;<br/>Well-being</span>
-                <span>
-                  <img src={iconHealthWellbeingWhite} alt="Icon"/>
-                  <img src={iconHealthWellbeing} alt="Icon"/>
-                </span> 
+                <div className="mega-menu__nav-item-title">
+                  <span>Health &amp;<br/>Well-being</span>
+                  <span>
+                    <img src={iconHealthWellbeingWhite} alt="Icon"/>
+                    <img src={iconHealthWellbeing} alt="Icon"/>
+                  </span>
+                </div> 
+                <ul className="mega-menu__subnav mega-menu__subnav--1">
+                  <li><Link to="/">Expanding coverage during COVID-19—at no cost</Link></li>
+                  <li><Link to="/">Volunteering with a focus on community and safety</Link></li>
+                  <li><Link to="/">Using data and philanthropy to address housing</Link></li>
+                  <li><Link to="/">Keeping kids playing during a pandemic</Link></li>
+                  <li><Link to="/">Bringing Oak Street Health to more members</Link></li>
+                  <li><Link to="/">Achieving our vision through Diversity, Equity &amp; Inclusion</Link></li>      
+                </ul>
               </li>
               <li className="mega-menu__nav-item mega-menu__nav-item--2" onClick={toggleSubnavTwo} onKeyDown={toggleSubnavTwo}>
-                <span>Customer<br/>Convenience</span>
-                <span>
-                  <img src={iconCustomerConvenienceWhite} alt=""/>
-                  <img src={iconCustomerConvenience} alt=""/>
-                </span>                
+                <div className="mega-menu__nav-item-title">
+                  <span>Customer<br/>Convenience</span>
+                  <span>
+                    <img src={iconCustomerConvenienceWhite} alt=""/>
+                    <img src={iconCustomerConvenience} alt=""/>
+                  </span> 
+                </div>  
+                <ul className="mega-menu__subnav mega-menu__subnav--2">
+                  <li><Link to="/">Accelerating the use of telehealth</Link></li> 
+                  <li><Link to="/">Bringing Your Blue Store into homes</Link></li> 
+                  <li><Link to="/">Making healthcare easier for Medicare members</Link></li> 
+                  <li><Link to="/">Delivering free groceries to high-risk Medicare members</Link></li> 
+                  <li><Link to="/">Giving members more control</Link></li>                          
+                </ul>
               </li>
               <li className="mega-menu__nav-item mega-menu__nav-item--3" onClick={toggleSubnavThree} onKeyDown={toggleSubnavThree}>
-                <span>Financial<br/>Relief</span>
-                <span>
-                  <img src={iconFinancialReliefWhite} alt=""/>
-                  <img src={iconFinancialRelief} alt=""/>
-                </span>                
+                <div className="mega-menu__nav-item-title">
+                  <span>Financial<br/>Relief</span>
+                  <span>
+                    <img src={iconFinancialReliefWhite} alt=""/>
+                    <img src={iconFinancialRelief} alt=""/>
+                  </span>
+                </div>   
+                <ul className="mega-menu__subnav mega-menu__subnav--3">
+                  <li><Link to="/">Delivering premium relief to customers</Link></li> 
+                  <li><Link to="/">Supporting COVID-19 relief efforts</Link></li> 
+                  <li><Link to="/">Offering grants to behavioral health practices</Link></li> 
+                  <li><Link to="/">Helping small businesses during the pandemic</Link></li> 
+                  <li><Link to="/">Navigating the CARES Act</Link></li> 
+                  <li><Link to="/">Supporting providers with the rapid adoption of telehealth, advance payments</Link></li>                         
+                </ul>
               </li>
             </ul>
-          </nav>
-          <div className="mega-menu__subnav mega-menu__subnav--1">
-            <ul>
-              <li><Link to="/">Expanding coverage during COVID-19—at no cost</Link></li>
-              <li><Link to="/">Volunteering with a focus on community and safety</Link></li>
-              <li><Link to="/">Using data and philanthropy to address housing</Link></li>
-              <li><Link to="/">Keeping kids playing during a pandemic</Link></li>
-              <li><Link to="/">Bringing Oak Street Health to more members</Link></li>
-              <li><Link to="/">Achieving our vision through Diversity, Equity &amp; Inclusion</Link></li>      
-            </ul>
-          </div>
-          <div className="mega-menu__subnav mega-menu__subnav--2">
-            <ul>
-              <li><Link to="/">Accelerating the use of telehealth</Link></li> 
-              <li><Link to="/">Bringing Your Blue Store into homes</Link></li> 
-              <li><Link to="/">Making healthcare easier for Medicare members</Link></li> 
-              <li><Link to="/">Delivering free groceries to high-risk Medicare members</Link></li> 
-              <li><Link to="/">Giving members more control</Link></li>                          
-            </ul>
-          </div>
-          <div className="mega-menu__subnav mega-menu__subnav--3">
-            <ul>
-              <li><Link to="/">Delivering premium relief to customers</Link></li> 
-              <li><Link to="/">Supporting COVID-19 relief efforts</Link></li> 
-              <li><Link to="/">Offering grants to behavioral health practices</Link></li> 
-              <li><Link to="/">Helping small businesses during the pandemic</Link></li> 
-              <li><Link to="/">Navigating the CARES Act</Link></li> 
-              <li><Link to="/">Supporting providers with the rapid adoption of telehealth, advance payments</Link></li>                         
-            </ul>
-          </div>         
+          </nav>  
         </div>
       </Slide>
     </div>

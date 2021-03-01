@@ -50,7 +50,8 @@
     margin-top: 4rem;
     position: relative;
     z-index: 8000;
-    padding: 0 4vw;
+    padding: 0 4vw 1rem;
+    background: var(--color-11);
 
     span {
       font-size: 16px;
@@ -119,7 +120,7 @@
   }
 
   &__nav {
-    padding: 1rem 4vw 0;
+    padding: 0;
     height: 100vh;
     position: relative;
     z-index: 2000;
@@ -135,16 +136,19 @@
     }
   }
 
-  &__nav-item {
+  &__nav-item-title {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 2rem 4vw;
     border-bottom: 1px solid var(--border-color-1);
     cursor: pointer;
     transition: opacity .2s ease;
+    background: var(--color-11);
 
     &:hover {
-      opacity: .7;
+      span {
+        opacity: .7;
+      }
     }
 
     span {
@@ -170,104 +174,103 @@
       }
     }
   }
+}
 
-  &__subnav {
-    position: absolute;
-    bottom: 0;
-    top: 0;
+ul.mega-menu__subnav {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  padding: 0 4vw;
+  left: 0;
+  width: var(--mega-menu-width);
+  z-index: -100;
+  background: var(--color-11-alt);
+  -webkit-transition: all .5s linear 0s;
+  transition: all .5s linear 0s;
+
+  @media (--small-breakpoint-down) {
+    width: 100%;
+  }
+
+  ul {
+    margin: 10rem 0 0;
     height: 100%;
-    padding: 0;
-    left: 0;
-    width: 470px;
-    z-index: 500;
-    background: var(--color-11-alt);
-    -webkit-transition: all .5s linear 0s;
-    transition: all .5s linear 0s;
+    padding: 0 2.5rem;
+    /* border-left: 1px solid var(--border-color-1); */
 
     @media (--small-breakpoint-down) {
-      width: 100%;
+      padding: 0 4vw;
+      border-left: none;
+      margin: 0;
+    }
+  }
+
+  li {
+    list-style-type: none;
+    margin-bottom: 1.25rem;
+  }
+
+  a {
+    color: var(--color-6);
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  &--1 {
+    @media (--small-breakpoint-down) {
+      top: 580px;
+      bottom: auto;
     }
 
-    ul {
-      margin: 10rem 0 0;
-      height: 100%;
-      padding: 0 2.5rem;
-      /* border-left: 1px solid var(--border-color-1); */
+    &.subnav-1-is-open {
+      left: var(--mega-menu-width);
 
       @media (--small-breakpoint-down) {
-        padding: 0 4vw;
-        border-left: none;
-        margin: 0;
+        left: 0;
+        top: 340px;
       }
     }
+  }
 
-    li {
-      list-style-type: none;
-      margin-bottom: 1.25rem;
+  &--2 {
+    @media (--small-breakpoint-down) {
+      top: 580px;
+      bottom: auto;
     }
 
-    a {
-      color: var(--color-6);
-      text-decoration: none;
+    &.subnav-2-is-open {
+      left: var(--mega-menu-width);
 
-      &:hover {
-        color: white;
-      }
-    }
-
-    &--1 {
       @media (--small-breakpoint-down) {
-        top: 580px;
-        bottom: auto;
-      }
-
-      &.subnav-1-is-open {
-        left: var(--mega-menu-width);
-
-        @media (--small-breakpoint-down) {
-          left: 0;
-          top: 340px;
-        }
+        left: 0;
+        top: 480px;
       }
     }
+  }
 
-    &--2 {
-      @media (--small-breakpoint-down) {
-        top: 580px;
-        bottom: auto;
-      }
-
-      &.subnav-2-is-open {
-        left: var(--mega-menu-width);
-
-        @media (--small-breakpoint-down) {
-          left: 0;
-          top: 480px;
-        }
-      }
+  &--3 {
+    @media (--small-breakpoint-down) {
+      top: 558px;
+      bottom: auto;
     }
 
-    &--3 {
+    &.subnav-3-is-open {
+      left: var(--mega-menu-width);
+
       @media (--small-breakpoint-down) {
-        top: 558px;
-        bottom: auto;
-      }
-
-      &.subnav-3-is-open {
-        left: var(--mega-menu-width);
-
-        @media (--small-breakpoint-down) {
-          left: 0;
-          top: 630px;
-        }
+        left: 0;
+        top: 630px;
       }
     }
   }
 }
 
-
 .body-subnav-1-is-open {
-  .mega-menu__nav-item.mega-menu__nav-item--1 {
+  .mega-menu__nav-item.mega-menu__nav-item--1 .mega-menu__nav-item-title {
     border-bottom: 1px solid var(--color-5);
 
     span {
@@ -293,7 +296,7 @@
     background-image: url('../../images/backgrounds/nav-bcg-customer-convenience.jpg');
   }
 
-  .mega-menu__nav-item.mega-menu__nav-item--2 {
+  .mega-menu__nav-item.mega-menu__nav-item--2 .mega-menu__nav-item-title {
     border-bottom: 1px solid var(--color-20);
 
     span {
@@ -319,7 +322,7 @@
     background-image: url('../../images/backgrounds/nav-bcg-financial-relief.jpg');
   }
 
-  .mega-menu__nav-item.mega-menu__nav-item--3 {
+  .mega-menu__nav-item.mega-menu__nav-item--3 .mega-menu__nav-item-title {
     border-bottom: 1px solid var(--color-21);
 
     span {

@@ -122,7 +122,6 @@
   &__nav {
     padding: 0;
     height: 100vh;
-    position: relative;
     z-index: 2000;
     background: var(--color-11);
 
@@ -136,10 +135,14 @@
     }
   }
 
+  &__nav-item {
+    margin: 0 4vw;
+  }
+
   &__nav-item-title {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 4vw;
+    padding: 2rem 0;
     border-bottom: 1px solid var(--border-color-1);
     cursor: pointer;
     transition: opacity .2s ease;
@@ -181,7 +184,7 @@ ul.mega-menu__subnav {
   bottom: 0;
   top: 0;
   height: 100%;
-  padding: 0 4vw;
+  padding: 205px 4vw 0;
   left: 0;
   width: var(--mega-menu-width);
   z-index: -100;

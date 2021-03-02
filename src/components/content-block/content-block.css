@@ -85,6 +85,7 @@
 
   &__blockquote {
     color: var(--color-10);
+    margin-bottom: 40px;
 
     &-text {
       font-size: 22px;
@@ -120,9 +121,28 @@
   }
 }
 
+.small-number {
+  margin-bottom: 40px;
+
+  &__number {
+    font-size: 64px;
+    line-height: 72px;
+    font-family: var(--font-serif);
+    font-weight: 700;
+  }
+
+  &__caption {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-10);
+  }
+}
+
 .featured-number {
   position: relative;
   padding-top: 20px;
+  margin-bottom: 40px;
 
   &__symbol {
     font-size: 60px;

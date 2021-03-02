@@ -31,7 +31,8 @@ const ContentBlock = (props) => {
                 <div className="content-block__blockquote-author-title">
                   President of WSBE Rhode Island PBS
                 </div>
-              </div>
+              </div>             
+
             </div>
             <div className="content-block__col content-block__col--right">
               <p>We offered the premium relief for two reasons.</p> 
@@ -49,6 +50,15 @@ const ContentBlock = (props) => {
                 </div>                
                 <div className="featured-number__text">
                   <span>{props.featNumText}</span>
+                </div>
+              </div>
+
+              <div className="small-number">
+                <div className="small-number__number">
+                  {props.smallNumNumber}
+                </div>
+                <div className="small-number__caption">
+                  {props.smallNumCaption}
                 </div>
               </div>
             </div> 

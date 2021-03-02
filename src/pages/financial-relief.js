@@ -21,6 +21,8 @@ const FinancialReliefPage = () => {
         featNumNumber="25"
         featNumValue="M"
         featNumText="In Premium Relief"
+        smallNumNumber="723,106"
+        smallNumCaption="chilis in salsa"
       />
       <ContentBlock
         bgColor="#F7F9FA"
@@ -30,6 +32,8 @@ const FinancialReliefPage = () => {
         featNumNumber="250"
         featNumValue="K"
         featNumText="Donated to COVID-19 relief efforts"
+        smallNumNumber="5,108"
+        smallNumCaption="visits in 2020"
       />
       <ByTheNumbers/>
     </Layout>

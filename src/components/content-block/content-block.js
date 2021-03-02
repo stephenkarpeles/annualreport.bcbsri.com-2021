@@ -3,6 +3,8 @@ import React from "react"
 import Fade from 'react-reveal/Fade';
 import "./content-block.css"
 import piggyBankImg from '../../images/illustration-delivering-premium-relief.png'
+import videoKidsImage from '../../images/video-kids-want-to-know.jpg'
+import videoPlayIcon from '../../images/video-play-icon.png'
 
 const ContentBlock = (props) => {
   return (
@@ -60,6 +62,20 @@ const ContentBlock = (props) => {
                 <div className="small-number__caption">
                   {props.smallNumCaption}
                 </div>
+              </div>
+
+              <div className="content-block__video">
+                <div className="content-block__video-image">
+                  <img src={videoKidsImage} alt="Video Image"/>
+                  <div className="content-block__video-play-icon">
+                    <img src={videoPlayIcon} alt="Play Video"/>
+                  </div>
+                </div>
+                <div className="content-block__video-caption">
+                  Watch a clip of the Rhode Island PBS short film series, Kids Want to Know, sponsored by BCBSRI.
+                </div>
+
+                <iframe src="http://sinclairstoryline.com/resources/embeds/jw8-embed.html?client=googima&file=https://content.uplynk.com/640934f2207f434eb4d5f982f0f90421.m3u8&autostart=false" width="640" height="360" frameborder="0" scrolling="auto" loading="lazy"></iframe>
               </div>
             </div> 
           </div>     

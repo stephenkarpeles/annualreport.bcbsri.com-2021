@@ -236,3 +236,52 @@
     }
   }
 }
+
+.ReactModal__Overlay {
+  z-index: 9000;
+}
+
+.ReactModal__Content {
+  padding: 44px !important;
+  z-index: 99999;
+
+  .modal-close-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    z-index: 99999;
+    border: none;
+    color: white;
+    background: var(--color-15);
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    opacity: 1;
+    transition: all .3s ease;
+
+    &:hover {
+      opacity: .6;
+    }
+
+    span {
+      background: white;
+      width: 14px;
+      height: 2px;
+      display: block;
+      position: relative;
+      left: 1px;
+      top: 1px;
+
+      &:first-child {
+        transform: rotate(45deg);
+      }
+
+      &:last-child {
+        transform: rotate(-45deg);
+        top: -1px;
+      }
+    }
+  }
+}

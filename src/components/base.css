@@ -29,7 +29,8 @@ body {
 }
 
 img,
-video {
+video,
+iframe {
   max-width: 100%;
   display: block;
 }

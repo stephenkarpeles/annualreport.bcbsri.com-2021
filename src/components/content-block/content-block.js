@@ -109,7 +109,7 @@ const ContentBlock = (props) => {
                     <span></span>
                     <span></span>
                   </button>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/kcyUY10D3N4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                  <iframe src="//sinclairstoryline.com/resources/embeds/jw8-embed.html?client=googima&file=https://content.uplynk.com/640934f2207f434eb4d5f982f0f90421.m3u8&autostart=false" width="640" height="360" frameborder="0" scrolling="auto" loading="lazy" allowFullScreen></iframe>
                 </Modal>                
               </div>
             </div> 

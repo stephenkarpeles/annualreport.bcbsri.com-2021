@@ -109,7 +109,7 @@ const ContentBlock = (props) => {
                     <span></span>
                     <span></span>
                   </button>
-                  <iframe title="Video" src="http://sinclairstoryline.com/resources/embeds/jw8-embed.html?client=googima&file=https://content.uplynk.com/640934f2207f434eb4d5f982f0f90421.m3u8&autostart=false" width="640" height="360" frameborder="0" scrolling="auto" loading="lazy"></iframe>
+                  <iframe title="Video" src="//sinclairstoryline.com/resources/embeds/jw8-embed.html?client=googima&file=https://content.uplynk.com/640934f2207f434eb4d5f982f0f90421.m3u8&autostart=false" width="640" height="360" frameborder="0" scrolling="auto" loading="lazy"></iframe>
                 </Modal>                
               </div>
             </div> 

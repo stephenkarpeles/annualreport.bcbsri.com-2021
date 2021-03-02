@@ -248,8 +248,8 @@
   .modal-close-btn {
     cursor: pointer;
     position: absolute;
-    top: 11px;
-    right: 10px;
+    top: 12px;
+    right: 11px;
     z-index: 99999;
     border: none;
     color: white;

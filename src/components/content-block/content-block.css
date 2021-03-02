@@ -6,6 +6,10 @@
 .hero + .content-block {
   /* Remove top padding when content block comes right below hero */
   padding: 0 0 120px;
+
+  @media (--x-large-breakpoint-down) {
+    padding: 30px 0 120px;
+  }
 }
 
 .content-block {

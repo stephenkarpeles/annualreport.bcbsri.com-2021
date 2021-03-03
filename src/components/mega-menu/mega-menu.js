@@ -19,7 +19,7 @@ const MegaMenu = () => {
   const SubnavTwoBodyClass = "body-subnav-2-is-open"
   const SubnavThreeOpenClass = "subnav-3-is-open"
   const SubnavThreeBodyClass = "body-subnav-3-is-open"
-  
+
   function toggleMegaMenuClass() {
     document.body.classList.toggle(MegaMenuOpenClass);
     document.body.classList.remove(SubnavOneBodyClass);
@@ -28,6 +28,10 @@ const MegaMenu = () => {
     document.querySelector('.mega-menu__subnav--1').classList.remove(SubnavOneOpenClass);
     document.querySelector('.mega-menu__subnav--2').classList.remove(SubnavTwoOpenClass);
     document.querySelector('.mega-menu__subnav--3').classList.remove(SubnavThreeOpenClass);
+  }
+
+  function hideMegaMenu() {
+    document.body.classList.remove(MegaMenuOpenClass);
   }
 
   function toggleSubnavOne() {
@@ -46,7 +50,7 @@ const MegaMenu = () => {
     document.body.classList.toggle(SubnavTwoBodyClass);
     document.body.classList.remove(SubnavOneBodyClass);
     document.body.classList.remove(SubnavThreeBodyClass);
-    
+
   }
 
   function toggleSubnavThree() {
@@ -83,15 +87,16 @@ const MegaMenu = () => {
                     <img src={iconHealthWellbeingWhite} alt="Icon"/>
                     <img src={iconHealthWellbeing} alt="Icon"/>
                   </span>
-                </div> 
+                </div>
                 <Fade>
                   <ul className="mega-menu__subnav mega-menu__subnav--1">
-                    <li><Link to="/">Expanding coverage during COVID-19—at no cost</Link></li>
-                    <li><Link to="/">Volunteering with a focus on community and safety</Link></li>
-                    <li><Link to="/">Using data and philanthropy to address housing</Link></li>
-                    <li><Link to="/">Keeping kids playing during a pandemic</Link></li>
-                    <li><Link to="/">Bringing Oak Street Health to more members</Link></li>
-                    <li><Link to="/">Achieving our vision through Diversity, Equity &amp; Inclusion</Link></li>      
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being">Creativity, speed, and collaboration</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Expanding coverage during COVID-19—at no cost</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Volunteering with a focus on community and safety</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Using data and philanthropy to address housing</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Keeping kids playing during a pandemic</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Bringing Oak Street Health to more members</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Achieving our vision through Diversity, Equity &amp; Inclusion</Link></li>
                   </ul>
                 </Fade>
               </li>
@@ -101,15 +106,16 @@ const MegaMenu = () => {
                   <span>
                     <img src={iconCustomerConvenienceWhite} alt=""/>
                     <img src={iconCustomerConvenience} alt=""/>
-                  </span> 
-                </div> 
-                <Fade> 
+                  </span>
+                </div>
+                <Fade>
                   <ul className="mega-menu__subnav mega-menu__subnav--2">
-                    <li><Link to="/">Accelerating the use of telehealth</Link></li> 
-                    <li><Link to="/">Bringing Your Blue Store into homes</Link></li> 
-                    <li><Link to="/">Making healthcare easier for Medicare members</Link></li> 
-                    <li><Link to="/">Delivering free groceries to high-risk Medicare members</Link></li> 
-                    <li><Link to="/">Giving members more control</Link></li>                          
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience">Virtual tools and innovative benefits</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Accelerating the use of telehealth</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Bringing Your Blue Store into homes</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Making healthcare easier for Medicare members</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Delivering free groceries to high-risk Medicare members</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Giving members more control</Link></li>
                   </ul>
                 </Fade>
               </li>
@@ -123,17 +129,18 @@ const MegaMenu = () => {
                 </div>
                 <Fade>
                   <ul className="mega-menu__subnav mega-menu__subnav--3">
-                    <li><Link to="/">Delivering premium relief to customers</Link></li> 
-                    <li><Link to="/">Supporting COVID-19 relief efforts</Link></li> 
-                    <li><Link to="/">Offering grants to behavioral health practices</Link></li> 
-                    <li><Link to="/">Helping small businesses during the pandemic</Link></li> 
-                    <li><Link to="/">Navigating the CARES Act</Link></li> 
-                    <li><Link to="/">Supporting providers with the rapid adoption of telehealth, advance payments</Link></li>                         
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief">Assistance, empathy, and flexibility</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Delivering premium relief to customers</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Supporting COVID-19 relief efforts</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Offering grants to behavioral health practices</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Helping small businesses during the pandemic</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Navigating the CARES Act</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Supporting providers with the rapid adoption of telehealth, advance payments</Link></li>
                   </ul>
-                </Fade>   
+                </Fade>
               </li>
             </ul>
-          </nav>  
+          </nav>
         </div>
       </Slide>
     </div>

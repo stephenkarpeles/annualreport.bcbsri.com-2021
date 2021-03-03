@@ -51,7 +51,7 @@ const Accordion = () => {
     <div className="accordion-wrapper">
       <div className="accordion-items">
         {accordionItems.map(({ id, title, content }) =><AccordionItem
-           key={title}
+           key={id}
            title={title}
            content={content}
            onItemClicked={() => setActive(id)}

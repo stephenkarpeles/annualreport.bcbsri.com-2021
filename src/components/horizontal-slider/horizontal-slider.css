@@ -19,6 +19,7 @@
   }
 
   .scroll-horizontal {
+    margin-top: -100px;
     top: 100px;
   }
 

@@ -165,5 +165,36 @@ h4,
   &__image {
     margin-top: 20px;
   }
+
+  &__list {
+    ul {
+      margin: 0.75rem 0 2rem;
+      padding: 0 1rem;
+      list-style: none;
+      color: var(--color-10);
+    }
+
+    li {
+      margin-bottom: .7rem;
+      padding-left: 1rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    
+    ul li::before {
+      content: "";
+      border-color: transparent var(--color-12);
+      border-style: solid;
+      border-width: 0 .75rem .75rem 0;
+      display: block;
+      height: 0;
+      width: 0;
+      left: -2rem;
+      top: 0.9rem;
+      position: relative;
+    }
+  }
 }
 

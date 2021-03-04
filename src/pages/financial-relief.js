@@ -8,11 +8,12 @@ import ByTheNumbers from "../components/by-the-numbers/by-the-numbers"
 import HorizontalSlider from "../components/horizontal-slider/horizontal-slider"
 import VideoModal from "../components/video-modal/video-modal"
 import Blockquote from "../components/blockquote/blockquote"
+import SmallNumber from "../components/small-number/small-number"
+import LargeNumber from "../components/large-number/large-number"
 
 import HeroImg from "../images/hero-bcg-financial-relief.jpg"
 import piggyBankImg from '../images/illustration-delivering-premium-relief.png'
-import SmallNumber from "../components/small-number/small-number"
-import LargeNumber from "../components/large-number/large-number"
+import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
 
 const FinancialReliefPage = () => {
   return (
@@ -47,10 +48,6 @@ const FinancialReliefPage = () => {
                 <p>Second, we recognized that many employers and members faced tremendous economic uncertainty, and premium relief was a meaningful way to help them.</p>
                 
                 <Slide up>
-                  {/* <SmallNumber
-                    smallNumNumber="245,102"
-                    smallNumCaption="chilis in salsa"
-                  /> */}
 
                   <LargeNumber
                     featNumSymbol="$"
@@ -104,9 +101,54 @@ const FinancialReliefPage = () => {
         </Fade>
       </section>    
 
-      <HorizontalSlider
-        bgColor="#F7F9FA"
-      />
+      <Fade>
+        <HorizontalSlider
+          bgColor="#F7F9FA"
+        />
+      </Fade>
+
+      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+        <Fade>
+          <div className="container container--small">
+            <div className="content-block__intro">
+              <div className="eyebrow">Financial Relief</div>
+              <h2>Offering grants to behavioral health practices</h2>
+            </div>
+            <div className="content-block__col-wrap">
+              <div className="content-block__col content-block__col--left">
+                <p>Behavioral Health Quality Grants from BCBSRI will help behavioral health practices better anticipate patient needs and close gaps in care. The $1,118,309 in grants, provided over the course of the next two years, will help these practices launch new electronic health record programs and add population data analysts:</p>
+              
+                <Fade>
+                  <div className="content-block__list">
+                    <ul>
+                      <li>Newport County Community Mental Health Center</li>
+                      <li>Providence Behavioral Health Associates, Inc.</li>
+                      <li>Lisa M. Rocchio, Ph.D. &amp; Associates, Inc.</li>
+                      <li>Barrington Behavioral Health Services, LLC,</li>
+                    </ul>
+                  </div>
+
+                  <Blockquote
+                    blockquoteText="These grants can help transform smaller practices where thousands of Rhode Islanders receive vital services each year."
+                    blockquoteAuthor="Sarah Fleury"
+                    blockquoteAuthorTitle="LICSW, CPHQ, BCBSRI manager of behavioral health"
+                  />
+                </Fade>         
+
+              </div>
+              <div className="content-block__col content-block__col--right">              
+                
+                <Slide up>
+                  <div>
+                    <img src={grantsImg} alt=""/>
+                  </div>
+                </Slide>
+              </div> 
+            </div>     
+          </div>
+        </Fade>
+      </section>
+
       <ByTheNumbers/>
     </Layout>
   )

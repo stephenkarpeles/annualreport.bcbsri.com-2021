@@ -1,10 +1,12 @@
-import * as React from "react"
+import React, { useState } from 'react'
 import Modal from 'react-modal'
-import "./small-number.css"
+import "./video-modal.css"
 import videoPlayIcon from '../../images/video-play-icon.png'
 import videoKidsImage from '../../images/video-kids-want-to-know.jpg'
 
-const VideoModal = (props) => {
+Modal.setAppElement('#App')
+
+const VideoModal = () => {
   const [modalIsOpen, setIsOpen] = useState(false);
 
   const customModalStyles = {
@@ -25,16 +27,16 @@ const VideoModal = (props) => {
   function closeModal(){
     setIsOpen(false);
   }
-  
+
   return (
-    <div className="content-block__video">
-      <div className="content-block__video-image">
+    <div className="video-modal">
+      <div className="video-modal__image">
         <img src={videoKidsImage} alt="Video Image"/>
-        <div className="content-block__video-play-icon" onClick={openModal}>
+        <div className="video-modal__play-icon" onClick={openModal}>
           <img src={videoPlayIcon} alt="Play Video"/>
         </div>
       </div>   
-      <div className="content-block__video-caption">
+      <div className="video-modal__caption">
         Watch a clip of the Rhode Island PBS short film series, Kids Want to Know, sponsored by BCBSRI.
       </div>
 

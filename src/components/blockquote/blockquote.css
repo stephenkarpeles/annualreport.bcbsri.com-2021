@@ -1,0 +1,41 @@
+@import "../variables.css";
+@import "../breakpoints.css";
+@import "../mixins.css";
+
+.blockquote {
+  color: var(--color-10);
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  &__text {
+    font-size: 22px;
+    line-height: 36px;
+    font-family: var(--font-serif);
+    font-weight: 700;
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 30px;
+
+    &::before {
+      content: '';
+      height: 100%;
+      width: 4px;
+      background: #5A8F3E;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  &__author,
+  &__author-title {
+    padding-left: 35px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__author {
+    font-family: var(--font-stack-bold);
+    font-weight: 700;
+  }
+}

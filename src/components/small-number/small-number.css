@@ -1,3 +1,6 @@
+@import "../mixins.css";
+@import "../variables.css";
+
 .small-number {
   margin-bottom: 40px;
 

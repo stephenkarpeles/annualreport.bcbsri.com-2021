@@ -34,7 +34,7 @@
       left: calc((100% - var(--container-max-width)) / 2);
     }
 
-    @media (--x-large-breakpoint-down) {
+    @media (--large-breakpoint-down) {
       left: 4%;
     }
   }

@@ -3,6 +3,7 @@ import Layout from "../components/layout/layout"
 import Hero from "../components/hero/hero"
 import ContentBlock from "../components/content-block/content-block"
 import ByTheNumbers from "../components/by-the-numbers/by-the-numbers"
+import HorizontalSlider from "../components/horizontal-slider/horizontal-slider"
 import HeroImg from "../images/hero-bcg-financial-relief.jpg"
 
 const FinancialReliefPage = () => {
@@ -34,6 +35,9 @@ const FinancialReliefPage = () => {
         featNumText="Donated to COVID-19 relief efforts"
         smallNumNumber="5,108"
         smallNumCaption="visits in 2020"
+      />
+      <HorizontalSlider
+        bgColor="#F7F9FA"
       />
       <ByTheNumbers/>
     </Layout>

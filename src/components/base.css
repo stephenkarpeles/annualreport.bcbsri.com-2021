@@ -99,6 +99,34 @@ h4,
   padding: 120px 0;
   background: white;
 
+  &--light-text {
+    p,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a {
+      color: white;
+    }
+
+    .content-block__intro {
+      h2 {
+        color: white;
+      }
+    }
+
+    .content-block__col {
+      p {
+        color: white;
+      }
+    }
+
+    .blockquote {
+      color: white;
+    }
+  }
+
   .eyebrow {
     color: #397C24;
     text-transform: uppercase;
@@ -109,6 +137,10 @@ h4,
     letter-spacing: 1px;
     margin-bottom: 20px;
     margin-left: 5px;
+
+    &--color-22 {
+      color: var(--color-22);
+    }
   }
 
   &__intro {
@@ -148,6 +180,7 @@ h4,
 
   &__col {
     width: 45%;
+    position: relative;
 
     @media (--small-breakpoint-down) {
       width: 100%;
@@ -156,9 +189,27 @@ h4,
     p {
       font-size: 16px;
       line-height: 24px;
-      color: #37494F;
+      color: var(--color-10);
       margin: 0;
       padding-bottom: 1.25rem;
+    }
+
+    &--left {
+      .content-block__overflow-image {
+        position: absolute;
+        right: 0;
+        width: 50vw;
+        padding: 10px 0;
+      }
+    }
+
+    &--right {
+      .content-block__overflow-image {
+        position: absolute;
+        left: 0;
+        width: 50vw;
+        padding: 10px 0;
+      }
     }
   }
 
@@ -196,5 +247,6 @@ h4,
       position: relative;
     }
   }
+  
 }
 

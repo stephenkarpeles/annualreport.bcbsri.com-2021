@@ -3,7 +3,7 @@ import "./large-number.css"
 
 const LargeNumber = (props) => {
   return (
-    <div className="large-number">
+    <div className={`large-number ${props.styleName}`}>
       <div className="large-number__symbol">
         {props.featNumSymbol}
       </div>

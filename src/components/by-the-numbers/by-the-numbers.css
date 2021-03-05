@@ -1,6 +1,7 @@
 .by-the-numbers {
   background: var(--color-7);
   padding: 120px 0;  
+  position: relative;
 
   &__intro {
     text-align: center;

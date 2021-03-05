@@ -20,6 +20,9 @@ import reliefImg from '../images/financial-relief-small-businesses.png'
 import supportImg from '../images/supporting-providers.png'
 import websiteImg from '../images/covid19-website.jpg'
 import classImg from '../images/video-try-a-class.jpg'
+import groceryImg from '../images/video-grocery-delivery.jpg'
+import membersImg from '../images/giving-members-more-control.jpg'
+import mybcbsriImg from '../images/video-mybcbsri.jpg'
 
 const CustomerConveniencePage = () => {
   return (
@@ -78,17 +81,18 @@ const CustomerConveniencePage = () => {
                     featNumValue="K+"
                     featNumText="BCBSRI Medicare Advantage members received a home fitness kit"
                   /> 
-                </Slide>  
+                  
 
-                <VideoModal
-                  caption="Try a class"
-                  posterImage={classImg}
-                  videoSource="//www.youtube.com/embed/n0_Hw4RNXrI"
-                />       
+                  <VideoModal
+                    caption="Try a class"
+                    posterImage={classImg}
+                    videoSource="//www.youtube.com/embed/n0_Hw4RNXrI"
+                  /> 
+                </Slide>      
 
               </div>
               <div className="content-block__col content-block__col--right">
-                <Slide up>
+                <Fade>
                   <SmallNumber 
                     styleName="small-number--orange"
                     smallNumNumber="180"
@@ -99,116 +103,19 @@ const CustomerConveniencePage = () => {
                     styleName="small-number--orange"
                     smallNumNumber="1,000"
                     smallNumCaption="average views per fitness video"
-                  /> 
-                </Slide>
+                  />                 
 
-                <div className="content-block__image">
-                  <img src={familyImg} alt=""/>
-                </div>  
+                  <div className="content-block__image">
+                    <img src={familyImg} alt=""/>
+                  </div>  
 
-                <Blockquote 
-                  styleName="blockquote--orange"
-                  blockquoteText="Thank you for these classes! We soooo need them."
-                  blockquoteAuthor="Angela"
-                  blockquoteAuthorTitle="BCBSRI member"
-                />
-              </div> 
-            </div>     
-          </div>
-        </Fade>
-      </section>
-
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
-        <Fade>
-          <div className="container container--small">
-            <div className="content-block__intro">
-              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
-              <h2>Offering grants to behavioral health practices</h2>
-            </div>
-            <div className="content-block__col-wrap">
-              <div className="content-block__col content-block__col--left">
-                <p>Behavioral Health Quality Grants from BCBSRI will help behavioral health practices better anticipate patient needs and close gaps in care. The $1,118,309 in grants, provided over the course of the next two years, will help these practices launch new electronic health record programs and add population data analysts:</p>
-              
-                <Fade>
-                  <div className="content-block__list">
-                    <ul>
-                      <li>Newport County Community Mental Health Center</li>
-                      <li>Providence Behavioral Health Associates, Inc.</li>
-                      <li>Lisa M. Rocchio, Ph.D. &amp; Associates, Inc.</li>
-                      <li>Barrington Behavioral Health Services, LLC,</li>
-                    </ul>
-                  </div>
-
-                  <Blockquote
-                    blockquoteText="These grants can help transform smaller practices where thousands of Rhode Islanders receive vital services each year."
-                    blockquoteAuthor="Sarah Fleury"
-                    blockquoteAuthorTitle="LICSW, CPHQ, BCBSRI manager of behavioral health"
+                  <Blockquote 
+                    styleName="blockquote--orange"
+                    blockquoteText="Thank you for these classes! We soooo need them."
+                    blockquoteAuthor="Angela"
+                    blockquoteAuthorTitle="BCBSRI member"
                   />
-                </Fade>         
-
-              </div>
-              <div className="content-block__col content-block__col--right">              
-                
-                <Slide up>
-                  <div>
-                    <img src={grantsImg} alt="Financial Relief"/>
-                  </div>
-                </Slide>
-              </div> 
-            </div>     
-          </div>
-        </Fade>
-      </section>
-
-      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
-        <Fade>
-          <div className="container container--small">
-            <div className="content-block__intro">
-              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
-              <h2>Helping small businesses during the pandemic</h2>
-            </div>
-            <div className="content-block__col-wrap">
-              <div className="content-block__col content-block__col--left">
-
-                <Slide left>
-                  <div className="content-block__overflow-image">
-                    <img src={reliefImg} alt="Financial Relief"/>
-                  </div>
-                </Slide>
-
-              </div>
-              <div className="content-block__col content-block__col--right"> 
-                <p>When the calls started coming in, we knew we had to help. Small businesses were hit especially hard during the pandemic. Many were faced with cash flow constraints. A BCBSRI team of two people worked with more than 150 businesses, setting up payment plans, extending payment terms and helping connect them with available resources to help their businesses survive.</p>
-                <p>With that help, businesses could tell their employees that they would not lose their health coverage in the middle of a pandemic.</p>
-              
-                <Fade>
-                  <Blockquote
-                    blockquoteText="This is very helpful to us during this difficult time. We appreciate your partnership."
-                    blockquoteAuthor=""
-                    blockquoteAuthorTitle=""
-                  />
-                </Fade> 
-              </div> 
-            </div>     
-          </div>
-        </Fade>
-      </section>
-
-      <section className="content-block content-block--light-text" style={{ backgroundColor: "#003E51"}}>
-        <Fade>
-          <div className="container container--small">
-            <div className="content-block__intro">
-              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
-              <h2>Navigating the CARES Act</h2>
-            </div>
-            <div className="content-block__col-wrap">
-              <div className="content-block__col content-block__col--left">
-
-                <p>When Congress passed the CARES Act in March 2020, the promise of financial assistance buoyed many businesses in Rhode Island. But navigating all the pieces of the act, as well as other federal and state assistance, could be rocky, especially for small businesses with few extra resources. So BCBSRI compiled a simple guide to the many programs and made it easily accessible on our <a href="https://toolkit.bcbsri.com/collections/keeping-you-well-and-well-informed">Keeping You Well and Well-informed site</a>.</p>
-
-              </div>
-              <div className="content-block__col content-block__col--right"> 
-                <p>Then we went further, using the guide to help our customers understand how they could apply for loans and grants. That assistance helped many small businesses stay afloat during the lowest economic times of the pandemic in 2020.</p>
+                </Fade>
               </div> 
             </div>     
           </div>
@@ -219,36 +126,82 @@ const CustomerConveniencePage = () => {
         bgImg={websiteImg}
         altText="Financial Relief"
       />
+      
+      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+        <Fade>
+          <div className="container container--small">
+            <div className="content-block__intro">
+              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
+              <h2>Delivering free groceries to high-risk Medicare members</h2>
+            </div>
+            <div className="content-block__col-wrap">
+              <div className="content-block__col content-block__col--left">
+                <p>To help older Rhode Islanders stay safe and healthy at home, BCBSRI delivered weekly groceries at no cost to 2,000+ high-risk Medicare Advantage members starting in December.</p> <p>These free groceries include staples like milk, eggs, fruits and vegetables, cheese, pasta, bread, toilet paper, paper towels, hand sanitizer, and other essential items. Whenever possible, groceries were sourced from local farms and vendors, which supported nine Rhode Island small businesses.</p>
+                <p>BCBSRI partnered with West Warwick-based Millonzi Fine Catering. They were able to hire several people who recently lost their jobs as a result of COVID-19. Our members were so enthusiastic about the program that we extended it into 2021.</p>    
+
+                <VideoModal
+                  caption="Hear from a senior who received (and loved) the grocery deliveries"
+                  posterImage={groceryImg}
+                  videoSource="//sinclairstoryline.com/resources/embeds/jw8-embed.html?client=googima&file=https://content.uplynk.com/640934f2207f434eb4d5f982f0f90421.m3u8&autostart=false"
+                /> 
+
+              </div>
+              <div className="content-block__col content-block__col--right">              
+                
+                <Fade>
+                  <Blockquote 
+                    styleName="blockquote--orange"
+                    blockquoteText="Thank you for sending groceries to us seniors confined to our homes. My first delivery of food was chosen well, very healthy, and delicious. I have been a member of BCBSRI since I retired some 20 years ago and have been very pleased with the service your company has provided me all these years."
+                    blockquoteAuthor="Ann"
+                    blockquoteAuthorTitle="Medicare member"
+                  />
+                </Fade>
+              </div> 
+            </div>     
+          </div>
+        </Fade>
+      </section>
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
               <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
-              <h2>Supporting providers with the rapid adoption of telehealth</h2>
+              <h2>Giving members more control</h2>
             </div>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <p>As providers saw an increasing number of their patients virtually, BCBSRI led the way by expanding access to telehealth and reducing the cost for patients ahead of state requirements. This gave providers a head start in transferring their practices to a virtual environment before COVID restrictions were enacted.</p>
+                <p>In 2020, we rolled out a new online experience for members: <a href="https://myportal.bcbsri.com/">myBCBSRI</a>. Now when members log in, they can view and make changes to many more elements of their plan. They gain easy access to their digital ID cards, electronic documents, claim status, and benefit information.</p>
 
-                <Slide up>
-                  <LargeNumber
-                    styleName="large-number--shrunk"
-                    featNumSymbol="$"
-                    featNumNumber="69.6"
-                    featNumValue="M"
-                    featNumText="Paid to providers for telehealth services"
-                  /> 
-                </Slide>         
+                <div className="content-block__internal-heading">
+                  They also can:
+                </div>
+
+                <div className="content-block__list content-block__list--orange">
+                  <ul>
+                    <li>Choose how they want to receive communications about their plan</li>
+                    <li>See previous questions they’ve asked us, whether it was online, on the phone, or in person at Your Blue Store<sup>SM</sup></li>
+                    <li>Select or update their primary care provider (PCP)</li>
+                    <li>Find personalized costs for office visits, tests, and procedures</li>
+                    <li>Review all their benefits&mdash;medical, dental, or vision</li>
+                    <li>Learn how to earn rewards for healthy activities</li>
+                    <li>View and pay their premiums</li>
+                  </ul>
+                </div>
+
+                <VideoModal
+                  caption="See how myBCBSRI works"
+                  posterImage={mybcbsriImg}
+                  videoSource="//www.youtube.com/embed/8zRoR-UVcrI"
+                /> 
 
               </div>
-              <div className="content-block__col content-block__col--right">
-                <p>We also provided weekly assistance to practices on how to apply for federal loans through the Paycheck Protection Program.</p> 
-                <Fade>               
-                  <div className="content-block__overflow-image">
-                    <img src={supportImg} alt="Financial Relief"/>
+              <div className="content-block__col content-block__col--right">            
+                <Fade>
+                  <div className="content-block__image">
+                    <img src={membersImg} alt="Customer Convenience"/>
                   </div>
-                </Fade>
+                </Fade> 
               </div> 
             </div>     
           </div>

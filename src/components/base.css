@@ -99,6 +99,15 @@ h4,
   padding: 120px 0;
   background: white;
 
+  a {
+    color: var(--color-10);
+    transition: opacity .2s ease;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
   &--light-text {
     p,
     h2,
@@ -147,6 +156,15 @@ h4,
     }
   }
 
+  &__internal-heading {
+    font-family: var(--font-stack-bold);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;    
+    border-bottom: 1px solid var(--color-24);
+    color: var(--color-10);
+  }
+
   &__intro {
     position: relative;
     max-width: 720px;
@@ -168,7 +186,7 @@ h4,
       line-height: var(--line-height-h2);
       color: #003E51;
       margin: 0;
-      padding-bottom: 30px;
+      padding-bottom: 35px;
       letter-spacing: -1px;
     }
   }
@@ -233,9 +251,10 @@ h4,
     li {
       margin-bottom: .7rem;
       padding-left: 1rem;
+      line-height: 22px;
 
       &:last-child {
-        margin-bottom: 0;
+        margin-bottom: .25rem;
       }
     }
     
@@ -250,6 +269,12 @@ h4,
       left: -2rem;
       top: 0.9rem;
       position: relative;
+    }
+
+    &--orange {
+      ul li::before {
+        border-color: transparent var(--color-23);        
+      }
     }
   }
   

@@ -97,7 +97,7 @@ const FinancialReliefPage = () => {
                   <VideoModal
                     caption="Watch a clip of the Rhode Island PBS short film series, Kids Want to Know, sponsored by BCBSRI."
                     posterImage={videoKidsImage}
-                    videoSource="//sinclairstoryline.com/resources/embeds/jw8-embed.html?client=googima&file=https://content.uplynk.com/640934f2207f434eb4d5f982f0f90421.m3u8&autostart=false"
+                    videoSource="//www.youtube.com/embed/lFa201sGqm4"
                   />
 
                   <Blockquote

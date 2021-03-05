@@ -3,10 +3,21 @@
 
 .small-number {
   margin-bottom: 40px;
+  padding-top: 20px;
 
   &--orange {
     .small-number__number {
       color: var(--color-23);
+    }
+  }
+
+  &--light-orange-dark-bg {
+    .small-number__number {
+      color: var(--color-20);
+    }
+
+    .small-number__caption {
+      color: var(--color-6);
     }
   }
 

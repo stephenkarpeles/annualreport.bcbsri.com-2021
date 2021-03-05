@@ -46,4 +46,12 @@
       }
     }
   }
+
+  &--light-orange {
+    .blockquote__text {
+      &::before {
+        background: var(--color-20);
+      }
+    }
+  }
 }

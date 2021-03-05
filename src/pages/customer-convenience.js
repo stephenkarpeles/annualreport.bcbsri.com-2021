@@ -23,6 +23,7 @@ import classImg from '../images/video-try-a-class.jpg'
 import groceryImg from '../images/video-grocery-delivery.jpg'
 import membersImg from '../images/giving-members-more-control.jpg'
 import mybcbsriImg from '../images/video-mybcbsri.jpg'
+import medicareImg from '../images/video-medicare-advantage.jpg'
 
 const CustomerConveniencePage = () => {
   return (
@@ -122,10 +123,40 @@ const CustomerConveniencePage = () => {
         </Fade>
       </section>
 
-      <FullWidthImage
-        bgImg={websiteImg}
-        altText="Financial Relief"
-      />
+      <section className="content-block content-block--light-text" style={{ backgroundColor: "#003E51"}}>
+        <Fade>
+          <div className="container container--small">
+            <div className="content-block__intro">
+              <div className="eyebrow eyebrow--color-20">Customer Convenience</div>
+              <h2>Making healthcare easier for Medicare members</h2>
+            </div>
+            <div className="content-block__col-wrap">
+              <div className="content-block__col content-block__col--left">
+                <p>In 2020, our members took advantage of the enhanced benefits available through BCBSRI Medicare Advantage plans, such as $0 transportation to doctors’ appointments, $0 meal delivery after hospitalization, $0 generic drugs, and a quarterly over-the-counter benefit.</p>
+                <p>The Net Promoter Score—a measure of member satisfaction—for our Medicare Advantage plans was 65 compared to a healthcare industry average of 19. We offered these same benefits, plus more, for 2021.</p> 
+
+                <Fade>
+                  <SmallNumber 
+                    styleName="small-number--light-orange-dark-bg"
+                    smallNumNumber="98.2%"
+                    smallNumCaption="member retention during the 2021 Annual Enrollment Period for Medicare"
+                  />
+                </Fade>   
+              </div>
+              <div className="content-block__col content-block__col--right">              
+                
+                <Fade>
+                  <VideoModal
+                    caption="Find out more about our enhanced Medicare Advantage benefits."
+                    posterImage={medicareImg}
+                    videoSource="//www.youtube.com/embed/_WdsbySq4RQ"
+                  /> 
+                </Fade>
+              </div> 
+            </div>     
+          </div>
+        </Fade>
+      </section>      
       
       <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <Fade>

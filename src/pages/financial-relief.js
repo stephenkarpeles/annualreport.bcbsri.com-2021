@@ -20,6 +20,7 @@ import grantsImg from '../images/offering-grants-to-behavioral-health-practices.
 import reliefImg from '../images/financial-relief-small-businesses.png'
 import supportImg from '../images/supporting-providers.png'
 import websiteImg from '../images/covid19-website.jpg'
+import videoKidsImage from '../images/video-kids-want-to-know.jpg'
 
 const FinancialReliefPage = () => {
   return (
@@ -93,7 +94,11 @@ const FinancialReliefPage = () => {
               </div>
               <div className="content-block__col content-block__col--right"> 
                 <Slide up>               
-                  <VideoModal/>
+                  <VideoModal
+                    caption="Watch a clip of the Rhode Island PBS short film series, Kids Want to Know, sponsored by BCBSRI."
+                    posterImage={videoKidsImage}
+                    videoSource="//sinclairstoryline.com/resources/embeds/jw8-embed.html?client=googima&file=https://content.uplynk.com/640934f2207f434eb4d5f982f0f90421.m3u8&autostart=false"
+                  />
 
                   <Blockquote
                     blockquoteText="When Rhode Island PBS launches a project of interest and importance to the health and well-being of our community—whether it is prevention of opioid overdose or now COVID-19 information—we are grateful we can count on Blue Cross’s leadership and enthusiastic partnership."

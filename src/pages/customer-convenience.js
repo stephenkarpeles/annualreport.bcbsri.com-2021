@@ -6,7 +6,6 @@ import Slide from 'react-reveal/Slide'
 import Layout from "../components/layout/layout"
 import Hero from "../components/hero/hero"
 import ByTheNumbers from "../components/by-the-numbers/by-the-numbers"
-import HorizontalSlider from "../components/horizontal-slider/horizontal-slider"
 import VideoModal from "../components/video-modal/video-modal"
 import Blockquote from "../components/blockquote/blockquote"
 import SmallNumber from "../components/small-number/small-number"
@@ -15,13 +14,12 @@ import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
 import HeroImg from "../images/hero-bcg-customer-convenience.jpg"
-import piggyBankImg from '../images/illustration-delivering-premium-relief.png'
+import familyImg from '../images/family-excercise.jpg'
 import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
 import reliefImg from '../images/financial-relief-small-businesses.png'
 import supportImg from '../images/supporting-providers.png'
 import websiteImg from '../images/covid19-website.jpg'
-
-
+import classImg from '../images/video-try-a-class.jpg'
 
 const CustomerConveniencePage = () => {
   return (
@@ -80,31 +78,45 @@ const CustomerConveniencePage = () => {
                     featNumValue="K+"
                     featNumText="BCBSRI Medicare Advantage members received a home fitness kit"
                   /> 
-                </Slide>         
+                </Slide>  
+
+                <VideoModal
+                  caption="Try a class"
+                  posterImage={classImg}
+                  videoSource="//www.youtube.com/embed/n0_Hw4RNXrI"
+                />       
 
               </div>
-              <div className="content-block__col content-block__col--right"> 
-                <Slide up>               
-                  <VideoModal/>
-
-                  <Blockquote 
-                    styleName="blockquote--orange"
-                    blockquoteText="When Rhode Island PBS launches a project of interest and importance to the health and well-being of our community—whether it is prevention of opioid overdose or now COVID-19 information—we are grateful we can count on Blue Cross’s leadership and enthusiastic partnership."
-                    blockquoteAuthor="David W. Piccerelli"
-                    blockquoteAuthorTitle="President of WSBE Rhode Island PBS"
+              <div className="content-block__col content-block__col--right">
+                <Slide up>
+                  <SmallNumber 
+                    styleName="small-number--orange"
+                    smallNumNumber="180"
+                    smallNumCaption="classes offered in 2020"
                   />
+
+                  <SmallNumber 
+                    styleName="small-number--orange"
+                    smallNumNumber="1,000"
+                    smallNumCaption="average views per fitness video"
+                  /> 
                 </Slide>
+
+                <div className="content-block__image">
+                  <img src={familyImg} alt=""/>
+                </div>  
+
+                <Blockquote 
+                  styleName="blockquote--orange"
+                  blockquoteText="Thank you for these classes! We soooo need them."
+                  blockquoteAuthor="Angela"
+                  blockquoteAuthorTitle="BCBSRI member"
+                />
               </div> 
             </div>     
           </div>
         </Fade>
-      </section>    
-
-      <Fade>
-        <HorizontalSlider
-          bgColor="#F7F9FA"
-        />
-      </Fade>
+      </section>
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>

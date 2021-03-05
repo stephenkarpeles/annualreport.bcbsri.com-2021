@@ -57,6 +57,7 @@
     position: relative;
     padding-left: 30px;
     font-family: var(--font-serif);
+    letter-spacing: 1px;
 
     &::before {
       position: absolute;

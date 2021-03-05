@@ -25,6 +25,7 @@ import membersImg from '../images/giving-members-more-control.jpg'
 import mybcbsriImg from '../images/video-mybcbsri.jpg'
 import medicareImg from '../images/video-medicare-advantage.jpg'
 import manDogImg from '../images/medicare.jpg'
+import smilingImg from '../images/accelerating-the-use-of-health.jpg'
 
 const CustomerConveniencePage = () => {
   return (
@@ -45,8 +46,35 @@ const CustomerConveniencePage = () => {
             </div>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <p>Before the pandemic, we saw a steady rise in the number of members taking advantage of telehealth, which allowed them to get medical care via video or phone. But during the pandemic—especially in the spring when doctors’ offices were closed—telehealth helped our members get care at a safe social distance.</p> 
+                <p>Before the pandemic, we saw a steady rise in the number of members taking advantage of telehealth, which allowed them to get medical care via video or phone. But during the pandemic—especially in the spring when doctors’ offices were closed—telehealth helped our members get care at a safe social distance.</p>  
+              </div>
+              <div className="content-block__col content-block__col--right">
+                <Fade>
+                  <SmallNumber 
+                    styleName="small-number--orange"
+                    smallNumNumber="723,106"
+                    smallNumCaption="visits in 2020"
+                  />                   
+                </Fade>
+              </div> 
+            </div>     
+          </div>
+        </Fade>
+      </section>
 
+      <section className="content-block__overlap-block content-block__overlap-block--inline">
+        <Fade>
+          <div className="container container--small">
+            <img src={smilingImg} alt="Woman smiling"/>
+          </div>
+        </Fade>
+      </section>
+
+      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+        <Fade>
+          <div className="container container--small">            
+            <div className="content-block__col-wrap">
+              <div className="content-block__col content-block__col--left">
                 <Fade>
                   <SmallNumber 
                     styleName="small-number--orange"
@@ -57,13 +85,7 @@ const CustomerConveniencePage = () => {
 
               </div>
               <div className="content-block__col content-block__col--right">
-                <Fade>
-                  <SmallNumber 
-                    styleName="small-number--orange"
-                    smallNumNumber="723,106"
-                    smallNumCaption="visits in 2020"
-                  />                
-
+                <Fade>        
                   <div className="content-block__internal-heading">
                     How we encouraged the use of telehealth:
                   </div>
@@ -83,7 +105,7 @@ const CustomerConveniencePage = () => {
             </div>     
           </div>
         </Fade>
-      </section>
+      </section> 
 
       <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <Fade>
@@ -181,18 +203,16 @@ const CustomerConveniencePage = () => {
       </section>    
 
       <section className="content-block__overlap-block">
-        <Fade>
-          <div className="container container--small">
-            <img src={manDogImg} alt="Man with dog"/>
+        <div className="container container--small">
+          <img src={manDogImg} alt="Man with dog"/>
 
-            <Blockquote 
-              styleName="blockquote--orange"
-              blockquoteText="The over-the-counter benefit (OTC) … has been extremely helpful especially during this pandemic. I did not need to leave my house to get needed CVS products. And it is nice that it is all free, no delivery charge. Can’t wait for next quarter’s order."
-              blockquoteAuthor="B. Carl"
-              blockquoteAuthorTitle="Medicare member"
-            />
-          </div>
-        </Fade>
+          <Blockquote 
+            styleName="blockquote--orange"
+            blockquoteText="The over-the-counter benefit (OTC) … has been extremely helpful especially during this pandemic. I did not need to leave my house to get needed CVS products. And it is nice that it is all free, no delivery charge. Can’t wait for next quarter’s order."
+            blockquoteAuthor="B. Carl"
+            blockquoteAuthorTitle="Medicare member"
+          />
+        </div>
       </section>  
       
       <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>

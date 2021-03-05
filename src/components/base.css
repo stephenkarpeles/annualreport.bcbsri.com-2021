@@ -305,6 +305,12 @@ h4,
     margin-top: -200px;
     padding: 0 0 100px;
 
+    &--inline {
+      margin-top: -60px;
+      margin-bottom: -50px;
+      padding: 0;
+    }
+
     .container.container--small {
       width: var(--small-container-width);
       max-width: calc(var(--small-container-max-width) + 160px);

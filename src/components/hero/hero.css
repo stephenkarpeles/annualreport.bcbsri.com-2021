@@ -70,6 +70,14 @@
     }
   }
 
+  &--orange-accent {
+    h4 {
+      &::before {
+        background: var(--color-13);
+      }
+    }
+  }
+
   .container {
     position: relative;
     z-index: 10;

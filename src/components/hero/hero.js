@@ -5,7 +5,7 @@ import "./hero.css"
 
 const Hero = (props) => {
   return (
-    <section className="hero" style={{ backgroundImage:`url(${props.bgImg})` }}>
+    <section className={`hero ${props.styleName}`} style={{ backgroundImage:`url(${props.bgImg})` }}>
       <div className="container">
       <Fade> 
         <div className="hero__content">

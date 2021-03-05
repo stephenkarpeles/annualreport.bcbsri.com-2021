@@ -3,7 +3,7 @@ import "./small-number.css"
 
 const SmallNumber = (props) => {
   return (
-    <div className="small-number">
+    <div className={`small-number ${props.styleName}`}>
       <div className="small-number__number">
         {props.smallNumNumber}
       </div>

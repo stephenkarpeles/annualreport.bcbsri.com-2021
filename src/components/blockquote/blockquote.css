@@ -38,4 +38,12 @@
     font-family: var(--font-stack-bold);
     font-weight: 700;
   }
+
+  &--orange {
+    .blockquote__text {
+      &::before {
+        background: var(--color-23);
+      }
+    }
+  }
 }

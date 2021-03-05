@@ -6,13 +6,6 @@
   padding-top: 20px;
   margin-bottom: 40px;
 
-  &--shrunk {
-    .large-number__number {
-      font-size: 170px;
-      line-height: 190px;
-    }
-  }
-
   &__symbol {
     font-size: 60px;
     line-height: 72px;
@@ -57,6 +50,23 @@
       height: 1px;
       background: var(--color-19);
       position: absolute;
+    }
+  }
+
+  &--shrunk {
+    .large-number__number {
+      font-size: 170px;
+      line-height: 190px;
+    }
+  }
+
+  &--orange {
+    .large-number__text {
+      color: var(--color-23);
+
+      &::before {
+        background: var(--color-23);
+      }
     }
   }
 }

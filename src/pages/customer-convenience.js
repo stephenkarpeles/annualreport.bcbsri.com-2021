@@ -14,54 +14,45 @@ import LargeNumber from "../components/large-number/large-number"
 import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
-import HeroImg from "../images/hero-bcg-financial-relief.jpg"
+import HeroImg from "../images/hero-bcg-customer-convenience.jpg"
 import piggyBankImg from '../images/illustration-delivering-premium-relief.png'
 import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
 import reliefImg from '../images/financial-relief-small-businesses.png'
 import supportImg from '../images/supporting-providers.png'
 import websiteImg from '../images/covid19-website.jpg'
 
-const FinancialReliefPage = () => {
+
+
+const CustomerConveniencePage = () => {
   return (
     <Layout>
       <Hero
+        styleName="hero--orange-accent"
         bgImg={HeroImg}
-        heading={["Financial", <br/>, "Relief"]}
-        subheading="BCBSRI helped providers and businesses through the pandemic not just with monetary assistance, but also with empathy and flexibility."
+        heading={["Customer", <br/>, "Convenience"]}
+        subheading="New virtual tools and innovative benefits helped Rhode Islanders gain more control over their own health and well-being."
       />
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
-              <div className="eyebrow">Financial Relief</div>
-              <h2>Delivering Premium Relief to Customers</h2>
+              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
+              <h2>Accelerating the use of telehealth</h2>
             </div>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <p>In 2020, we provided multiple waves of medical and dental premium relief to our customers. Those included fully insured large group and small group customers as well as individuals who purchase insurance through BCBSRI or HealthSource RI.</p>
-              
-                <Slide up>
-                  <div className="content-block__image">
-                    <img src={piggyBankImg} alt=""/>
-                  </div>
-                </Slide>         
+                <p>Before the pandemic, we saw a steady rise in the number of members taking advantage of telehealth, which allowed them to get medical care via video or phone. But during the pandemic—especially in the spring when doctors’ offices were closed—telehealth helped our members get care at a safe social distance.</p>                        
 
               </div>
               <div className="content-block__col content-block__col--right">
-                <p>We offered the premium relief for two reasons.</p> 
-                <p>First, although the use of healthcare services appears to be returning to pre-pandemic levels, we saw a significant drop through early summer as members deferred elective procedures and routine doctor visits.</p> 
-                <p>Second, we recognized that many employers and members faced tremendous economic uncertainty, and premium relief was a meaningful way to help them.</p>
-                
-                <Slide up>
-
-                  <LargeNumber
-                    featNumSymbol="$"
-                    featNumNumber="25"
-                    featNumValue="M"
-                    featNumText="In Premium Relief"
+                <Fade>
+                  <SmallNumber 
+                    styleName="small-number--orange"
+                    smallNumNumber="723,106"
+                    smallNumCaption="visits in 2020"
                   />
-                </Slide>
+                </Fade>
               </div> 
             </div>     
           </div>
@@ -72,21 +63,22 @@ const FinancialReliefPage = () => {
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
-              <div className="eyebrow">Financial Relief</div>
-              <h2>Supporting COVID-19 relief efforts</h2>
+              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
+              <h2>Bringing Your Blue Store into homes</h2>
             </div>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <p>To help our community through this difficult time, we donated to specific COVID-19 relief efforts—including the COVID-19 Response Fund—as well as provided financial support to many nonprofit partners that helped them reallocate funds toward COVID-19 efforts.</p>
-                <p>In addition to financial support, Your Blue Van delivered supplies for the Rhode Island Coalition for the Homeless. To help protect first responders as well as our state’s most vulnerable citizens, we donated hand sanitizing products to the State of Rhode Island, City of Providence emergency responders, and nonprofit organizations like Family Service of Rhode Island.</p>
-                <p>BlueAngel volunteers donated their time to deliver meals to older adults through Meals on Wheels, sew masks for healthcare and direct service professionals, and consult with local nonprofits via Zoom.</p> 
+                <p>At our store locations, one of the most popular perks was free fitness classes. We offered dozens each week, and members often came early to socialize before the class.</p>
+                <p>Since we stopped offering in-person fitness classes due to the pandemic, we wanted to give our members another way to stay fit and connect with each other. Our solution was to offer fitness classes live on Facebook. They were so well received that we soon produced a different class every weekday and even introduced live workshops on healthy living. Since these classes are available on Facebook, they can help all Rhode Islanders (and people living anywhere) to be healthier.</p>
+                <p>To help our BCBSRI Medicare Advantage members take advantage of their health and wellness benefits during the pandemic, we mailed them information about the Facebook classes as well as a no-cost fitness kit that included resistance bands, a water bottle, and a towel.</p> 
 
                 <Slide up>
                   <LargeNumber
-                    featNumSymbol="$"
-                    featNumNumber="250"
-                    featNumValue="K"
-                    featNumText="Donated to COVID-19 relief efforts"
+                    styleName="large-number--orange"
+                    featNumSymbol=""
+                    featNumNumber="57"
+                    featNumValue="K+"
+                    featNumText="BCBSRI Medicare Advantage members received a home fitness kit"
                   /> 
                 </Slide>         
 
@@ -95,7 +87,8 @@ const FinancialReliefPage = () => {
                 <Slide up>               
                   <VideoModal/>
 
-                  <Blockquote
+                  <Blockquote 
+                    styleName="blockquote--orange"
                     blockquoteText="When Rhode Island PBS launches a project of interest and importance to the health and well-being of our community—whether it is prevention of opioid overdose or now COVID-19 information—we are grateful we can count on Blue Cross’s leadership and enthusiastic partnership."
                     blockquoteAuthor="David W. Piccerelli"
                     blockquoteAuthorTitle="President of WSBE Rhode Island PBS"
@@ -117,7 +110,7 @@ const FinancialReliefPage = () => {
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
-              <div className="eyebrow">Financial Relief</div>
+              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
               <h2>Offering grants to behavioral health practices</h2>
             </div>
             <div className="content-block__col-wrap">
@@ -159,7 +152,7 @@ const FinancialReliefPage = () => {
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
-              <div className="eyebrow">Financial Relief</div>
+              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
               <h2>Helping small businesses during the pandemic</h2>
             </div>
             <div className="content-block__col-wrap">
@@ -193,7 +186,7 @@ const FinancialReliefPage = () => {
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
-              <div className="eyebrow eyebrow--color-22">Financial Relief</div>
+              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
               <h2>Navigating the CARES Act</h2>
             </div>
             <div className="content-block__col-wrap">
@@ -219,7 +212,7 @@ const FinancialReliefPage = () => {
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
-              <div className="eyebrow">Financial Relief</div>
+              <div className="eyebrow eyebrow--color-23">Customer Convenience</div>
               <h2>Supporting providers with the rapid adoption of telehealth</h2>
             </div>
             <div className="content-block__col-wrap">
@@ -255,4 +248,4 @@ const FinancialReliefPage = () => {
   )
 }
 
-export default FinancialReliefPage
+export default CustomerConveniencePage

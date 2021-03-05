@@ -3,7 +3,7 @@ import "./blockquote.css"
 
 const Blockquote = (props) => {
   return (
-    <div className="blockquote">
+    <div className={`blockquote ${props.styleName}`}>
       <div className="blockquote__text">
         “{props.blockquoteText}”
       </div>

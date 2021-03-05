@@ -210,10 +210,12 @@ const FinancialReliefPage = () => {
         </Fade>
       </section>
 
-      <FullWidthImage
-        bgImg={websiteImg}
-        altText="Financial Relief"
-      />
+      <Fade>
+        <FullWidthImage
+          bgImg={websiteImg}
+          altText="Financial Relief"
+        />
+      </Fade>
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>

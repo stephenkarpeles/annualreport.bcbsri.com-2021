@@ -45,7 +45,7 @@ const AccordionItem = ({
 }
 
 const Accordion = () => {
- const [active, setActive] = useState(1);
+ const [active, setActive] = useState(0);
   
   return (
     <div className="accordion-wrapper">

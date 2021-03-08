@@ -29,7 +29,7 @@
   }
 
   &__content {
-    transition: transform 0.2s ease; 
+    transition: transform 0.5s ease; 
     height: auto;
     padding: 10px 0;
     transform: scaleY(1);

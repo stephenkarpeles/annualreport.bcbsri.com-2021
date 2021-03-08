@@ -55,7 +55,6 @@ const FinancialReliefPage = () => {
                 <p>Second, we recognized that many employers and members faced tremendous economic uncertainty, and premium relief was a meaningful way to help them.</p>
                 
                 <Slide up>
-
                   <LargeNumber
                     featNumSymbol="$"
                     featNumNumber="25"

@@ -21,6 +21,10 @@
     }
   }
 
+  &--below-image-number-block {
+    margin-top: 210px;
+  }
+
   &__number {
     font-size: 64px;
     line-height: 72px;

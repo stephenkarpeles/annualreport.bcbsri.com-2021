@@ -26,6 +26,7 @@ import mybcbsriImg from '../images/video-mybcbsri.jpg'
 import medicareImg from '../images/video-medicare-advantage.jpg'
 import manDogImg from '../images/medicare.jpg'
 import smilingImg from '../images/accelerating-the-use-of-health.jpg'
+import telehealthImg from '../images/telehealth.png'
 
 const CustomerConveniencePage = () => {
   return (
@@ -70,6 +71,27 @@ const CustomerConveniencePage = () => {
         </Fade>
       </section>
 
+      <section className="image-number-block">
+        <Fade>
+          <div className="container container--small">
+            <div className="image-number-block__image">
+              <div className="image-number-block__image-wrap">
+                <img src={telehealthImg} alt="Telehealth"/>
+              </div>
+            </div>
+            <div className="image-number-block__number">
+              <LargeNumber
+                styleName="large-number--orange"
+                featNumSymbol=""
+                featNumNumber="31,586"
+                featNumValue="%"
+                featNumText="Increase in use of telehealth since 2019"
+              />
+            </div>
+          </div>
+        </Fade>
+      </section>
+
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>
           <div className="container container--small">            
@@ -77,7 +99,7 @@ const CustomerConveniencePage = () => {
               <div className="content-block__col content-block__col--left">
                 <Fade>
                   <SmallNumber 
-                    styleName="small-number--orange"
+                    styleName="small-number--orange small-number--below-image-number-block"
                     smallNumNumber="46%"
                     smallNumCaption="of telehealth visits in 2020 were for behavioral health services"
                   />

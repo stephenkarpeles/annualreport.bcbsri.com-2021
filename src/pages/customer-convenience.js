@@ -13,7 +13,7 @@ import LargeNumber from "../components/large-number/large-number"
 // import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
-import HeroImg from "../images/hero-bcg-customer-convenience.jpg"
+import HeroImg from "../images/hero-bcg-customer-convenience-fullsize.jpg"
 import familyImg from '../images/family-excercise.jpg'
 // import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
 // import reliefImg from '../images/financial-relief-small-businesses.png'
@@ -32,7 +32,7 @@ const CustomerConveniencePage = () => {
   return (
     <Layout>
       <Hero
-        styleName="hero--orange-accent"
+        styleName="hero--orange-accent hero--customer-convenience"
         bgImg={HeroImg}
         heading={["Customer", <br/>, "Convenience"]}
         subheading="New virtual tools and innovative benefits helped Rhode Islanders gain more control over their own health and well-being."
@@ -276,7 +276,7 @@ const CustomerConveniencePage = () => {
             </div>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <p>In 2020, we rolled out a new online experience for members: <a href="https://myportal.bcbsri.com/">myBCBSRI</a>. Now when members log in, they can view and make changes to many more elements of their plan. They gain easy access to their digital ID cards, electronic documents, claim status, and benefit information.</p>
+                <p>In 2020, we rolled out a new online experience for members: <a target="_blank" href="https://myportal.bcbsri.com/">myBCBSRI</a>. Now when members log in, they can view and make changes to many more elements of their plan. They gain easy access to their digital ID cards, electronic documents, claim status, and benefit information.</p>
 
                 <div className="content-block__internal-heading">
                   They also can:

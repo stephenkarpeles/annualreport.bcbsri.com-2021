@@ -20,6 +20,46 @@
     bottom: 0;
   } */
 
+  &--customer-convenience {
+    &::after {
+      content: '';
+      background-image: url('../../images/patterns/hero-pattern-customer-convenience.svg');
+      background-position: -80px top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 6;
+      width: 100%;
+      height: 100%;
+
+      @media (--hero-image-up) {
+        background-position: left top;
+      }
+    }
+  }
+
+  &--financial-relief {
+    &::after {
+      content: '';
+      background-image: url('../../images/patterns/hero-pattern-financial-relief.svg');
+      background-position: -80px top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 6;
+      width: 100%;
+      height: 100%;
+
+      @media (--hero-image-up) {
+        background-position: left top;
+      }
+    }
+  }
+
   &::before {
     content: '';
     position: absolute;

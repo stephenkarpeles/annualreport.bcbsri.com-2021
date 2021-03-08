@@ -14,7 +14,7 @@ import LargeNumber from "../components/large-number/large-number"
 import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
-import HeroImg from "../images/hero-bcg-financial-relief.jpg"
+import HeroImg from "../images/hero-bcg-financial-relief-fullsize.jpg"
 import piggyBankImg from '../images/illustration-delivering-premium-relief.png'
 import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
 import reliefImg from '../images/financial-relief-small-businesses.png'
@@ -26,6 +26,7 @@ const FinancialReliefPage = () => {
   return (
     <Layout>
       <Hero
+        styleName="hero--financial-relief"
         bgImg={HeroImg}
         heading={["Financial", <br/>, "Relief"]}
         subheading="BCBSRI helped providers and businesses through the pandemic not just with monetary assistance, but also with empathy and flexibility."

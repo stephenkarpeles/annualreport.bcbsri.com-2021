@@ -18,12 +18,12 @@ const ByTheNumbers = () => {
           <h3>Overall Profit/Loss</h3>
           <p>For the fourth consecutive year we have shown positive financial results, allowing us to contribute $44 million into reserves, money we set aside for the protection of all our members to pay future claims.</p>
           <div className="by-the-numbers__number-block">
-            <div className="by-the-numbers__number-amount">$42,421,000</div>
+            <div className="by-the-numbers__number-amount"><sup>$</sup>42,421,000</div>
           </div>
           <h3>Premium Reserves</h3>
           <p>In 2020, premium reserves that we held for the protection of our members totaled $416 million at year end.</p>
           <div className="by-the-numbers__number-block">
-            <div className="by-the-numbers__number-amount">$415,814,000</div>
+            <div className="by-the-numbers__number-amount"><sup>$</sup>415,814,000</div>
             <div className="by-the-numbers__number-caption">Premium Reserves as of 12/31/2020</div>
           </div>
         </div>

@@ -71,15 +71,15 @@ const CustomerConveniencePage = () => {
         </Fade>
       </section>
 
-      <section className="image-number-block">
-        <Fade>
-          <div className="container container--small">
-            <div className="image-number-block__image">
-              <div className="image-number-block__image-wrap">
-                <img src={telehealthImg} alt="Telehealth"/>
-              </div>
+      <section className="image-number-block">        
+        <div className="container container--small">
+          <div className="image-number-block__image">
+            <div className="image-number-block__image-wrap">
+              <img src={telehealthImg} alt="Telehealth"/>
             </div>
-            <div className="image-number-block__number">
+          </div>
+          <div className="image-number-block__number">
+            <Fade>
               <LargeNumber
                 styleName="large-number--orange"
                 featNumSymbol=""
@@ -87,9 +87,9 @@ const CustomerConveniencePage = () => {
                 featNumValue="%"
                 featNumText="Increase in use of telehealth since 2019"
               />
-            </div>
+            </Fade>
           </div>
-        </Fade>
+        </div>        
       </section>
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
@@ -97,17 +97,13 @@ const CustomerConveniencePage = () => {
           <div className="container container--small">            
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <Fade>
-                  <SmallNumber 
-                    styleName="small-number--orange small-number--below-image-number-block"
-                    smallNumNumber="46%"
-                    smallNumCaption="of telehealth visits in 2020 were for behavioral health services"
-                  />
-                </Fade>                        
-
+                <SmallNumber 
+                  styleName="small-number--orange small-number--below-image-number-block"
+                  smallNumNumber="46%"
+                  smallNumCaption="of telehealth visits in 2020 were for behavioral health services"
+                />
               </div>
               <div className="content-block__col content-block__col--right">
-                <Fade>        
                   <div className="content-block__internal-heading">
                     How we encouraged the use of telehealth:
                   </div>
@@ -122,7 +118,6 @@ const CustomerConveniencePage = () => {
                       <sup>*</sup> Some employers do not offer Doctors Online to their employees.
                     </div>
                   </div>
-                </Fade>
               </div> 
             </div>     
           </div>

@@ -30,8 +30,8 @@ const VideoModal = (props) => {
   return (
     <div className="video-modal">
       <div className="video-modal__image">
-        <img src={props.posterImage} alt="Video Image"/>
-        <div className="video-modal__play-icon" onClick={openModal}>
+        <img src={props.posterImage} alt="Video"/>
+        <div className="video-modal__play-icon" onClick={openModal} onKeyDown={openModal} role="button" tabIndex="0">
           <img src={videoPlayIcon} alt="Play Video"/>
         </div>
       </div>   
@@ -49,7 +49,7 @@ const VideoModal = (props) => {
           <span></span>
           <span></span>
         </button>
-        <iframe src={props.videoSource} width="640" height="360" frameborder="0" scrolling="auto" loading="lazy" allowFullScreen></iframe>
+        <iframe src={props.videoSource} title="Video" width="640" height="360" frameborder="0" scrolling="auto" loading="lazy" allowFullScreen></iframe>
       </Modal>                
     </div>
   )

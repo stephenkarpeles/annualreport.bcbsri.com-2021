@@ -42,7 +42,7 @@ const AccordionItem = ({
       </div>
     </div>
   )
-};
+}
 
 const Accordion = () => {
  const [active, setActive] = useState(1);

@@ -10,15 +10,15 @@ import VideoModal from "../components/video-modal/video-modal"
 import Blockquote from "../components/blockquote/blockquote"
 import SmallNumber from "../components/small-number/small-number"
 import LargeNumber from "../components/large-number/large-number"
-import FullWidthImage from "../components/full-width-image/full-width-image"
+// import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
 import HeroImg from "../images/hero-bcg-customer-convenience.jpg"
 import familyImg from '../images/family-excercise.jpg'
-import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
-import reliefImg from '../images/financial-relief-small-businesses.png'
-import supportImg from '../images/supporting-providers.png'
-import websiteImg from '../images/covid19-website.jpg'
+// import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
+// import reliefImg from '../images/financial-relief-small-businesses.png'
+// import supportImg from '../images/supporting-providers.png'
+// import websiteImg from '../images/covid19-website.jpg'
 import classImg from '../images/video-try-a-class.jpg'
 import groceryImg from '../images/video-grocery-delivery.jpg'
 import membersImg from '../images/giving-members-more-control.jpg'

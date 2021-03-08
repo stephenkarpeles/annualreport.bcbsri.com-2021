@@ -10,6 +10,7 @@
   z-index: 100;
   margin-top: -60px;
   background-position: center center;
+  overflow: hidden;
 
   @media (--large-breakpoint-down) {
     height: 500px;
@@ -30,8 +31,15 @@
     right: 0;
     height: 60px;
     z-index: 30;
-    max-width: var(--container-max-width);
-    width: var(--container-width);
+    width: 100%;
     margin: 0 auto;
+
+    @media (--x-large-breakpoint-up) {
+      left: calc((100% - var(--container-max-width)) / 2);
+    }
+
+    @media (--large-breakpoint-down) {
+      left: 4%;
+    }
   }
 }

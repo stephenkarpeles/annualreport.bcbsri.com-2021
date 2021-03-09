@@ -16,7 +16,7 @@ const accordionItems = [
         <div className="by-the-numbers__number-caption">Premium Revenue</div>
       </div>
       <div className="by-the-numbers__number-block--small">
-        <div className="by-the-numbers__number-amount">+<sup>$</sup>8,760,000</div>
+        <div className="by-the-numbers__number-amount">+ <sup>$</sup>8,760,000</div>
         <div className="by-the-numbers__number-caption">Investment Revenue</div>
       </div> 
       <div className="by-the-numbers__number-block">
@@ -32,12 +32,46 @@ const accordionItems = [
   {
     id: 2,
     title: ["Total Expenses ",<sup>$</sup>,"1,673,582,000"],
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur',
+    content: [
+      <>
+        <p>From total revenue, $1.40 billion was used for medical and dental claims for our members. This amount accounted for 82.2% of premium revenue collected. The company spent $232.2 million (including premium taxes) on expenses to support the core operations of our business, or 13.6% of premiums. An additional $74.3 million was spent on other expenses, including $33.6 million on assessments required by the Affordable Care Act. The company also recorded a $36.3 million offset to expenses for the final installment of the Federal Tax Refund.</p>
+        <div className="by-the-numbers__number-block--small">
+          <div className="by-the-numbers__number-amount"><sup>$</sup>1,403,372,000</div>
+          <div className="by-the-numbers__number-caption">Payments to Providers</div>
+        </div>
+        <div className="by-the-numbers__number-block--small">
+          <div className="by-the-numbers__number-amount">+ <sup>$</sup>232,177,000</div>
+          <div className="by-the-numbers__number-caption">Administrative Expenses</div>
+        </div> 
+        <div className="by-the-numbers__number-block--small">
+          <div className="by-the-numbers__number-amount">+ <sup>$</sup>74,291,000</div>
+          <div className="by-the-numbers__number-caption">Other Expenses</div>
+        </div>
+        <div className="by-the-numbers__number-block--small">
+          <div className="by-the-numbers__number-amount">- <sup>$</sup>36,258,000</div>
+          <div className="by-the-numbers__number-caption">Federal Tax Refund</div>
+        </div>
+        <div className="by-the-numbers__number-block">
+          <div className="by-the-numbers__number-amount"><sup>$</sup>1,673,582,000</div>
+          <div className="by-the-numbers__number-caption">Total Expenses</div>
+        </div>
+        <div className="by-the-numbers__content-footnote">
+          <span>Numbers may not add up due to rounding.</span>
+        </div>
+      </>
+    ],
   },
   {
     id: 3,
     title: ["Net Gain ",<sup>$</sup>,"42,421,000"],
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur',
+    content: [
+      <>
+        <p>Overall, total revenue stood at just over $1.71 billion, and expenses exceeded $1.67 billion in 2020, resulting in a net gain of $42.4 million.</p>
+        <div className="by-the-numbers__number-block">
+          <div className="by-the-numbers__number-amount"><sup>$</sup>42,421,000</div>
+        </div>
+      </>
+    ],
   },
 ];
 

@@ -9,6 +9,7 @@ const Hero = (props) => {
       <div className="container">
       <Fade> 
         <div className="hero__content">
+          <div className="hero__angle"></div>
           <h1>{props.heading}</h1>
           <h4>{props.subheading}</h4>
           <div className="hero__scroll-indicator">

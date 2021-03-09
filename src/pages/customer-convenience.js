@@ -276,7 +276,7 @@ const CustomerConveniencePage = () => {
             </div>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <p>In 2020, we rolled out a new online experience for members: <a target="_blank" href="https://myportal.bcbsri.com/">myBCBSRI</a>. Now when members log in, they can view and make changes to many more elements of their plan. They gain easy access to their digital ID cards, electronic documents, claim status, and benefit information.</p>
+                <p>In 2020, we rolled out a new online experience for members: <a target="_blank" rel="noreferrer" href="https://myportal.bcbsri.com/">myBCBSRI</a>. Now when members log in, they can view and make changes to many more elements of their plan. They gain easy access to their digital ID cards, electronic documents, claim status, and benefit information.</p>
 
                 <div className="content-block__internal-heading">
                   They also can:

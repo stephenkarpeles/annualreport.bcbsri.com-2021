@@ -43,6 +43,14 @@
     }
   }
 
+  &__content-footnote {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--color-10);
+  }
+
   &__feat-number-block {
     background: white;
     padding: 30px;
@@ -78,6 +86,16 @@
       height: 1px;
       background: var(--color-14);
       content: '';
+    }
+
+    &--small {
+      padding: 10px 0;
+
+      .by-the-numbers__number-amount {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 400;
+      }
     }
   }
 

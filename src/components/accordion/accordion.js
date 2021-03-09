@@ -2,13 +2,32 @@ import React, { useState } from "react"
 // import { Link } from "gatsby"
 // import Fade from 'react-reveal/Fade';
 import "./accordion.css"
-import arrowRight from '../../images/icons/arrow-right.svg'
+// import arrowRight from '../../images/icons/arrow-right.svg'
 
 const accordionItems = [
   {
     id: 1,
     title: ["Total Revenue ",<sup>$</sup>,"1,716,003,000"],
-    content: ["In 2019, premium reserves that we held for the protection of our members totaled $372 million at year end.", <br/>, "In 2019, premium reserves that we held for the protection of our members totaled $372 million at year end."],
+    content: [
+    <>
+      <p>In 2020, we recorded $1.70 billion in premiums from members (individuals and employers). We also recorded an $8.8 million gain on investment revenue.</p>
+      <div className="by-the-numbers__number-block--small">
+        <div className="by-the-numbers__number-amount"><sup>$</sup>1,707,243,000</div>
+        <div className="by-the-numbers__number-caption">Premium Revenue</div>
+      </div>
+      <div className="by-the-numbers__number-block--small">
+        <div className="by-the-numbers__number-amount">+<sup>$</sup>8,760,000</div>
+        <div className="by-the-numbers__number-caption">Investment Revenue</div>
+      </div> 
+      <div className="by-the-numbers__number-block">
+        <div className="by-the-numbers__number-amount"><sup>$</sup>1,716,003,000</div>
+        <div className="by-the-numbers__number-caption">Total Revenue</div>
+      </div>
+      <div className="by-the-numbers__content-footnote">
+        <span>Numbers may not add up due to rounding.</span>
+      </div>
+    </>
+    ],
   },
   {
     id: 2,

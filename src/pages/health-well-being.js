@@ -268,7 +268,7 @@ const HealthWellBeingPage = () => {
                   <VideoModal
                     caption="Take a virtual tour"
                     posterImage={videoImgOffice}
-                    videoSource="//www.youtube.com/embed/kcyUY10D3N4"
+                    videoSource="//www.youtube.com/watch?v=sA8v0ZttJ9"
                   /> 
                 </Slide>
               </div> 

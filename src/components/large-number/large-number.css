@@ -84,4 +84,14 @@
       }
     }
   }
+
+  &--blue {
+    .large-number__text {
+      color: var(--color-15);
+
+      &::before {
+        background: var(--color-15);
+      }
+    }
+  }
 }

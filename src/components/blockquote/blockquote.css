@@ -64,4 +64,12 @@
       }
     }
   }
+
+  &--blue {
+    .blockquote__text {
+      &::before {
+        background: var(--color-15);
+      }
+    }
+  }
 }

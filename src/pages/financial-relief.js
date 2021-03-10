@@ -204,7 +204,7 @@ const FinancialReliefPage = () => {
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
 
-                <p>When Congress passed the CARES Act in March 2020, the promise of financial assistance buoyed many businesses in Rhode Island. But navigating all the pieces of the act, as well as other federal and state assistance, could be rocky, especially for small businesses with few extra resources. So BCBSRI compiled a simple guide to the many programs and made it easily accessible on our <a target="_blank" rel="norefferer" href="https://toolkit.bcbsri.com/collections/keeping-you-well-and-well-informed">Keeping You Well and Well-informed site</a>.</p>
+                <p>When Congress passed the CARES Act in March 2020, the promise of financial assistance buoyed many businesses in Rhode Island. But navigating all the pieces of the act, as well as other federal and state assistance, could be rocky, especially for small businesses with few extra resources. So BCBSRI compiled a simple guide to the many programs and made it easily accessible on our <a target="_blank" rel="noreferrer" href="https://toolkit.bcbsri.com/collections/keeping-you-well-and-well-informed">Keeping You Well and Well-informed site</a>.</p>
 
               </div>
               <div className="content-block__col content-block__col--right"> 

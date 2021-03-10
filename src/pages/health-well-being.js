@@ -19,6 +19,7 @@ import housingImg from "../images/housing.png"
 import pillIcon from "../images/icons/icon-prescription.svg"
 import checkIcon from "../images/icons/icon-authorization.svg"
 import videoImgBlue from "../images/video-blue-across-rhode-island.jpg"
+import videoImgOffice from "../images/video-oak-street-health.jpg"
 import kidsImg from "../images/keeping-kids-playing.jpg"
 
 const HealthWellBeingPage = () => {
@@ -51,9 +52,11 @@ const HealthWellBeingPage = () => {
 
               </div>
               <div className="content-block__col content-block__col--right">
-                  <div className="content-block__internal-heading">
-                    These temporary benefits included:
-                  </div>
+                  <Fade>
+                    <div className="content-block__internal-heading">
+                      These temporary benefits included:
+                    </div>
+                  </Fade>
 
                   <Slide up>
                     <SmallNumber 
@@ -239,9 +242,34 @@ const HealthWellBeingPage = () => {
                     smallNumCaption="students impacted since 2015"
                   />
 
-                  <div className="content-block__image mar-top-4">
+                  <div className="mar-top-8">
                     <img src={kidsImg} alt="Kids Playing"/>
                   </div>
+                </Slide>
+              </div> 
+            </div>     
+          </div>
+        </Fade>
+      </section>
+
+      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+        <Fade>
+          <div className="container container--small">
+            <div className="content-block__intro">
+              <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
+              <h2>Bringing Oak Street Health to more members</h2>
+            </div>
+            <div className="content-block__col-wrap">
+              <div className="content-block__col content-block__col--left">
+                <p>In the last two years, Oak Street Health, a network of primary care practices for adults on Medicare, has opened four locations in Rhode Island in collaboration with BCBSRI. The fourth location opened in November 2020 in Woonsocket. Through their well care model, Oak Street Health provides in-person, phone, and video visits; a 24/7 support line; transportation to appointments; and preventive care plans.</p> 
+              </div>
+              <div className="content-block__col content-block__col--right"> 
+                <Slide up>
+                  <VideoModal
+                    caption="Take a virtual tour"
+                    posterImage={videoImgOffice}
+                    videoSource="//www.youtube.com/embed/kcyUY10D3N4"
+                  /> 
                 </Slide>
               </div> 
             </div>     

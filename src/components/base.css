@@ -408,11 +408,12 @@ h4,
   }
 
   &__number {
-    text-align: right;
     width: 700px;
+    padding-left: 35px;
 
     @media (--medium-breakpoint-down) {
       width: 100%;
+      padding-left: 0;
     }
 
     @media (--small-breakpoint-down) {

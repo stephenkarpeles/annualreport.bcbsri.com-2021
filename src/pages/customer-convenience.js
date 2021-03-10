@@ -174,7 +174,7 @@ const CustomerConveniencePage = () => {
 
                   <Blockquote 
                     styleName="blockquote--orange"
-                    blockquoteText="Thank you for these classes! We soooo need them."
+                    blockquoteText={["Thank you for these classes!",<br/>,"We soooo need them."]}
                     blockquoteAuthor="Angela"
                     blockquoteAuthorTitle="BCBSRI member"
                   />

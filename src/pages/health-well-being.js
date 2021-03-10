@@ -21,6 +21,8 @@ import checkIcon from "../images/icons/icon-authorization.svg"
 import videoImgBlue from "../images/video-blue-across-rhode-island.jpg"
 import videoImgOffice from "../images/video-oak-street-health.jpg"
 import kidsImg from "../images/keeping-kids-playing.jpg"
+import healthImg1 from "../images/oak-street-health-img-1.jpg"
+import healthImg2 from "../images/oak-street-health-img-2.jpg"
 
 const HealthWellBeingPage = () => {
   return (
@@ -261,16 +263,43 @@ const HealthWellBeingPage = () => {
             </div>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <p>In the last two years, Oak Street Health, a network of primary care practices for adults on Medicare, has opened four locations in Rhode Island in collaboration with BCBSRI. The fourth location opened in November 2020 in Woonsocket. Through their well care model, Oak Street Health provides in-person, phone, and video visits; a 24/7 support line; transportation to appointments; and preventive care plans.</p> 
+                <Fade>
+                  <p>In the last two years, Oak Street Health, a network of primary care practices for adults on Medicare, has opened four locations in Rhode Island in collaboration with BCBSRI. The fourth location opened in November 2020 in Woonsocket. Through their well care model, Oak Street Health provides in-person, phone, and video visits; a 24/7 support line; transportation to appointments; and preventive care plans.</p> 
+                  <div className="mar-top-3">
+                    <img src={healthImg2} alt="Health Image"/>
+                  </div>
+                </Fade>
               </div>
               <div className="content-block__col content-block__col--right"> 
                 <Slide up>
+                  <div className="mar-bot-4">
+                    <img src={healthImg1} alt="Health Image"/>
+                  </div>
                   <VideoModal
                     caption="Take a virtual tour"
                     posterImage={videoImgOffice}
-                    videoSource="//www.youtube.com/watch?v=sA8v0ZttJ9"
+                    videoSource="//player.vimeo.com/video/436584887"
                   /> 
                 </Slide>
+              </div> 
+            </div>     
+          </div>
+        </Fade>
+      </section>
+
+      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+        <Fade>
+          <div className="container container--small">
+            <div className="content-block__intro">
+              <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
+              <h2>Achieving our vision through Diversity, Equity &amp; Inclusion</h2>
+            </div>
+            <div className="content-block__col-wrap">
+              <div className="content-block__col content-block__col--left">
+                
+              </div>
+              <div className="content-block__col content-block__col--right"> 
+                
               </div> 
             </div>     
           </div>

@@ -19,6 +19,7 @@ import housingImg from "../images/housing.png"
 import pillIcon from "../images/icons/icon-prescription.svg"
 import checkIcon from "../images/icons/icon-authorization.svg"
 import videoImgBlue from "../images/video-blue-across-rhode-island.jpg"
+import kidsImg from "../images/keeping-kids-playing.jpg"
 
 const HealthWellBeingPage = () => {
   return (
@@ -194,6 +195,59 @@ const HealthWellBeingPage = () => {
           </div>
         </Fade>
       </section> 
+
+      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+        <Fade>
+          <div className="container container--small">
+            <div className="content-block__intro">
+              <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
+              <h2>Keeping kids playing during a pandemic</h2>
+            </div>
+            <div className="content-block__col-wrap">
+              <div className="content-block__col content-block__col--left">
+                <p>Since 2015, Recess Rocks in Rhode Island—a partnership between BCBSRI, Playworks, and the Rhode Island Healthy Schools Coalition—has energized education and increased safe, active, and inclusive play across Rhode Island elementary schools. Within two weeks of school closures, Playworks launched digital services to meet teachers’ needs and fit into schools’ busy schedules, including:</p> 
+
+                <div className="content-block__list content-block__list--blue">
+                  <ul>
+                    <li><em>Keep Playing</em>, a weekly game and social emotional learning curriculum</li>
+                    <li>Live recess three times a day</li>
+                    <li>A virtual learning and play series</li>
+                  </ul>
+                </div>
+
+                <p>These resources helped educators and families to bring play to every child’s day whether they were attending school remotely or in person.</p>
+
+                <LargeNumber
+                  styleName="large-number--blue"
+                  featNumSymbol=""
+                  featNumNumber="100"
+                  featNumValue=""
+                  featNumText="elementary schools trained since 2015"
+                />        
+
+              </div>
+              <div className="content-block__col content-block__col--right"> 
+                <Slide up> 
+                  <SmallNumber 
+                    styleName="small-number--blue"
+                    smallNumNumber={[<>4,400<sup>+</sup></>]}
+                    smallNumCaption="educators trained since 2015"
+                  />
+                  <SmallNumber 
+                    styleName="small-number--blue"
+                    smallNumNumber={[<>36,790<sup>+</sup></>]}
+                    smallNumCaption="students impacted since 2015"
+                  />
+
+                  <div className="content-block__image mar-top-4">
+                    <img src={kidsImg} alt="Kids Playing"/>
+                  </div>
+                </Slide>
+              </div> 
+            </div>     
+          </div>
+        </Fade>
+      </section>
 
       <ByTheNumbers/>
     </Layout>

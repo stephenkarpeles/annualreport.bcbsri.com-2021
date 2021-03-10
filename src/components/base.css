@@ -352,6 +352,12 @@ h4,
         border-color: transparent var(--color-23);        
       }
     }
+
+    &--blue {
+      ul li::before {
+        border-color: transparent var(--color-15);        
+      }
+    }
   }
   
   &__overlap-block {

@@ -6,9 +6,19 @@
   margin-bottom: 40px;
   padding-top: 20px;
 
+  sup {
+    font-size: 30px;
+  }
+
   &--orange {
     .small-number__number {
       color: var(--color-23);
+    }
+  }
+
+  &--blue {
+    .small-number__number {
+      color: var(--color-15);
     }
   }
 

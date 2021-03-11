@@ -23,6 +23,8 @@ import videoImgOffice from "../images/video-oak-street-health.jpg"
 import kidsImg from "../images/keeping-kids-playing.jpg"
 import healthImg1 from "../images/oak-street-health-img-1.jpg"
 import healthImg2 from "../images/oak-street-health-img-2.jpg"
+import safeImg from "../images/safe-zone-img.jpg"
+import ibramImg from "../images/ibram-kendi.jpg"
 
 const HealthWellBeingPage = () => {
   return (
@@ -222,13 +224,15 @@ const HealthWellBeingPage = () => {
 
                 <p>These resources helped educators and families to bring play to every child’s day whether they were attending school remotely or in person.</p>
 
-                <LargeNumber
-                  styleName="large-number--blue"
-                  featNumSymbol=""
-                  featNumNumber="100"
-                  featNumValue=""
-                  featNumText="elementary schools trained since 2015"
-                />        
+                <Fade>
+                  <LargeNumber
+                    styleName="large-number--blue"
+                    featNumSymbol=""
+                    featNumNumber="100"
+                    featNumValue=""
+                    featNumText="elementary schools trained since 2015"
+                  /> 
+                </Fade>       
 
               </div>
               <div className="content-block__col content-block__col--right"> 
@@ -294,14 +298,47 @@ const HealthWellBeingPage = () => {
               <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
               <h2>Achieving our vision through Diversity, Equity &amp; Inclusion</h2>
             </div>
+
+            <div className="content-block__full-width-col content-block__full-width-col--no-spacing">
+              <Fade>
+                <p>Passionately leading a state of health and well-being across Rhode Island requires honest input and innovative solutions to longstanding issues such as systemic racism that lead to health inequities. Diversity, equity, and inclusion are integral to our workplace culture and our approach to providing healthcare.</p>
+              </Fade>
+
+              <div className="mar-top-7 mar-bot-4"> 
+                <div className="eyebrow eyebrow--color-15 eyebrow--no-indent">DEI highlights of 2020</div>
+              </div>
+
+            </div> 
+
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                
+                <h3 className="heading-alt">
+                  Added 5 new Safe Zones
+                </h3>
+                <div className="mar-top-4 mar-bot-4">
+                  <img src={safeImg} alt="Safe Zone"/>
+                </div>
+                <p>We now have <a href="">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
               </div>
               <div className="content-block__col content-block__col--right"> 
-                
+                <h3 className="heading-alt">
+                  Provided education on antiracism
+                </h3>
+                <div className="mar-top-4 mar-bot-4">
+                  <img src={ibramImg} alt="Safe Zone"/>
+                </div>
+                <p>The keynote speaker for our employee Diversity Week was <a href="">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
               </div> 
-            </div>     
+            </div> 
+
+            <div className="content-block__full-width-col mar-top-10">
+              <h3 className="heading-alt">
+                Held a COVID discussion on health equity
+              </h3>
+            </div>
+
+
+
           </div>
         </Fade>
       </section>

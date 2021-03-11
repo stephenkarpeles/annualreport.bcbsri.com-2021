@@ -547,3 +547,36 @@ h4,
   }
 }
 
+/* Media Element */
+.media-element {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 70px;
+
+  &:last-of-type {
+    padding: 25px 0 0;
+  }
+
+  &__image {
+    width: 180px;
+
+    img {
+      max-width: 140px;
+    }
+  }
+
+  &__text {
+    width: calc(100% - 180px);
+    color: var(--color-10);
+    font-size: 16px;
+    line-height: 24px;
+
+    p {
+      color: var(--color-10);
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+    }
+  }
+}
+

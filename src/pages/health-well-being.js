@@ -25,6 +25,10 @@ import healthImg1 from "../images/oak-street-health-img-1.jpg"
 import healthImg2 from "../images/oak-street-health-img-2.jpg"
 import safeImg from "../images/safe-zone-img.jpg"
 import ibramImg from "../images/ibram-kendi.jpg"
+import ashishImg from "../images/ashish-jha.jpg"
+import bestPlacesImg from "../images/logo-best-places-to-work.jpg"
+import bellSealImg from "../images/logo-bell-seal.png"
+import disabilityImg from "../images/logo-disability-equality-index.jpg"
 
 const HealthWellBeingPage = () => {
   return (
@@ -37,8 +41,7 @@ const HealthWellBeingPage = () => {
       />
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
-        <Fade>
-          <div className="container container--small">
+        <div className="container container--small">
             <div className="content-block__intro">
               <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
               <h2>Expanding coverage during COVID-19— at no added cost to members</h2>
@@ -102,12 +105,10 @@ const HealthWellBeingPage = () => {
               </Fade>
             </div>   
           </div>
-        </Fade>
       </section> 
 
       <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
-        <Fade>
-          <div className="container container--small">
+        <div className="container container--small">
             <div className="content-block__intro">
               <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
               <h2>Volunteering with a focus on community and safety</h2>
@@ -146,12 +147,10 @@ const HealthWellBeingPage = () => {
               </div> 
             </div>     
           </div>
-        </Fade>
       </section> 
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
-        <Fade>
-          <div className="container container--small">
+        <div className="container container--small">
             <div className="content-block__intro">
               <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
               <h2>Using data and philanthropy to address housing</h2>
@@ -200,62 +199,59 @@ const HealthWellBeingPage = () => {
               </div> 
             </div>            
           </div>
-        </Fade>
       </section> 
 
       <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
-        <Fade>
-          <div className="container container--small">
-            <div className="content-block__intro">
-              <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
-              <h2>Keeping kids playing during a pandemic</h2>
-            </div>
-            <div className="content-block__col-wrap">
-              <div className="content-block__col content-block__col--left">
-                <p>Since 2015, Recess Rocks in Rhode Island—a partnership between BCBSRI, Playworks, and the Rhode Island Healthy Schools Coalition—has energized education and increased safe, active, and inclusive play across Rhode Island elementary schools. Within two weeks of school closures, Playworks launched digital services to meet teachers’ needs and fit into schools’ busy schedules, including:</p> 
-
-                <div className="content-block__list content-block__list--blue">
-                  <ul>
-                    <li><em>Keep Playing</em>, a weekly game and social emotional learning curriculum</li>
-                    <li>Live recess three times a day</li>
-                    <li>A virtual learning and play series</li>
-                  </ul>
-                </div>
-
-                <p>These resources helped educators and families to bring play to every child’s day whether they were attending school remotely or in person.</p>
-
-                <Fade>
-                  <LargeNumber
-                    styleName="large-number--blue"
-                    featNumSymbol=""
-                    featNumNumber="100"
-                    featNumValue=""
-                    featNumText="elementary schools trained since 2015"
-                  /> 
-                </Fade>       
-
-              </div>
-              <div className="content-block__col content-block__col--right"> 
-                <Slide up> 
-                  <SmallNumber 
-                    styleName="small-number--blue"
-                    smallNumNumber={[<>4,400<sup>+</sup></>]}
-                    smallNumCaption="educators trained since 2015"
-                  />
-                  <SmallNumber 
-                    styleName="small-number--blue"
-                    smallNumNumber={[<>36,790<sup>+</sup></>]}
-                    smallNumCaption="students impacted since 2015"
-                  />
-
-                  <div className="mar-top-8">
-                    <img src={kidsImg} alt="Kids Playing"/>
-                  </div>
-                </Slide>
-              </div> 
-            </div>     
+        <div className="container container--small">
+          <div className="content-block__intro">
+            <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
+            <h2>Keeping kids playing during a pandemic</h2>
           </div>
-        </Fade>
+          <div className="content-block__col-wrap">
+            <div className="content-block__col content-block__col--left">
+              <p>Since 2015, Recess Rocks in Rhode Island—a partnership between BCBSRI, Playworks, and the Rhode Island Healthy Schools Coalition—has energized education and increased safe, active, and inclusive play across Rhode Island elementary schools. Within two weeks of school closures, Playworks launched digital services to meet teachers’ needs and fit into schools’ busy schedules, including:</p> 
+
+              <div className="content-block__list content-block__list--blue">
+                <ul>
+                  <li><em>Keep Playing</em>, a weekly game and social emotional learning curriculum</li>
+                  <li>Live recess three times a day</li>
+                  <li>A virtual learning and play series</li>
+                </ul>
+              </div>
+
+              <p>These resources helped educators and families to bring play to every child’s day whether they were attending school remotely or in person.</p>
+
+              <Fade>
+                <LargeNumber
+                  styleName="large-number--blue"
+                  featNumSymbol=""
+                  featNumNumber="100"
+                  featNumValue=""
+                  featNumText="elementary schools trained since 2015"
+                /> 
+              </Fade>       
+
+            </div>
+            <div className="content-block__col content-block__col--right"> 
+              <Slide up> 
+                <SmallNumber 
+                  styleName="small-number--blue"
+                  smallNumNumber={[<>4,400<sup>+</sup></>]}
+                  smallNumCaption="educators trained since 2015"
+                />
+                <SmallNumber 
+                  styleName="small-number--blue"
+                  smallNumNumber={[<>36,790<sup>+</sup></>]}
+                  smallNumCaption="students impacted since 2015"
+                />
+
+                <div className="mar-top-8">
+                  <img src={kidsImg} alt="Kids Playing"/>
+                </div>
+              </Slide>
+            </div> 
+          </div>     
+        </div>
       </section>
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
@@ -292,24 +288,24 @@ const HealthWellBeingPage = () => {
       </section>
 
       <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
-        <Fade>
-          <div className="container container--small">
-            <div className="content-block__intro">
-              <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
-              <h2>Achieving our vision through Diversity, Equity &amp; Inclusion</h2>
+        <div className="container container--small">
+          <div className="content-block__intro">
+            <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
+            <h2>Achieving our vision through Diversity, Equity &amp; Inclusion</h2>
+          </div>
+
+          <div className="content-block__full-width-col content-block__full-width-col--no-spacing">
+            <Fade>
+              <p>Passionately leading a state of health and well-being across Rhode Island requires honest input and innovative solutions to longstanding issues such as systemic racism that lead to health inequities. Diversity, equity, and inclusion are integral to our workplace culture and our approach to providing healthcare.</p>
+            </Fade>
+
+            <div className="mar-top-7 mar-bot-4"> 
+              <div className="eyebrow eyebrow--color-15 eyebrow--no-indent">DEI highlights of 2020</div>
             </div>
 
-            <div className="content-block__full-width-col content-block__full-width-col--no-spacing">
-              <Fade>
-                <p>Passionately leading a state of health and well-being across Rhode Island requires honest input and innovative solutions to longstanding issues such as systemic racism that lead to health inequities. Diversity, equity, and inclusion are integral to our workplace culture and our approach to providing healthcare.</p>
-              </Fade>
+          </div> 
 
-              <div className="mar-top-7 mar-bot-4"> 
-                <div className="eyebrow eyebrow--color-15 eyebrow--no-indent">DEI highlights of 2020</div>
-              </div>
-
-            </div> 
-
+          <Fade>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
                 <h3 className="heading-alt">
@@ -330,17 +326,79 @@ const HealthWellBeingPage = () => {
                 <p>The keynote speaker for our employee Diversity Week was <a href="">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
               </div> 
             </div> 
+          </Fade>
 
-            <div className="content-block__full-width-col mar-top-10">
-              <h3 className="heading-alt">
-                Held a COVID discussion on health equity
-              </h3>
+          <div className="content-block__full-width-col mar-top-10">
+            <h3 className="heading-alt">
+              Held a COVID discussion on health equity
+            </h3>
+          </div>
+
+          <Fade>
+            <div className="content-block__col-wrap">
+              <div className="content-block__col content-block__col--left">
+                <div className="mar-top-4 mar-bot-4">
+                  <img src={ashishImg} alt="Ashish Jha"/>
+                </div>
+                <p>At our annual all-employee and community meeting, Dr. Ashish Jha, Dean of the Brown University School of Public Health, and Austin Frakt, Associate Professor at the Boston University School of Public Health, discussed how we can address the great disparities in health and healthcare exacerbated by the pandemic.</p>                
+              </div>
+              <div className="content-block__col content-block__col--right">
+                <div className="mar-top-2">
+                  <Blockquote 
+                    styleName="blockquote--blue"
+                    blockquoteText="We have to think about the social factors that create the conditions for what has happened as a result of the pandemic, but we also have to think about the healthcare system’s response to those conditions… given all the inequities in our society, the healthcare system must be part of the solution and not part of the problem."
+                    blockquoteAuthor="Dr. Ashish Jha"
+                    blockquoteAuthorTitle="Dean, Brown University School of Public Health"
+                  />  
+                </div>     
+              </div> 
+            </div>
+          </Fade>
+
+          <div className="content-block__full-width-col">
+            <div className="mar-top-4 mar-bot-5"> 
+              <div className="eyebrow eyebrow--color-15 eyebrow--no-indent">Honored to be recognized for DEI</div>
             </div>
 
+            <Fade>
+              <h3 className="heading-alt">
+                2020 Corporate Equality Index
+              </h3>
+              <div className="media-element">
+                <div className="media-element__image">
+                  <img src={bestPlacesImg} alt="Best Places to Work"/>
+                </div>
+                <div className="media-element__text">
+                  <p>With a score of 100%, we were the only Rhode Island company to have received a perfect score on this national measure of LGBTQ workplace equality for the past six years consecutively.</p>
+                </div>
+              </div>
 
+              <h3 className="heading-alt">
+                Bell Seal for Mental Health: Platinum
+              </h3>
+              <div className="media-element">
+                <div className="media-element__image">
+                  <img src={bellSealImg} alt="Workplace Mental Health Award"/>
+                </div>
+                <div className="media-element__text">
+                  <p>Mental Health America awarded BCBSRI the highest possible designation a company can achieve for our commitment to the mental health and well-being of our employees. We are the first company in Rhode Island to receive a platinum designation.</p>
+                </div>
+              </div>
 
+              <h3 className="heading-alt">
+                2020 Disability Equality Index
+              </h3>
+              <div className="media-element">
+                <div className="media-element__image">
+                  <img src={disabilityImg} alt="Disability Equality Index Score of 100"/>
+                </div>
+                <div className="media-element__text">
+                  <p>We were one of two companies headquartered in Rhode Island to receive a top score of 100 on this national benchmarking survey and report on disability workplace equality.</p>
+                </div>
+              </div>
+            </Fade>
           </div>
-        </Fade>
+        </div>
       </section>
 
       <ByTheNumbers/>

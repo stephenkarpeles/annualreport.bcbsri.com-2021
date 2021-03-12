@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 62%;
+  overflow: hidden;
 
   &__title {
     position: relative;
@@ -19,7 +20,7 @@
     padding-bottom: 60px;
 
     @media (--x-large-breakpoint-down) {
-      left: -50px;
+      left: -80px;
     }
 
     @media (--large-breakpoint-down) {
@@ -52,4 +53,57 @@
     justify-content: center;
     flex-direction: column;
   }
+
+  &__intro-text {
+    color: var(--color-3);
+    font-family: var(--font-serif);
+    font-size: 22px;
+    line-height: 36px;
+    padding: 50px 0 40px;
+    font-weight: 700;
+    position: relative;
+    margin-left: -100px;
+    position: relative;
+
+    @media (--x-large-breakpoint-down) {
+      margin-left: -80px;
+    }
+
+    @media (--large-breakpoint-down) {
+      margin-left: 0;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 99999px;
+      background: var(--color-24);
+      height: 1px;
+      z-index: 100;
+      margin-left: -40px;
+
+      @media (--x-large-breakpoint-up) {
+        left: calc((100% - var(--small-container-max-width)) / 2);
+        margin-left: -50px;
+      }
+
+      @media (--x-large-breakpoint-down) {
+        margin-left: -40px;
+      }
+
+      @media (--large-breakpoint-down) {
+        left: 4%;
+        margin-left: -40px;
+      }
+
+      @media (--medium-breakpoint-down) {
+        left: 0;
+        margin-left: 0;
+      }
+    }
+  }
+
+  
 }

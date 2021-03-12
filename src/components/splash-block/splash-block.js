@@ -37,7 +37,14 @@ const SplashBlock = () => {
             <img src={heroImg4} alt=""/>
           </div>
         </div>
-      </Slide>      
+      </Slide> 
+      <div className="container container--small">
+        <Fade>
+          <div className="splash-block__intro-text">
+            <p>2020. In a year of pandemic and social turmoil, Rhode Islanders pulled together to care for and support each other. Their actions inspired all of us at Blue Cross &amp; Blue Shield of Rhode Island (BCBSRI) to play a lead role in helping businesses, members, healthcare providers, and other not-for-profit organizations navigate unprecedented times. We know that the many positive changes we saw last year will carry forward through the future.</p>
+          </div> 
+        </Fade> 
+      </div>     
     </div>
   )
 }

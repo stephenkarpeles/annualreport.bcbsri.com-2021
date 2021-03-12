@@ -4,12 +4,36 @@
 
 .header {
   background: white;
-  padding: 1.5rem 0;
 
   &__container {
     width: 92%;
     margin: 0 auto;
     max-width: 1440px;
+    display: flex;    
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding-top: 30px;
+    font-family: var(--font-stack-medium);
+    color: var(--color-17);
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -.32px;
+  }
+
+  &__logo {
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border-left: 1px solid var(--color-24);
+
+    img {
+      width: 157px;
+    }
   }
 
   &__toggle-menu-btn {
@@ -23,6 +47,8 @@
     display: flex;
     transition: opacity .2s ease;
     width: 6.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
     &:hover {
       opacity: .7;
@@ -31,6 +57,7 @@
 
   &__toggle-menu-btn-burger {
     margin-right: .75rem;
+    margin-top: 13px;
 
     span {
       width: 32px;

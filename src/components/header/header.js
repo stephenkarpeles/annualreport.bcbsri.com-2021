@@ -1,5 +1,8 @@
 import React from 'react';
 import "./header.css"
+import mainLogo from '../../images/logo-bcbsri.svg'
+
+import { Link } from "gatsby"
 
 const Header = () => {
   const MegaMenuOpenClass = "mega-menu-is-open"
@@ -35,6 +38,14 @@ const Header = () => {
           <div className="header__toggle-menu-btn-text">
             Menu
           </div>
+        </div>
+        <div className="header__logo">
+          <Link to="/">
+            <img src={mainLogo} alt="BCBSRI Annual Report"/>
+          </Link>
+        </div>
+        <div className="header__title">
+          2020 Annual and Community Report
         </div>
       </div>
     </header>

@@ -172,6 +172,19 @@ h4,
   }
 }
 
+.splash-block + .content-block {
+  /* Smaller top padding when content block comes right below splash block */
+  padding: 20px 0 120px;
+
+  @media (--x-large-breakpoint-down) {
+    padding: 20px 0 120px;
+  }
+
+  @media (--small-breakpoint-down) {
+    padding: 20px 0 80px;
+  }
+}
+
 .content-block {
   padding: 120px 0;
   background: white;
@@ -585,3 +598,5 @@ h4,
   display: flex;
   flex-wrap: wrap;
 }
+
+/* Split Image Block */

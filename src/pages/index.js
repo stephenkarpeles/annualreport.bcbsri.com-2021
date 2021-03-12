@@ -32,6 +32,12 @@ const IndexPage = () => {
               <div className="content-block__col content-block__col--right">
                 <p>And we reinforced our commitment to comprehensive health and well-being for all Rhode Islanders. Well before the pandemic and economic crisis that followed in its wake starkly underscored the inequities in our state, we had teamed up with the Brown University School of Public Health to address social factors influencing health outcomes, like poverty and structural racism. Armed with data from our RI Life Index confirming that lack of safe and affordable housing was a barrier to Rhode Islanders’ health and well-being, we made significant grants to organizations addressing this issue.</p>
                 <p>We treasure the trust you have placed in us. Going forward, we pledge to continue earning that trust. In the past year, we have learned valuable lessons about what it means to humbly listen, lead, and serve – as a resource, as a partner, and as a force for positive change.</p>
+              
+                <div className="split-image-block">
+                  <div className="split-image-block__col">
+                    <img src="" alt=""/>
+                  </div>
+                </div>
               </div> 
             </div>     
           </div>

@@ -9,12 +9,22 @@
     flex-direction: column;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   &__item {
     position: relative;
     width: 33.33%;
     padding: 50px 40px;
     color: white;
     height: 680px;
+    transition: opacity .4s ease;
+    overflow: hidden;
+
+    &:hover {
+      opacity: .9;
+    }
 
     @media (--small-breakpoint-down) {
       width: 100%;

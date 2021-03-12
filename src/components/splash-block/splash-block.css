@@ -3,7 +3,11 @@
 @import "../breakpoints.css";
 
 .splash-block {
-  padding: 60px 0;
+  padding: 70px 0;
+  background: url('../../images/triangle-large.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 62%;
 
   &__title {
     position: relative;
@@ -12,7 +16,15 @@
     width: 100%;
     margin: 0 auto;
     color: var(--color-17);
-    padding-bottom: 80px;
+    padding-bottom: 60px;
+
+    @media (--x-large-breakpoint-down) {
+      left: -50px;
+    }
+
+    @media (--large-breakpoint-down) {
+      left: 0;
+    }
 
     h1 {
       color: var(--color-17);

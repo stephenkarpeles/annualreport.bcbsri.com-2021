@@ -274,7 +274,7 @@ const HealthWellBeingPage = () => {
             <div className="content-block__col content-block__col--left">
               <Fade>
                 <p>In the last two years, Oak Street Health, a network of primary care practices for adults on Medicare, has opened four locations in Rhode Island in collaboration with BCBSRI. The fourth location opened in November 2020 in Woonsocket. Through their well care model, Oak Street Health provides in-person, phone, and video visits; a 24/7 support line; transportation to appointments; and preventive care plans.</p> 
-                <div className="mar-top-3">
+                <div className="mar-top-3 mar-bot-4">
                   <img src={healthImg2} alt="Health"/>
                 </div>
               </Fade>
@@ -316,7 +316,7 @@ const HealthWellBeingPage = () => {
 
           <Fade>
             <div className="content-block__col-wrap">
-              <div className="content-block__col content-block__col--left">
+              <div className="content-block__col content-block__col--left mar-bot-3">
                 <h3 className="heading-alt">
                   Added 5 new Safe Zones
                 </h3>
@@ -325,7 +325,7 @@ const HealthWellBeingPage = () => {
                 </div>
                 <p>We now have <a href="/">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
               </div>
-              <div className="content-block__col content-block__col--right"> 
+              <div className="content-block__col content-block__col--right mar-bot-3"> 
                 <h3 className="heading-alt">
                   Provided education on antiracism
                 </h3>

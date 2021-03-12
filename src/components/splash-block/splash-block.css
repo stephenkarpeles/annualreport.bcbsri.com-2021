@@ -6,9 +6,17 @@
   padding: 70px 0;
   background: url('../../images/triangle-large.svg');
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: 101% top;
   background-size: 62%;
   overflow: hidden;
+
+  @media (--large-breakpoint-down) {
+    background-size: 70%;
+  }
+
+  @media (--large-breakpoint-down) {
+    background-size: 70%;
+  }
 
   &__title {
     position: relative;
@@ -103,7 +111,5 @@
         margin-left: 0;
       }
     }
-  }
-
-  
+  }  
 }

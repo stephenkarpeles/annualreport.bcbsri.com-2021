@@ -111,11 +111,11 @@ const MegaMenu = () => {
                 <Fade>
                   <ul className="mega-menu__subnav mega-menu__subnav--2">
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience">Virtual tools and innovative benefits</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Accelerating the use of telehealth</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Bringing Your Blue Store into homes</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Making healthcare easier for Medicare members</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Delivering free groceries to high-risk Medicare members</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Giving members more control</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience#accelerating-telehealth">Accelerating the use of telehealth</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience#bringing-your-blue-store">Bringing Your Blue Store into homes</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience#making-healthcare-easier">Making healthcare easier for Medicare members</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience#delivering-free-groceries">Delivering free groceries to high-risk Medicare members</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience#giving-members-control">Giving members more control</Link></li>
                   </ul>
                 </Fade>
               </li>

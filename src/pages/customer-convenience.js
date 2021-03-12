@@ -38,7 +38,7 @@ const CustomerConveniencePage = () => {
         subheading="New virtual tools and innovative benefits helped Rhode Islanders gain more control over their own health and well-being."
       />
 
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+      <section id="accelerating-telehealth" className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
@@ -124,7 +124,7 @@ const CustomerConveniencePage = () => {
         </Fade>
       </section> 
 
-      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+      <section id="bringing-your-blue-store" className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
@@ -185,7 +185,7 @@ const CustomerConveniencePage = () => {
         </Fade>
       </section>
 
-      <section className="content-block content-block--bottom-padding-large content-block--light-text" style={{ backgroundColor: "#003E51"}}>
+      <section id="making-healthcare-easier" className="content-block content-block--bottom-padding-large content-block--light-text" style={{ backgroundColor: "#003E51"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
@@ -232,7 +232,7 @@ const CustomerConveniencePage = () => {
         </div>
       </section>  
       
-      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+      <section id="delivering-free-groceries" className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
@@ -267,7 +267,7 @@ const CustomerConveniencePage = () => {
         </Fade>
       </section>
 
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+      <section id="giving-members-control" className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">

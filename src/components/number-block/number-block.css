@@ -1,0 +1,93 @@
+@import "../mixins.css";
+@import "../variables.css";
+@import "../breakpoints.css";
+
+.number-block {
+  width: 33.33%;
+  padding: 50px 30px;
+  text-align: center;
+  border-bottom: 4px solid var(--color-25);
+
+  &:nth-child(n+4) {
+    border-bottom: none;
+  }
+
+  &:nth-child(1),
+  &:nth-child(2),
+  &:nth-child(4),
+  &:nth-child(5) {
+    border-right: 4px solid var(--color-25);
+  }
+
+  @media (--large-breakpoint-down) {
+    width: 50%;
+
+    &:nth-child(4) {
+      border-bottom: 4px solid var(--color-25);
+    }
+
+    &:nth-child(n+5) {
+      border-bottom: none;
+    }
+
+    &:nth-child(odd) {
+      border-right: 4px solid var(--color-25);
+    }
+
+    &:nth-child(even) {
+      border-right: none;
+    }
+  }
+
+  @media (--small-breakpoint-down) {
+    width: 100%;
+    border-right: none;
+    padding: 40px 20px;
+    border-bottom: 4px solid var(--color-25);
+
+    &:nth-child(n+5) {
+      border-bottom: 4px solid var(--color-25);
+    }
+  }
+
+  &__number {
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--color-15);
+    font-family: var(--font-serif);
+    font-weight: 700;
+    padding-bottom: 20px;
+
+    sup {
+      font-size: 40px;
+      position: relative;
+      top: 1px;
+    }
+
+    @media (--medium-breakpoint-down) {
+      font-size: 48px;
+      line-height: 60px;
+      padding-bottom: 15px;
+    }
+  }
+
+  &__caption {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-10);
+    max-width: 340px;
+    width: 100%;
+    margin: 0 auto;
+
+    sup {
+      font-size: 12px;
+      position: relative;
+      top: 1px;
+    }
+
+    @media (--medium-breakpoint-down) {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

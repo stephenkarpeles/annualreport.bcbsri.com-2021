@@ -580,3 +580,8 @@ h4,
   }
 }
 
+/* Flex Block */
+.flex-block {
+  display: flex;
+  flex-wrap: wrap;
+}

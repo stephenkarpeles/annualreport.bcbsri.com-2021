@@ -275,14 +275,14 @@ const HealthWellBeingPage = () => {
               <Fade>
                 <p>In the last two years, Oak Street Health, a network of primary care practices for adults on Medicare, has opened four locations in Rhode Island in collaboration with BCBSRI. The fourth location opened in November 2020 in Woonsocket. Through their well care model, Oak Street Health provides in-person, phone, and video visits; a 24/7 support line; transportation to appointments; and preventive care plans.</p> 
                 <div className="mar-top-3">
-                  <img src={healthImg2} alt="Health Image"/>
+                  <img src={healthImg2} alt="Health"/>
                 </div>
               </Fade>
             </div>
             <div className="content-block__col content-block__col--right"> 
               <Slide up>
                 <div className="mar-bot-4">
-                  <img src={healthImg1} alt="Health Image"/>
+                  <img src={healthImg1} alt="Health"/>
                 </div>
                 <VideoModal
                   caption="Take a virtual tour"
@@ -323,7 +323,7 @@ const HealthWellBeingPage = () => {
                 <div className="mar-top-4 mar-bot-4">
                   <img src={safeImg} alt="Safe Zone"/>
                 </div>
-                <p>We now have <a href="">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
+                <p>We now have <a href="/">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
               </div>
               <div className="content-block__col content-block__col--right"> 
                 <h3 className="heading-alt">
@@ -332,7 +332,7 @@ const HealthWellBeingPage = () => {
                 <div className="mar-top-4 mar-bot-4">
                   <img src={ibramImg} alt="Safe Zone"/>
                 </div>
-                <p>The keynote speaker for our employee Diversity Week was <a href="">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
+                <p>The keynote speaker for our employee Diversity Week was <a href="/">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
               </div> 
             </div> 
           </Fade>

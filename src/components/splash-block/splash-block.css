@@ -1,0 +1,43 @@
+@import "../mixins.css";
+@import "../variables.css";
+@import "../breakpoints.css";
+
+.splash-block {
+  padding: 60px 0;
+
+  &__title {
+    position: relative;
+    z-index: 100;
+    left: -100px;
+    width: 100%;
+    margin: 0 auto;
+    color: var(--color-17);
+    padding-bottom: 80px;
+
+    h1 {
+      color: var(--color-17);
+      font-size: 60px;
+      line-height: 72px;
+      text-transform: uppercase;
+      font-weight: 300;
+
+      span {
+        font-family: var(--font-serif);
+        font-size: 64px;
+        font-weight: 900;
+      }
+    }
+  }
+
+  &__image-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__image {
+    width: calc(25% - 25px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

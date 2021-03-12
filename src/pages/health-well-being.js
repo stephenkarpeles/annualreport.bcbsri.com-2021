@@ -42,10 +42,12 @@ const HealthWellBeingPage = () => {
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
         <div className="container container--small">
-            <div className="content-block__intro">
-              <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
-              <h2>Expanding coverage during COVID-19— at no added cost to members</h2>
-            </div>
+            <Fade>
+              <div className="content-block__intro">
+                <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
+                <h2>Expanding coverage during COVID-19— at no added cost to members</h2>
+              </div>
+            </Fade>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
                 <Fade>
@@ -109,10 +111,12 @@ const HealthWellBeingPage = () => {
 
       <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <div className="container container--small">
-            <div className="content-block__intro">
-              <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
-              <h2>Volunteering with a focus on community and safety</h2>
-            </div>
+            <Fade>
+              <div className="content-block__intro">
+                <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
+                <h2>Volunteering with a focus on community and safety</h2>
+              </div>
+            </Fade>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
                 <p>Volunteering during a pandemic is complicated, but it’s also critically important to Rhode Islanders in need of assistance. BCBSRI held our 9th annual company-wide Blue across Rhode Island volunteer day on Friday, September 25, completing projects at 15 sites across the state while following COVID-19 safety guidelines. In addition to volunteer support, each project site received a financial contribution of $5,000 to assist with their important work.</p> 
@@ -151,11 +155,13 @@ const HealthWellBeingPage = () => {
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
         <div className="container container--small">
+          <Fade>
             <div className="content-block__intro">
               <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
               <h2>Using data and philanthropy to address housing</h2>
             </div>
-            <div className="content-block__col-wrap">
+          </Fade>
+          <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
                 <Fade>
                   <p>The need for safe and affordable homes has never been as critical as it is now, when staying at home is the first line of defense against the spread of COVID-19. But for many Rhode Islanders, this basic need is out of reach or increasingly unstable, a finding reinforced by the data we obtained through the 2019 launch of the RI Life Index, a data source produced in partnership with the Brown University School of Public Health that focuses on the life factors influencing health and well-being.</p>
@@ -203,10 +209,12 @@ const HealthWellBeingPage = () => {
 
       <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <div className="container container--small">
-          <div className="content-block__intro">
-            <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
-            <h2>Keeping kids playing during a pandemic</h2>
-          </div>
+          <Fade>
+            <div className="content-block__intro">
+              <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
+              <h2>Keeping kids playing during a pandemic</h2>
+            </div>
+          </Fade>
           <div className="content-block__col-wrap">
             <div className="content-block__col content-block__col--left">
               <p>Since 2015, Recess Rocks in Rhode Island—a partnership between BCBSRI, Playworks, and the Rhode Island Healthy Schools Coalition—has energized education and increased safe, active, and inclusive play across Rhode Island elementary schools. Within two weeks of school closures, Playworks launched digital services to meet teachers’ needs and fit into schools’ busy schedules, including:</p> 
@@ -255,45 +263,46 @@ const HealthWellBeingPage = () => {
       </section>
 
       <section className="content-block" style={{ backgroundColor: "#fff"}}>
-        <Fade>
-          <div className="container container--small">
+        <div className="container container--small">
+          <Fade>
             <div className="content-block__intro">
               <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
               <h2>Bringing Oak Street Health to more members</h2>
             </div>
-            <div className="content-block__col-wrap">
-              <div className="content-block__col content-block__col--left">
-                <Fade>
-                  <p>In the last two years, Oak Street Health, a network of primary care practices for adults on Medicare, has opened four locations in Rhode Island in collaboration with BCBSRI. The fourth location opened in November 2020 in Woonsocket. Through their well care model, Oak Street Health provides in-person, phone, and video visits; a 24/7 support line; transportation to appointments; and preventive care plans.</p> 
-                  <div className="mar-top-3">
-                    <img src={healthImg2} alt="Health Image"/>
-                  </div>
-                </Fade>
-              </div>
-              <div className="content-block__col content-block__col--right"> 
-                <Slide up>
-                  <div className="mar-bot-4">
-                    <img src={healthImg1} alt="Health Image"/>
-                  </div>
-                  <VideoModal
-                    caption="Take a virtual tour"
-                    posterImage={videoImgOffice}
-                    videoSource="//player.vimeo.com/video/436584887"
-                  /> 
-                </Slide>
-              </div> 
-            </div>     
-          </div>
-        </Fade>
+          </Fade>
+          <div className="content-block__col-wrap">
+            <div className="content-block__col content-block__col--left">
+              <Fade>
+                <p>In the last two years, Oak Street Health, a network of primary care practices for adults on Medicare, has opened four locations in Rhode Island in collaboration with BCBSRI. The fourth location opened in November 2020 in Woonsocket. Through their well care model, Oak Street Health provides in-person, phone, and video visits; a 24/7 support line; transportation to appointments; and preventive care plans.</p> 
+                <div className="mar-top-3">
+                  <img src={healthImg2} alt="Health Image"/>
+                </div>
+              </Fade>
+            </div>
+            <div className="content-block__col content-block__col--right"> 
+              <Slide up>
+                <div className="mar-bot-4">
+                  <img src={healthImg1} alt="Health Image"/>
+                </div>
+                <VideoModal
+                  caption="Take a virtual tour"
+                  posterImage={videoImgOffice}
+                  videoSource="//player.vimeo.com/video/436584887"
+                /> 
+              </Slide>
+            </div> 
+          </div>     
+        </div>
       </section>
 
       <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <div className="container container--small">
-          <div className="content-block__intro">
-            <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
-            <h2>Achieving our vision through Diversity, Equity &amp; Inclusion</h2>
-          </div>
-
+          <Fade>
+            <div className="content-block__intro">
+              <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
+              <h2>Achieving our vision through Diversity, Equity &amp; Inclusion</h2>
+            </div>
+          </Fade>
           <div className="content-block__full-width-col content-block__full-width-col--no-spacing">
             <Fade>
               <p>Passionately leading a state of health and well-being across Rhode Island requires honest input and innovative solutions to longstanding issues such as systemic racism that lead to health inequities. Diversity, equity, and inclusion are integral to our workplace culture and our approach to providing healthcare.</p>

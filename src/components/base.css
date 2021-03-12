@@ -635,3 +635,38 @@ h4,
     font-style: italic;
   }
 }
+
+/* Investing Block */
+.investing-intro {
+  padding: 120px 0 60px;
+  text-align: center;
+
+  h3 {
+    color: var(--color-17);
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0;
+    padding: 0
+  }
+}
+
+.investing-footnote {
+  padding: 0 0 90px;
+  background: white;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: italic;
+  color: var(--color-10);
+  font-family: var(--font-stack-light);
+
+  @media (--large-breakpoint-down) {
+    padding: 20px 0 90px;
+  }
+
+  sup {
+    font-size: 10px;
+    position: relative;
+    top: 2px;
+  }
+}

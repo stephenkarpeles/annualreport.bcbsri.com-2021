@@ -56,6 +56,14 @@ const IndexPage = () => {
           </div>
         </Fade>
       </section>
+
+      <section className="investing-intro" style={{ backgroundColor: "#F7F9FA"}}>
+        <div className="container">
+          <Fade>
+            <h3>Investing in our community</h3>
+          </Fade>
+        </div>
+      </section>
     
       <Fade>
         <div className="flex-block">
@@ -83,6 +91,9 @@ const IndexPage = () => {
             numBlockNumber={[<><sup>$</sup>3,207,818</>]}
             numBlockCaption="invested by the company through financial or in-kind donations or distributions from the Rhode Island Community Health Fund at the RI Foundation."
           />
+        </div>
+        <div className="investing-footnote">
+          <sup>1</sup>Source: Independent Sector
         </div>
       </Fade>
 

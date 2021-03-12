@@ -600,3 +600,38 @@ h4,
 }
 
 /* Split Image Block */
+.split-image-block {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__col {
+    width: 45%;
+  }
+
+  &__title {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--font-stack-regular);
+    color: var(--color-10);
+    padding-bottom: 5px;
+  }
+
+  &__name {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-stack-bold);
+    color: var(--color-10);
+    padding-bottom: 5px;
+  }
+
+  &__pronoun {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--color-26);
+    font-family: var(--font-stack-regular);
+    font-style: italic;
+  }
+}

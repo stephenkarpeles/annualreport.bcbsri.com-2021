@@ -32,7 +32,7 @@ const FinancialReliefPage = () => {
         subheading="BCBSRI helped providers and businesses through the pandemic not just with monetary assistance, but also with empathy and flexibility."
       />
 
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+      <section id="delivering-premium-relief" className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
@@ -69,7 +69,7 @@ const FinancialReliefPage = () => {
         </Fade>
       </section>
 
-      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+      <section id="supporting-covid19-relief" className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
@@ -118,7 +118,7 @@ const FinancialReliefPage = () => {
         />
       </Fade>
 
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+      <section id="offering-grants" className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
@@ -160,7 +160,7 @@ const FinancialReliefPage = () => {
         </Fade>
       </section>
 
-      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+      <section id="helping-small-businesses" className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
@@ -194,7 +194,7 @@ const FinancialReliefPage = () => {
         </Fade>
       </section>
 
-      <section className="content-block content-block--light-text" style={{ backgroundColor: "#003E51"}}>
+      <section id="navigating-cares-act" className="content-block content-block--light-text" style={{ backgroundColor: "#003E51"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">
@@ -220,7 +220,7 @@ const FinancialReliefPage = () => {
         altText="Financial Relief"
       />
 
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+      <section id="supporting-providers" className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>
           <div className="container container--small">
             <div className="content-block__intro">

@@ -130,12 +130,12 @@ const MegaMenu = () => {
                 <Fade>
                   <ul className="mega-menu__subnav mega-menu__subnav--3">
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief">Assistance, empathy, and flexibility</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Delivering premium relief to customers</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Supporting COVID-19 relief efforts</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Offering grants to behavioral health practices</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Helping small businesses during the pandemic</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Navigating the CARES Act</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/">Supporting providers with the rapid adoption of telehealth, advance payments</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#delivering-premium-relief">Delivering premium relief to customers</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#supporting-covid19-relief">Supporting COVID-19 relief efforts</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#offering-grants">Offering grants to behavioral health practices</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#helping-small-businesses">Helping small businesses during the pandemic</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#navigating-cares-act">Navigating the CARES Act</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#supporting-providers">Supporting providers with the rapid adoption of telehealth, advance payments</Link></li>
                   </ul>
                 </Fade>
               </li>

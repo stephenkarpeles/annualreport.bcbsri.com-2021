@@ -40,7 +40,7 @@ const HealthWellBeingPage = () => {
         subheading="New virtual tools and innovative benefits helped Rhode Islanders gain more control over their own health and well-being."
       />
 
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+      <section id="expanding-coverage" className="content-block" style={{ backgroundColor: "#fff"}}>
         <div className="container container--small">
             <Fade>
               <div className="content-block__intro">
@@ -109,7 +109,7 @@ const HealthWellBeingPage = () => {
           </div>
       </section> 
 
-      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+      <section id="volunteering" className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <div className="container container--small">
             <Fade>
               <div className="content-block__intro">
@@ -153,7 +153,7 @@ const HealthWellBeingPage = () => {
           </div>
       </section> 
 
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+      <section id="using-data-and-technology" className="content-block" style={{ backgroundColor: "#fff"}}>
         <div className="container container--small">
           <Fade>
             <div className="content-block__intro">
@@ -207,7 +207,7 @@ const HealthWellBeingPage = () => {
           </div>
       </section> 
 
-      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+      <section id="keeping-kids-playing" className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <div className="container container--small">
           <Fade>
             <div className="content-block__intro">
@@ -262,7 +262,7 @@ const HealthWellBeingPage = () => {
         </div>
       </section>
 
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
+      <section id="bringing-oak-street-health" className="content-block" style={{ backgroundColor: "#fff"}}>
         <div className="container container--small">
           <Fade>
             <div className="content-block__intro">
@@ -295,7 +295,7 @@ const HealthWellBeingPage = () => {
         </div>
       </section>
 
-      <section className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
+      <section id="achieving-our-vision" className="content-block" style={{ backgroundColor: "#f7f9fa"}}>
         <div className="container container--small">
           <Fade>
             <div className="content-block__intro">

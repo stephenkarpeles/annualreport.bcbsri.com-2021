@@ -7,6 +7,7 @@ import Layout from "../components/layout/layout"
 import ByTheNumbers from "../components/by-the-numbers/by-the-numbers"
 import NumberBlock from "../components/number-block/number-block"
 import SplashBlock from "../components/splash-block/splash-block"
+import CtaBlock from "../components/cta-block/cta-block"
 
 const IndexPage = () => {
   return (
@@ -36,7 +37,7 @@ const IndexPage = () => {
           </div>
         </Fade>
       </section>
-
+    
       <Fade>
         <div className="flex-block">
           <NumberBlock
@@ -65,6 +66,9 @@ const IndexPage = () => {
           />
         </div>
       </Fade>
+
+      <CtaBlock/>
+      
       <ByTheNumbers/>
     </Layout>
   )

@@ -9,9 +9,9 @@ import heroImg2 from "../../images/hero-image-2.jpg"
 import heroImg3 from "../../images/hero-image-3.jpg"
 import heroImg4 from "../../images/hero-image-4.jpg"
 
-const SplashBlock = (props) => {
+const SplashBlock = () => {
   return (
-    <div className={`splash-block ${props.styleName}`}>
+    <div className="splash-block">
       <div className="container container--small">
         <div className="splash-block__title">
           <Fade>

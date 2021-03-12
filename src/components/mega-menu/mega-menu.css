@@ -53,6 +53,11 @@
     padding: 0 4vw 1rem;
     background: var(--color-11);
 
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
     span {
       font-size: 16px;
       line-height: 24px;

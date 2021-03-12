@@ -76,7 +76,9 @@ const MegaMenu = () => {
             </div>
           </div>
           <div className="mega-menu__title">
-            <span>2020 Annual and Community Report</span>
+            <Link to="/" onClick={hideMegaMenu} onKeyDown={hideMegaMenu}>
+              <span>2020 Annual and Community Report</span>
+            </Link>
           </div>
           <nav className="mega-menu__nav">
             <ul>

@@ -68,6 +68,10 @@
       font-size: 48px;
       line-height: 60px;
       padding-bottom: 15px;
+
+      sup {
+        font-size: 30px;
+      }
     }
   }
 
@@ -88,6 +92,10 @@
     @media (--medium-breakpoint-down) {
       font-size: 14px;
       line-height: 20px;
+
+      sup {
+        font-size: 10px;
+      }
     }
   }
 }

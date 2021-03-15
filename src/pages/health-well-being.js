@@ -134,7 +134,7 @@ const HealthWellBeingPage = () => {
               </div>
               <div className="content-block__col content-block__col--right"> 
                 <Slide up> 
-                  <div className="mar-bot-4 blue-across-ri-logo-wrap">
+                  <div className="mar-bot-4 mar-top-2 blue-across-ri-logo-wrap">
                     <img src={blueAcrossLogo} alt="Blue Across Rhode Island"/>
                   </div>
                   <SmallNumber 

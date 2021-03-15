@@ -13,7 +13,7 @@ import LargeNumber from "../components/large-number/large-number"
 // import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
-import HeroImg from "../images/hero-bcg-customer-convenience-fullsize.jpg"
+import HeroImg from "../images/backgrounds/hero-bcg-customer-convenience-new.jpg"
 import familyImg from '../images/family-excercise.jpg'
 // import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
 // import reliefImg from '../images/financial-relief-small-businesses.png'

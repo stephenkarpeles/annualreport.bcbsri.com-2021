@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 import iconCustomerConvenienceWhite from '../../images/icons/icon-nav-customer-convenience_white.png'
 import iconFinancialReliefWhite from '../../images/icons/icon-nav-financial-relief.png'
 import iconHealthWellbeingWhite from '../../images/icons/icon-nav-health-well-being_white.png'
-import iconCustomerConvenience from '../../images/icons/icon-nav-customer-convenience.png'
+import iconCustomerConvenience from '../../images/icons/icon-nav-customer-convenience-orange.png'
 import iconFinancialRelief from '../../images/icons/icon-nav-financial-relief-green.png'
 import iconHealthWellbeing from '../../images/icons/icon-nav-health-well-being.png'
 

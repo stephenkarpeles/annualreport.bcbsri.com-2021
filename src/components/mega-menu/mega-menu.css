@@ -5,9 +5,9 @@
 .mega-menu {
   background-image: 
     /* Load them all in advance so there's no delay on swap */
-    url('../../images/backgrounds/nav-bcg-health-well-being.jpg'),
-    url('../../images/backgrounds/nav-bcg-customer-convenience.jpg'),
-    url('../../images/backgrounds/nav-bcg-financial-relief.jpg');
+    url('../../images/backgrounds/hero-bcg-health-wellbeing-new.jpg'),
+    url('../../images/backgrounds/hero-bcg-customer-convenience-new.jpg'),
+    url('../../images/backgrounds/hero-bcg-financial-relief-new.jpg');
   position: absolute;
   z-index: 9000;
   left: 0;
@@ -56,6 +56,10 @@
     a {
       text-decoration: none;
       color: white;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     span {

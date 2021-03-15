@@ -22,6 +22,16 @@
     font-size: 16px;
     line-height: 22px;
     letter-spacing: -.32px;
+
+    a {
+      color: var(--color-17);
+      transition: opacity .2s ease;
+      text-decoration: none;
+
+      &:hover {
+        opacity: .75;
+      }
+    }
   }
 
   &__logo {

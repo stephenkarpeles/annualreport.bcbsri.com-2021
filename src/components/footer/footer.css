@@ -20,7 +20,7 @@
     transition: .35s opacity ease;
 
     &:hover {
-      opacity: .7;
+      text-decoration: underline;
     }
   }
 
@@ -108,6 +108,15 @@
           justify-content: center;
           flex-direction: column;
           text-align: center;
+
+          &:hover {
+            transition: all .3s ease;
+            background: var(--color-15);
+
+            img {
+              filter: invert(1) sepia(1) saturate(.5) hue-rotate(175deg)
+            }
+          }
         }
 
         img {

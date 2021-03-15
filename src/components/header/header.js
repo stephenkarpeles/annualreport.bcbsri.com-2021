@@ -45,7 +45,9 @@ const Header = () => {
           </Link>
         </div>
         <div className="header__title">
-          2020 Annual and Community Report
+          <Link to="/">
+            2020 Annual and Community Report
+          </Link>
         </div>
       </div>
     </header>

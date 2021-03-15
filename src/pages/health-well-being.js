@@ -13,7 +13,7 @@ import LargeNumber from "../components/large-number/large-number"
 // import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
-import HeroImg from "../images/hero-bcg-health-well-being-fullsize.jpg"
+import HeroImg from "../images/hero-bcg-health-wellbeing-new-gradient.jpg"
 import covidImg from "../images/covid-testing.png"
 import housingImg from "../images/housing.png"
 import pillIcon from "../images/icons/icon-prescription.svg"

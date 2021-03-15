@@ -6,12 +6,13 @@
   background-size: cover;
   padding: 140px 0 220px;
   position: relative;
-  background-position: right center;
+  background-position: right top;
+  background-repeat: no-repeat;
   overflow: hidden;
 
   @media (--medium-breakpoint-down) {
     background-position: right -100px;
-    padding: 100px 0 0 ;
+    padding: 160px 0 0 ;
   }
 
   /* &::after {
@@ -107,14 +108,23 @@
   }
 
   &--health-well-being {
-    background-position: 10px top;
 
     @media (--hero-image-up) {
-      background-position: 150px top;
+      background-position: right top;
     }
 
     @media (--medium-breakpoint-down) {
       background-position: right top;
+      background-image: url('../../images/backgrounds/hero-bcg-health-wellbeing-mobile.jpg') !important;
+    }
+
+    @media (--small-breakpoint-down) {
+      background-size: 150vw;
+    }
+
+    @media (--extra-small-breakpoint-down) {
+      background-position: -90vw top;
+      background-size: 220vw;
     }
 
     &::after {

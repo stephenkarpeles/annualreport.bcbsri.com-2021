@@ -29,6 +29,7 @@ import ashishImg from "../images/ashish-jha.jpg"
 import bestPlacesImg from "../images/logo-best-places-to-work.jpg"
 import bellSealImg from "../images/logo-bell-seal.png"
 import disabilityImg from "../images/logo-disability-equality-index.jpg"
+import blueAcrossLogo from "../images/logo-blue-across-ri.png"
 
 const HealthWellBeingPage = () => {
   return (
@@ -119,11 +120,12 @@ const HealthWellBeingPage = () => {
             </Fade>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <p>Volunteering during a pandemic is complicated, but it’s also critically important to Rhode Islanders in need of assistance. BCBSRI held our 9th annual company-wide Blue across Rhode Island volunteer day on Friday, September 25, completing projects at 15 sites across the state while following COVID-19 safety guidelines. In addition to volunteer support, each project site received a financial contribution of $5,000 to assist with their important work.</p> 
+                <p>Volunteering during a pandemic is complicated, but it’s also critically important to Rhode Islanders in need of assistance. BCBSRI held our 9th annual company-wide Blue across Rhode Island volunteer day on Friday, September 25, completing projects at 15 sites across the state while following COVID-19 safety guidelines.</p>
+                <p>In addition to volunteer support, each project site received a financial contribution of $5,000 to assist with their important work.</p> 
 
                 <Slide up>
                   <VideoModal
-                    caption="See the impact of Blue across Rhode Island"
+                    caption={[<><u>See the impact</u> of Blue across Rhode Island</>]}
                     posterImage={videoImgBlue}
                     videoSource="//www.youtube.com/embed/kcyUY10D3N4"
                   /> 
@@ -132,6 +134,9 @@ const HealthWellBeingPage = () => {
               </div>
               <div className="content-block__col content-block__col--right"> 
                 <Slide up> 
+                  <div className="mar-bot-4 blue-across-ri-logo-wrap">
+                    <img src={blueAcrossLogo} alt="Blue Across Rhode Island"/>
+                  </div>
                   <SmallNumber 
                     styleName="small-number--blue"
                     smallNumNumber="2,172"
@@ -285,9 +290,9 @@ const HealthWellBeingPage = () => {
                   <img src={healthImg1} alt="Health"/>
                 </div>
                 <VideoModal
-                  caption="Take a virtual tour"
+                  caption={[<>Take a <u>virtual tour</u></>]}
                   posterImage={videoImgOffice}
-                  videoSource="//player.vimeo.com/video/436584887"
+                  videoSource="//www.youtube.com/embed/sA8v0ZttJ9c"
                 /> 
               </Slide>
             </div> 

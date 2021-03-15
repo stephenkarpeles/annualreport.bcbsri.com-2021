@@ -670,3 +670,12 @@ h4,
     top: 2px;
   }
 }
+
+/* Miscellaneous */
+.blue-across-ri-logo-wrap {
+  max-width: 250px;
+
+  img {
+    max-width: 100%;
+  }
+}

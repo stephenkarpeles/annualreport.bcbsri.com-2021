@@ -46,6 +46,23 @@
     color: var(--color-10);
     font-size: 16px;
     line-height: 24px;
+    outline: none;
+
+    &:hover,
+    &:active {
+      outline: none;
+    }
+
+    u {
+      cursor: pointer;
+      transition: opacity .2s ease;
+      outline: none;
+
+      &:hover,
+      &:active {
+        color: var(--color-15);
+      }
+    }
   }
 }
 

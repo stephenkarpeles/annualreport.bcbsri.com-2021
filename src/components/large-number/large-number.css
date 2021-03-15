@@ -90,7 +90,7 @@
       color: var(--color-15);
 
       &::before {
-        background: var(--color-15);
+        background: var(--color-27);
       }
     }
   }

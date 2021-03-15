@@ -35,7 +35,7 @@ const VideoModal = (props) => {
           <img src={videoPlayIcon} alt="Play Video"/>
         </div>
       </div>   
-      <div className="video-modal__caption">
+      <div className="video-modal__caption" onClick={openModal} onKeyDown={openModal} role="button" tabIndex="0">
         {props.caption}
       </div>
 

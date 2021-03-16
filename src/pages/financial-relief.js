@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
+import { Link } from "gatsby"
 
 // Components
 import Layout from "../components/layout/layout"
@@ -95,7 +96,7 @@ const FinancialReliefPage = () => {
               <div className="content-block__col content-block__col--right"> 
                 <Slide up>               
                   <VideoModal
-                    caption="Watch a clip of the Rhode Island PBS short film series, Kids Want to Know, sponsored by BCBSRI."
+                    caption={[<><u>Watch a clip</u> of the Rhode Island PBS short film series, <em>Kids Want to Know</em>, sponsored by BCBSRI.</>]}
                     posterImage={videoKidsImage}
                     videoSource="//www.youtube.com/embed/lFa201sGqm4"
                   />
@@ -215,10 +216,12 @@ const FinancialReliefPage = () => {
         </Fade>
       </section>
 
-      <FullWidthImage
-        bgImg={websiteImg}
-        altText="Financial Relief"
-      />
+        <Link target="_blank" rel="noreferrer" to="https://www.bcbsri.com/keepinformed/">
+          <FullWidthImage
+            bgImg={websiteImg}
+            altText="Financial Relief"
+          />
+        </Link>
 
       <section id="supporting-providers" className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>

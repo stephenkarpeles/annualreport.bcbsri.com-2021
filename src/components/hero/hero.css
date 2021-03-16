@@ -93,6 +93,20 @@
   }
 
   &--financial-relief {
+    @media (--medium-breakpoint-down) {
+      background-position: right -50px;
+      background-image: url('../../images/backgrounds/hero-bcg-financial-relief-mobile.jpg') !important;
+    }
+
+    @media (--small-breakpoint-down) {
+      background-size: 150vw;
+    }
+
+    @media (--extra-small-breakpoint-down) {
+      background-position: -90vw top;
+      background-size: 220vw;
+    }
+
     &::after {
       content: '';
       background-image: url('../../images/patterns/hero-pattern-financial-relief.svg');
@@ -305,6 +319,7 @@
     flex-direction: column;
     text-align: center;
     font-weight: 700;
+    position: relative;
 
     animation-name: bounce-vertical;
     animation-duration: 2s;
@@ -319,6 +334,15 @@
     
     @media (--medium-breakpoint-down) {
       display: none;
+    }
+
+    svg {
+      width: 14px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 50px;
     }
   }
 }

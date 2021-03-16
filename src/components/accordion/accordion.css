@@ -3,63 +3,36 @@
 @import "../mixins.css";
 
 .accordion-item {
+  padding: 15px 25px 0;
   border-top: 1px solid var(--color-9);
   border-left: 1px solid var(--color-9);
   border-right: 1px solid var(--color-9);
-  color: white;
-  padding: 15px 25px;
+  color: white;   
   cursor: pointer;
-  background: white;
   outline: none;
-
-  &:last-child {
-    border-bottom: 1px solid var(--color-9);
-  }
 
   h4 {
     margin: 0;
     padding: 0;
     font-size: var(--font-size-h4);
     line-height: var(--line-height-h4);
-    font-weight: 700;
-    color: var(--color-3);
-    position: relative;
-
-    sup {
-      font-size: 14px;
-      position: relative;
-      top: 1px;
-      margin-left: 2px;
-    }
   }
 
-  &--inactive {
-    background: transparent;
-
-    h4 {
-      color: white;
-    }
+  &:focus,
+  &:active {
+    outline: none;
   }
 
-  &__title {
-    position: relative;
+  &:last-child {
+    border-bottom: 1px solid var(--color-9);
   }
 
-  &__content {
-    transition: transform 0.5s ease; 
-    height: auto;
-    padding: 10px 50px 10px 0;
-    transform: scaleY(1);
-    transform-origin: top;
-    color: var(--color-10);
-    font-size: 14px;
-    line-height: 20px;
-    opacity: 1;
-
-    p {
-      margin-top: 0;
-      padding-bottom: .25rem;
-    }
+  .accordion-item__content {
+    transition: height 1s, transform 1s, opacity .1s;
+    transform: scaleY(0);
+    height: 0;
+    padding: 0;
+    opacity: 0;
   }
 
   .accordion-item__arrow {
@@ -68,24 +41,52 @@
     height: 12px;
     top: -2px;
     right: 0;
-    transform: rotate(90deg);
-    transition: transform .3s ease;
-    transform-origin: center;
-    top: 30px;
-    right: -15px;
+    transform: rotate(0);
+    transition: transform .5s;
 
     svg,
     path {
-      fill: var(--color-15);
+      fill: #fff;
     }
   }
 
-  &--inactive {
+  &--active {
+    cursor: pointer;
+    background: white;
+    outline: none;   
+  }
+
+  &--active {
+    padding: 15px 25px;
+
+    h4 {      
+      font-weight: 700;
+      color: var(--color-3);
+      position: relative;
+    }
+
+    sup {
+      font-size: 14px;
+      position: relative;
+      top: 1px;
+      margin-left: 2px;
+    }
+
     .accordion-item__content {
-      transform: scaleY(0);
-      height: 0;
-      padding: 0;
-      opacity: 0;
+      transition: height 1s, transform .5s; 
+      height: auto;
+      padding: 10px 50px 10px 0;
+      transform: scaleY(1);
+      transform-origin: top;
+      color: var(--color-10);
+      font-size: 14px;
+      line-height: 20px;
+      opacity: 1;
+
+      p {
+        margin-top: 0;
+        padding-bottom: .25rem;
+      }
     }
 
     .accordion-item__arrow {
@@ -94,12 +95,20 @@
       height: 12px;
       top: -2px;
       right: 0;
-      transform: rotate(0);
+      transform: rotate(90deg);
+      transition: transform .5s ease;
+      transform-origin: center;
+      top: 30px;
+      right: -15px;
 
       svg,
       path {
-        fill: #fff;
+        fill: var(--color-15);
       }
     }
-  }  
+  }
+
+  &__title {
+    position: relative;
+  }      
 }

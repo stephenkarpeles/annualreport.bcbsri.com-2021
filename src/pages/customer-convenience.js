@@ -24,7 +24,8 @@ import groceryImg from '../images/video-grocery-delivery.jpg'
 import membersImg from '../images/giving-members-more-control.jpg'
 import mybcbsriImg from '../images/video-mybcbsri.jpg'
 import medicareImg from '../images/video-medicare-advantage.jpg'
-import manDogImg from '../images/medicare.jpg'
+
+import medicareImg2 from '../images/medicare.jpg'
 import smilingImg from '../images/accelerating-the-use-of-health.jpg'
 import telehealthImg from '../images/telehealth.png'
 
@@ -83,7 +84,7 @@ const CustomerConveniencePage = () => {
               <LargeNumber
                 styleName="large-number--orange"
                 featNumSymbol=""
-                featNumNumber="31,586"
+                featNumNumber="46"
                 featNumValue="%"
                 featNumText="Increase in use of telehealth since 2019"
               />
@@ -99,7 +100,7 @@ const CustomerConveniencePage = () => {
               <div className="content-block__col content-block__col--left">
                 <SmallNumber 
                   styleName="small-number--orange small-number--below-image-number-block"
-                  smallNumNumber="46%"
+                  smallNumNumber={[<>31,586<sup>%</sup></>]}
                   smallNumCaption="of telehealth visits in 2020 were for behavioral health services"
                 />
               </div>
@@ -142,12 +143,12 @@ const CustomerConveniencePage = () => {
                     styleName="large-number--orange"
                     featNumSymbol=""
                     featNumNumber="57"
-                    featNumValue="K+"
+                    featNumValue={[<>K<sup>+</sup></>]}
                     featNumText="BCBSRI Medicare Advantage members received a home fitness kit"
                   /> 
 
                   <VideoModal
-                    caption="Try a class"
+                    caption={[<u>Try a class</u>]}
                     posterImage={classImg}
                     videoSource="//www.youtube.com/embed/n0_Hw4RNXrI"
                   /> 
@@ -200,7 +201,7 @@ const CustomerConveniencePage = () => {
                 <Fade>
                   <SmallNumber 
                     styleName="small-number--light-orange-dark-bg"
-                    smallNumNumber="98.2%"
+                    smallNumNumber={[<>98.2<sup>%</sup></>]}
                     smallNumCaption="member retention during the 2021 Annual Enrollment Period for Medicare"
                   />
                 </Fade>   
@@ -208,9 +209,9 @@ const CustomerConveniencePage = () => {
               <div className="content-block__col content-block__col--right">
                 <Fade>
                   <VideoModal
-                    caption="Find out more about our enhanced Medicare Advantage benefits."
+                    caption={[<><u>Find out more</u> about our enhanced Medicare Advantage benefits.</>]}
                     posterImage={medicareImg}
-                    videoSource="//www.youtube.com/embed/_WdsbySq4RQ"
+                    videoSource="//www.youtube.com/embed/7HcMBCFBXps"
                   /> 
                 </Fade>
               </div> 
@@ -221,7 +222,7 @@ const CustomerConveniencePage = () => {
 
       <section className="content-block__overlap-block">
         <div className="container container--small">
-          <img src={manDogImg} alt="Man with dog"/>
+          <img src={medicareImg2} alt="Man with dog"/>
 
           <Blockquote 
             styleName="blockquote--orange"
@@ -245,7 +246,7 @@ const CustomerConveniencePage = () => {
                 <p>BCBSRI partnered with West Warwick-based Millonzi Fine Catering. They were able to hire several people who recently lost their jobs as a result of COVID-19. Our members were so enthusiastic about the program that we extended it into 2021.</p>    
 
                 <VideoModal
-                  caption="Hear from a senior who received (and loved) the grocery deliveries"
+                  caption={[<><u>Hear from a senior</u> who received (and loved) the grocery deliveries</>]}
                   posterImage={groceryImg}
                   videoSource="//sinclairstoryline.com/resources/embeds/jw8-embed.html?client=googima&file=https://content.uplynk.com/640934f2207f434eb4d5f982f0f90421.m3u8&autostart=false"
                 /> 
@@ -295,7 +296,7 @@ const CustomerConveniencePage = () => {
                 </div>
 
                 <VideoModal
-                  caption="See how myBCBSRI works"
+                  caption={[<><u>See how myBCBSRI works</u></>]}
                   posterImage={mybcbsriImg}
                   videoSource="//www.youtube.com/embed/8zRoR-UVcrI"
                 /> 

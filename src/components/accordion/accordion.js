@@ -76,13 +76,21 @@ const accordionItems = [
 ];
 
 const AccordionItem = ({
+  styleName='',
   title = '',
   content = '',
   onItemClicked = () => console.error('You passed no action to the component'),
   isActive = false,
 }) => {
+
+  const [isActiveTab, setActiveTab] = useState('false');
+
+  const handleToggle = () => {
+    setActiveTab(!isActiveTab);
+  };
+
   return (
-    <div className={isActive ? 'accordion-item' : 'accordion-item accordion-item--inactive'} onClick={onItemClicked} onKeyDown={onItemClicked} role="button" tabIndex="0">
+    <div className={`${isActiveTab ? 'accordion-item' : 'accordion-item accordion-item--active'}`} onClick={handleToggle} onKeyDown={onItemClicked} role="button" tabIndex="0">
       <div className="accordion-item__title">
         <h4>{title}</h4>
         <div className="accordion-item__arrow">
@@ -100,7 +108,7 @@ const AccordionItem = ({
 }
 
 const Accordion = () => {
- const [active, setActive] = useState(0);
+  const [active, setActive] = useState(0); 
   
   return (
     <div className="accordion-wrapper">

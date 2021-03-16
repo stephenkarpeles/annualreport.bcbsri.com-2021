@@ -16,6 +16,11 @@
     padding: 0;
     font-size: var(--font-size-h4);
     line-height: var(--line-height-h4);
+    transition: opacity .35s ease;
+
+    &:hover {
+      opacity: .6;
+    }
   }
 
   &:focus,
@@ -63,6 +68,11 @@
       font-weight: 700;
       color: var(--color-3);
       position: relative;
+      transition: opacity 0s ease;
+
+      &:hover {
+        opacity: 1;
+      }
     }
 
     sup {

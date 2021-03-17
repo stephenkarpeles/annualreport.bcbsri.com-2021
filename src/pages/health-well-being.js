@@ -10,6 +10,7 @@ import VideoModal from "../components/video-modal/video-modal"
 import Blockquote from "../components/blockquote/blockquote"
 import SmallNumber from "../components/small-number/small-number"
 import LargeNumber from "../components/large-number/large-number"
+import HorizontalSlider from "../components/horizontal-slider/horizontal-slider"
 // import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
@@ -157,6 +158,12 @@ const HealthWellBeingPage = () => {
             </div>     
           </div>
       </section> 
+
+      <section style={{ backgroundColor: "#f7f9fa"}}>
+        <Fade>
+          <HorizontalSlider/>
+        </Fade>
+      </section>
 
       <section id="using-data-and-technology" className="content-block" style={{ backgroundColor: "#fff"}}>
         <div className="container container--small">

@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import Fade from 'react-reveal/Fade'
+import { StaticImage } from "gatsby-plugin-image"
 // import Slide from 'react-reveal/Slide'
 
 // Components
@@ -47,13 +48,13 @@ const IndexPage = () => {
                 <Fade>
                   <div className="split-image-block">
                     <div className="split-image-block__col">
-                      <img src={bio1} alt="Michele Lederberg"/>
+                      <StaticImage src={bio1} alt="Michele Lederberg"/>
                       <div className="split-image-block__name">Michele Lederberg</div>
                       <div className="split-image-block__title">Interim President &amp; CEO</div>
                       <div className="split-image-block__pronoun">She/Her/Hers</div>
                     </div>
                     <div className="split-image-block__col">
-                      <img src={bio2} alt="John Langenus"/>
+                      <StaticImage src={bio2} alt="John Langenus"/>
                       <div className="split-image-block__name">John Langenus</div>
                       <div className="split-image-block__title">Board Chair</div>
                       <div className="split-image-block__pronoun">He/Him/His</div>

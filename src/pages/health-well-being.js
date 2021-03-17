@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
+import { StaticImage } from "gatsby-plugin-image"
 
 // Components
 import Layout from "../components/layout/layout"
@@ -59,7 +60,7 @@ const HealthWellBeingPage = () => {
                 </Fade>
 
                 <div className="content-block__overflow-image mar-top-3">
-                  <img src={covidImg} alt="Health &amp; Well-Being"/>
+                  <StaticImage src={covidImg} alt="Health &amp; Well-Being"/>
                 </div>
 
               </div>
@@ -85,7 +86,7 @@ const HealthWellBeingPage = () => {
 
                     <div className="content-block__icon-block">
                       <div className="content-block__icon-block-icon">
-                        <img src={checkIcon} alt="Check"/>
+                        <StaticImage src={checkIcon} alt="Check"/>
                       </div>
                       <div className="content-block__icon-block-text">
                         Waiving of prior authorization and referral requirements for COVID-19 testing and treatment
@@ -94,7 +95,7 @@ const HealthWellBeingPage = () => {
                     
                     <div className="content-block__icon-block">
                       <div className="content-block__icon-block-icon">
-                        <img src={pillIcon} alt="Pill"/>
+                        <StaticImage src={pillIcon} alt="Pill"/>
                       </div>
                       <div className="content-block__icon-block-text">
                         The ability to fill prescriptions early
@@ -137,7 +138,7 @@ const HealthWellBeingPage = () => {
               <div className="content-block__col content-block__col--right"> 
                 <Slide up> 
                   <div className="mar-bot-4 mar-top-2 blue-across-ri-logo-wrap">
-                    <img src={blueAcrossLogo} alt="Blue Across Rhode Island"/>
+                    <StaticImage src={blueAcrossLogo} alt="Blue Across Rhode Island"/>
                   </div>
                   <SmallNumber 
                     styleName="small-number--blue"
@@ -180,7 +181,7 @@ const HealthWellBeingPage = () => {
             </div>
             <div className="content-block__col content-block__col--right">
               <div className="here-to-help-img">
-                <img src={hereToHelpImg} alt="We're Here to Help"/>
+                <StaticImage src={hereToHelpImg} alt="We're Here to Help"/>
               </div>
             </div>
           </div>         
@@ -205,7 +206,7 @@ const HealthWellBeingPage = () => {
                 </Fade>
 
                 <div className="content-block__overflow-image mar-top-3">
-                  <img src={housingImg} alt="Health &amp; Well-Being"/>
+                  <StaticImage src={housingImg} alt="Health &amp; Well-Being"/>
                 </div>
 
               </div>
@@ -288,7 +289,7 @@ const HealthWellBeingPage = () => {
                 />
 
                 <div className="mar-top-8">
-                  <img src={kidsImg} alt="Kids Playing"/>
+                  <StaticImage src={kidsImg} alt="Kids Playing"/>
                 </div>
               </Slide>
             </div> 
@@ -309,14 +310,14 @@ const HealthWellBeingPage = () => {
               <Fade>
                 <p>In the last two years, Oak Street Health, a network of primary care practices for adults on Medicare, has opened four locations in Rhode Island in collaboration with BCBSRI. The fourth location opened in November 2020 in Woonsocket. Through their well care model, Oak Street Health provides in-person, phone, and video visits; a 24/7 support line; transportation to appointments; and preventive care plans.</p> 
                 <div className="mar-top-3 mar-bot-4">
-                  <img src={healthImg2} alt="Health"/>
+                  <StaticImage src={healthImg2} alt="Health"/>
                 </div>
               </Fade>
             </div>
             <div className="content-block__col content-block__col--right"> 
               <Slide up>
                 <div className="mar-bot-4">
-                  <img src={healthImg1} alt="Health"/>
+                  <StaticImage src={healthImg1} alt="Health"/>
                 </div>
                 <VideoModal
                   caption={[<>Take a <u>virtual tour</u></>]}
@@ -355,7 +356,7 @@ const HealthWellBeingPage = () => {
                   Added 5 new Safe Zones
                 </h3>
                 <div className="mar-top-4 mar-bot-4">
-                  <img src={safeImg} alt="Safe Zone"/>
+                  <StaticImage src={safeImg} alt="Safe Zone"/>
                 </div>
                 <p>We now have <a href="/">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
               </div>
@@ -364,7 +365,7 @@ const HealthWellBeingPage = () => {
                   Provided education on antiracism
                 </h3>
                 <div className="mar-top-4 mar-bot-4">
-                  <img src={ibramImg} alt="Safe Zone"/>
+                  <StaticImage src={ibramImg} alt="Safe Zone"/>
                 </div>
                 <p>The keynote speaker for our employee Diversity Week was <a href="/">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
               </div> 
@@ -381,7 +382,7 @@ const HealthWellBeingPage = () => {
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
                 <div className="mar-top-4 mar-bot-4">
-                  <img src={ashishImg} alt="Ashish Jha"/>
+                  <StaticImage src={ashishImg} alt="Ashish Jha"/>
                 </div>
                 <p>At our annual all-employee and community meeting, Dr. Ashish Jha, Dean of the Brown University School of Public Health, and Austin Frakt, Associate Professor at the Boston University School of Public Health, discussed how we can address the great disparities in health and healthcare exacerbated by the pandemic.</p>                
               </div>
@@ -409,7 +410,7 @@ const HealthWellBeingPage = () => {
               </h3>
               <div className="media-element">
                 <div className="media-element__image">
-                  <img src={bestPlacesImg} alt="Best Places to Work"/>
+                  <StaticImage src={bestPlacesImg} alt="Best Places to Work"/>
                 </div>
                 <div className="media-element__text">
                   <p>With a score of 100%, we were the only Rhode Island company to have received a perfect score on this national measure of LGBTQ workplace equality for the past six years consecutively.</p>
@@ -421,7 +422,7 @@ const HealthWellBeingPage = () => {
               </h3>
               <div className="media-element">
                 <div className="media-element__image">
-                  <img src={bellSealImg} alt="Workplace Mental Health Award"/>
+                  <StaticImage src={bellSealImg} alt="Workplace Mental Health Award"/>
                 </div>
                 <div className="media-element__text">
                   <p>Mental Health America awarded BCBSRI the highest possible designation a company can achieve for our commitment to the mental health and well-being of our employees. We are the first company in Rhode Island to receive a platinum designation.</p>
@@ -433,7 +434,7 @@ const HealthWellBeingPage = () => {
               </h3>
               <div className="media-element">
                 <div className="media-element__image">
-                  <img src={disabilityImg} alt="Disability Equality Index Score of 100"/>
+                  <StaticImage src={disabilityImg} alt="Disability Equality Index Score of 100"/>
                 </div>
                 <div className="media-element__text">
                   <p>We were one of two companies headquartered in Rhode Island to receive a top score of 100 on this national benchmarking survey and report on disability workplace equality.</p>

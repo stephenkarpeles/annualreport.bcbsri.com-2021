@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
+import { StaticImage } from "gatsby-plugin-image"
 
 // Components
 import Layout from "../components/layout/layout"
@@ -67,7 +68,7 @@ const CustomerConveniencePage = () => {
       <section className="content-block__overlap-block content-block__overlap-block--inline">
         <Fade>
           <div className="container container--small">
-            <img src={smilingImg} alt="Woman smiling"/>
+            <StaticImage src={smilingImg} alt="Woman smiling"/>
           </div>
         </Fade>
       </section>
@@ -76,7 +77,7 @@ const CustomerConveniencePage = () => {
         <div className="container container--small">
           <div className="image-number-block__image">
             <div className="image-number-block__image-wrap">
-              <img src={telehealthImg} alt="Telehealth"/>
+              <StaticImage src={telehealthImg} alt="Telehealth"/>
             </div>
           </div>
           <div className="image-number-block__number">
@@ -170,7 +171,7 @@ const CustomerConveniencePage = () => {
                   />                 
 
                   <div className="content-block__image">
-                    <img src={familyImg} alt=""/>
+                    <StaticImage src={familyImg} alt=""/>
                   </div>  
 
                   <Blockquote 
@@ -222,7 +223,7 @@ const CustomerConveniencePage = () => {
 
       <section className="content-block__overlap-block">
         <div className="container container--small">
-          <img src={medicareImg2} alt="Man with dog"/>
+          <StaticImage src={medicareImg2} alt="Man with dog"/>
 
           <Blockquote 
             styleName="blockquote--orange"
@@ -305,7 +306,7 @@ const CustomerConveniencePage = () => {
               <div className="content-block__col content-block__col--right">            
                 <Fade>
                   <div className="content-block__image">
-                    <img src={membersImg} alt="Customer Convenience"/>
+                    <StaticImage src={membersImg} alt="Customer Convenience"/>
                   </div>
                 </Fade> 
               </div> 

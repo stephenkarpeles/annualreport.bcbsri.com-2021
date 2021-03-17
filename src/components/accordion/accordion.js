@@ -1,8 +1,5 @@
 import React, { useState } from "react"
-// import { Link } from "gatsby"
-// import Fade from 'react-reveal/Fade';
 import "./accordion.css"
-// import arrowRight from '../../images/icons/arrow-right.svg'
 
 const accordionItems = [
   {

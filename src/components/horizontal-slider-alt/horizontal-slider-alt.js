@@ -1,58 +1,46 @@
 import * as React from "react"
-// import HorizontalScroll from 'react-scroll-horizontal'
+import { StaticImage } from "gatsby-plugin-image"
 import "./horizontal-slider-alt.css"
-import sliderImage1 from '../../images/gallery-volunteering-with-focus-1.jpg'
-import sliderImage2 from '../../images/gallery-volunteering-with-focus-2.jpg'
-import sliderImage3 from '../../images/gallery-volunteering-with-focus-3.jpg'
-import sliderImage4 from '../../images/gallery-volunteering-with-focus-4.jpg'
-import sliderImage5 from '../../images/gallery-volunteering-with-focus-5.jpg'
-import sliderImage6 from '../../images/gallery-volunteering-with-focus-6.jpg'
-import sliderImage7 from '../../images/gallery-volunteering-with-focus-7.jpg'
-import sliderImage8 from '../../images/gallery-volunteering-with-focus-8.jpg'
-import sliderImage9 from '../../images/gallery-volunteering-with-focus-9.jpg'
-import sliderImage10 from '../../images/gallery-volunteering-with-focus-10.jpg'
-import sliderImage11 from '../../images/gallery-volunteering-with-focus-11.jpg'
-import sliderImage12 from '../../images/gallery-volunteering-with-focus-12.jpg'
 
 const HorizontalSlider = () => {
   return (
     <div className="horizontal-slider-wrap-alt">
       <div className="horizontal-slider">        
         <div className="horizontal-slider__slide">
-          <img src={sliderImage1} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-1.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage2} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-2.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage3} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-3.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage4} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-4.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage5} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-5.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage6} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-6.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage7} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-7.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage8} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-8.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage9} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-9.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage10} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-10.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage11} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-11.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage12} alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-12.jpg" alt="Slider"/>
         </div>
       </div>
       <div className="horizontal-slider__scroll-indicator">

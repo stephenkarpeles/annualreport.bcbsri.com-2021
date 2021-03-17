@@ -2,14 +2,9 @@
 import * as React from "react"
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
+import { StaticImage } from "gatsby-plugin-image"
 
 import "./splash-block.css"
-import heroImg1 from "../../images/hero-image-1.jpg"
-import heroImg2 from "../../images/hero-image-2.jpg"
-import heroImg3 from "../../images/hero-image-3.jpg"
-import heroImg4 from "../../images/hero-image-4.jpg"
-import heroImgMobile1 from "../../images/hero-image-mobile-1.jpg"
-import heroImgMobile2 from "../../images/hero-image-mobile-2.jpg"
 
 const SplashBlock = () => {
   return (
@@ -27,24 +22,24 @@ const SplashBlock = () => {
       <Slide bottom cascade>
         <div className="splash-block__image-row splash-block__image-row--desktop">        
           <div className="splash-block__image">
-            <img src={heroImg1} alt="Couple"/>
+            <StaticImage src="../../images/hero-image-1.jpg" alt="Couple"/>
           </div>
           <div className="splash-block__image">
-            <img src={heroImg2} alt="Hands"/>
+            <StaticImage src="../../images/hero-image-2.jpg" alt="Hands"/>
           </div>
           <div className="splash-block__image">
-            <img src={heroImg3} alt="Father"/>
+            <StaticImage src="../../images/hero-image-3.jpg" alt="Father"/>
           </div>
           <div className="splash-block__image">
-            <img src={heroImg4} alt="Doctor"/>
+            <StaticImage src="../../images/hero-image-4.jpg" alt="Doctor"/>
           </div>
         </div>
         <div className="splash-block__image-row splash-block__image-row--mobile">        
           <div className="splash-block__image">
-            <img src={heroImgMobile1} alt=""/>
+            <StaticImage src="../../images/hero-image-mobile-1.jpg" alt="Family"/>
           </div>
           <div className="splash-block__image">
-            <img src={heroImgMobile2} alt=""/>
+            <StaticImage src="../../images/hero-image-mobile-2.jpg" alt="Doctor"/>
           </div>
         </div>
       </Slide> 

@@ -1,9 +1,7 @@
 import { Link } from "gatsby"
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import "./footer.css"
-import twitterIcon from '../../images/icons/icon-twitter.svg'
-import facebookIcon from '../../images/icons/icon-facebook.svg'
-import linkedinIcon from '../../images/icons/icon-linkedin.svg'
 
 const Footer = () => {
   return (
@@ -27,9 +25,9 @@ const Footer = () => {
           </div>
           <div className="footer__col footer__col--3">
             <ul>
-              <li><Link to="/"><img src={twitterIcon} alt=""/></Link></li>
-              <li><Link to="/"><img src={facebookIcon} alt=""/></Link></li>
-              <li><Link to="/"><img src={linkedinIcon} alt=""/></Link></li>
+              <li><Link to="/"><StaticImage src="../../images/icons/icon-twitter.svg" alt=""/></Link></li>
+              <li><Link to="/"><StaticImage src="../../images/icons/icon-facebook.svg" alt=""/></Link></li>
+              <li><Link to="/"><StaticImage src="../../images/icons/icon-linkedin.svg" alt=""/></Link></li>
             </ul>
           </div>
         </div>

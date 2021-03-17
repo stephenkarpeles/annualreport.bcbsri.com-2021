@@ -1,50 +1,41 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 // import HorizontalScroll from 'react-scroll-horizontal'
 import "./horizontal-slider.css"
-import sliderImage1 from '../../images/gallery-supporting-covid-relief-efforts-1.jpg'
-import sliderImage2 from '../../images/gallery-supporting-covid-relief-efforts-2.jpg'
-import sliderImage3 from '../../images/gallery-supporting-covid-relief-efforts-3.jpg'
-import sliderImage4 from '../../images/gallery-supporting-covid-relief-efforts-4.jpg'
-import sliderImage5 from '../../images/gallery-supporting-covid-relief-efforts-5.jpg'
-import sliderImage6 from '../../images/gallery-supporting-covid-relief-efforts-6.jpg'
-import sliderImage7 from '../../images/gallery-supporting-covid-relief-efforts-7.jpg'
-import sliderImage8 from '../../images/gallery-supporting-covid-relief-efforts-8.jpg'
-import sliderImage9 from '../../images/gallery-supporting-covid-relief-efforts-9.jpg'
-import sliderImage10 from '../../images/gallery-supporting-covid-relief-efforts-10.jpg'
 
 const HorizontalSlider = () => {
   return (
     <div className="horizontal-slider-wrap">
       <div className="horizontal-slider">        
         <div className="horizontal-slider__slide">
-          <img src={sliderImage1} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-1.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage2} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-2.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage3} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-3.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage4} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-4.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage5} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-5.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage6} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-6.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage7} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-7.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage8} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-8.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage9} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-9.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <img src={sliderImage10} alt="Slider"/>
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-10.jpg" alt="Slider"/>
         </div>
       </div>
       <div className="horizontal-slider__scroll-indicator">

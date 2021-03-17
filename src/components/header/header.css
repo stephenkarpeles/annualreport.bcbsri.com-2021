@@ -46,7 +46,7 @@
     border-left: 1px solid var(--color-24);
 
     img {
-      width: 156px;
+      width: 155px;
     }
 
     @media (--small-breakpoint-down) {

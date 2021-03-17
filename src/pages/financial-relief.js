@@ -2,6 +2,7 @@ import React from "react"
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 // Components
 import Layout from "../components/layout/layout"
@@ -46,7 +47,7 @@ const FinancialReliefPage = () => {
               
                 <Slide up>
                   <div className="content-block__image">
-                    <img src={piggyBankImg} alt=""/>
+                    <StaticImage src={piggyBankImg} alt=""/>
                   </div>
                 </Slide>         
 
@@ -152,7 +153,7 @@ const FinancialReliefPage = () => {
                 
                 <Slide up>
                   <div>
-                    <img src={grantsImg} alt="Financial Relief"/>
+                    <StaticImage src={grantsImg} alt="Financial Relief"/>
                   </div>
                 </Slide>
               </div> 
@@ -173,7 +174,7 @@ const FinancialReliefPage = () => {
 
                 <Slide left>
                   <div className="content-block__overflow-image">
-                    <img src={reliefImg} alt="Financial Relief"/>
+                    <StaticImage src={reliefImg} alt="Financial Relief"/>
                   </div>
                 </Slide>
 
@@ -249,7 +250,7 @@ const FinancialReliefPage = () => {
                 <p>We also provided weekly assistance to practices on how to apply for federal loans through the Paycheck Protection Program.</p> 
                 <Fade>               
                   <div className="content-block__overflow-image">
-                    <img src={supportImg} alt="Financial Relief"/>
+                    <StaticImage src={supportImg} alt="Financial Relief"/>
                   </div>
                 </Fade>
               </div> 

@@ -1,6 +1,5 @@
 import * as React from "react"
 import Fade from 'react-reveal/Fade'
-// import Slide from 'react-reveal/Slide'
 import { Link } from "gatsby"
 
 import "./cta-block.css"

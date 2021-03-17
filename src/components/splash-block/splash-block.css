@@ -30,7 +30,7 @@
 
   @media (--small-breakpoint-down) {
     background-size: 170%;
-    background-position: right 380px;
+    background-position: 99% 380px;
     background-image: url('../../images/polygon-blue.svg');
     background-repeat: no-repeat;
   }

@@ -11,23 +11,13 @@ import VideoModal from "../components/video-modal/video-modal"
 import Blockquote from "../components/blockquote/blockquote"
 import SmallNumber from "../components/small-number/small-number"
 import LargeNumber from "../components/large-number/large-number"
-// import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
 import HeroImg from "../images/backgrounds/hero-bcg-customer-convenience-new.jpg"
-import familyImg from '../images/family-excercise.jpg'
-// import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
-// import reliefImg from '../images/financial-relief-small-businesses.png'
-// import supportImg from '../images/supporting-providers.png'
-// import websiteImg from '../images/covid19-website.jpg'
 import classImg from '../images/video-try-a-class.jpg'
 import groceryImg from '../images/video-grocery-delivery.jpg'
-import membersImg from '../images/giving-members-more-control.jpg'
 import mybcbsriImg from '../images/video-mybcbsri.jpg'
 import medicareImg from '../images/video-medicare-advantage.jpg'
-
-import medicareImg2 from '../images/medicare.jpg'
-import smilingImg from '../images/accelerating-the-use-of-health.jpg'
 import telehealthImg from '../images/telehealth.png'
 
 const CustomerConveniencePage = () => {
@@ -68,7 +58,7 @@ const CustomerConveniencePage = () => {
       <section className="content-block__overlap-block content-block__overlap-block--inline">
         <Fade>
           <div className="container container--small">
-            <StaticImage src={smilingImg} alt="Woman smiling"/>
+            <StaticImage src="../images/accelerating-the-use-of-health.jpg" alt="Woman smiling"/>
           </div>
         </Fade>
       </section>
@@ -77,7 +67,7 @@ const CustomerConveniencePage = () => {
         <div className="container container--small">
           <div className="image-number-block__image">
             <div className="image-number-block__image-wrap">
-              <StaticImage src={telehealthImg} alt="Telehealth"/>
+              <img src={telehealthImg} alt="Telehealth"/>
             </div>
           </div>
           <div className="image-number-block__number">
@@ -171,7 +161,7 @@ const CustomerConveniencePage = () => {
                   />                 
 
                   <div className="content-block__image">
-                    <StaticImage src={familyImg} alt=""/>
+                    <StaticImage src="../images/family-excercise.jpg" alt="Family Exercise"/>
                   </div>  
 
                   <Blockquote 
@@ -223,7 +213,7 @@ const CustomerConveniencePage = () => {
 
       <section className="content-block__overlap-block">
         <div className="container container--small">
-          <StaticImage src={medicareImg2} alt="Man with dog"/>
+          <StaticImage src="../images/medicare.jpg" alt="Medicare Image"/>
 
           <Blockquote 
             styleName="blockquote--orange"
@@ -306,7 +296,7 @@ const CustomerConveniencePage = () => {
               <div className="content-block__col content-block__col--right">            
                 <Fade>
                   <div className="content-block__image">
-                    <StaticImage src={membersImg} alt="Customer Convenience"/>
+                    <StaticImage src="../images/giving-members-more-control.jpg" alt="Customer Convenience"/>
                   </div>
                 </Fade> 
               </div> 

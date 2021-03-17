@@ -11,16 +11,11 @@ import ByTheNumbers from "../components/by-the-numbers/by-the-numbers"
 import HorizontalSlider from "../components/horizontal-slider/horizontal-slider"
 import VideoModal from "../components/video-modal/video-modal"
 import Blockquote from "../components/blockquote/blockquote"
-// import SmallNumber from "../components/small-number/small-number"
 import LargeNumber from "../components/large-number/large-number"
 import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
 import HeroImg from "../images/hero-bcg-financial-relief-fullsize.jpg"
-import piggyBankImg from '../images/illustration-delivering-premium-relief.png'
-import grantsImg from '../images/offering-grants-to-behavioral-health-practices.jpg'
-import reliefImg from '../images/financial-relief-small-businesses.png'
-import supportImg from '../images/supporting-providers.png'
 import websiteImg from '../images/covid19-website.jpg'
 import videoKidsImage from '../images/video-kids-want-to-know.jpg'
 
@@ -47,7 +42,7 @@ const FinancialReliefPage = () => {
               
                 <Slide up>
                   <div className="content-block__image">
-                    <StaticImage src={piggyBankImg} alt=""/>
+                    <StaticImage src="../images/illustration-delivering-premium-relief.png" alt=""/>
                   </div>
                 </Slide>         
 
@@ -153,7 +148,7 @@ const FinancialReliefPage = () => {
                 
                 <Slide up>
                   <div>
-                    <StaticImage src={grantsImg} alt="Financial Relief"/>
+                    <StaticImage src="../images/offering-grants-to-behavioral-health-practices.jpg" alt="Financial Relief"/>
                   </div>
                 </Slide>
               </div> 
@@ -174,7 +169,7 @@ const FinancialReliefPage = () => {
 
                 <Slide left>
                   <div className="content-block__overflow-image">
-                    <StaticImage src={reliefImg} alt="Financial Relief"/>
+                    <StaticImage src="../images/financial-relief-small-businesses.png" alt="Financial Relief"/>
                   </div>
                 </Slide>
 
@@ -250,7 +245,7 @@ const FinancialReliefPage = () => {
                 <p>We also provided weekly assistance to practices on how to apply for federal loans through the Paycheck Protection Program.</p> 
                 <Fade>               
                   <div className="content-block__overflow-image">
-                    <StaticImage src={supportImg} alt="Financial Relief"/>
+                    <StaticImage src="../images/supporting-providers.png" alt="Financial Relief"/>
                   </div>
                 </Fade>
               </div> 

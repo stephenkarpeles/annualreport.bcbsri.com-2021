@@ -16,23 +16,12 @@ import HorizontalSliderAlt from "../components/horizontal-slider-alt/horizontal-
 
 //Images
 import HeroImg from "../images/hero-bcg-health-wellbeing-new-gradient.jpg"
-import covidImg from "../images/covid-testing.png"
-import housingImg from "../images/housing.png"
-import pillIcon from "../images/icons/icon-prescription.svg"
-import checkIcon from "../images/icons/icon-authorization.svg"
 import videoImgBlue from "../images/video-blue-across-rhode-island.jpg"
 import videoImgOffice from "../images/video-oak-street-health.jpg"
-import kidsImg from "../images/keeping-kids-playing.jpg"
-import healthImg1 from "../images/oak-street-health-img-1.jpg"
-import healthImg2 from "../images/oak-street-health-img-2.jpg"
-import safeImg from "../images/safe-zone-img.jpg"
-import ibramImg from "../images/ibram-kendi.jpg"
-import ashishImg from "../images/ashish-jha.jpg"
 import bestPlacesImg from "../images/logo-best-places-to-work.jpg"
 import bellSealImg from "../images/logo-bell-seal.png"
 import disabilityImg from "../images/logo-disability-equality-index.jpg"
-import blueAcrossLogo from "../images/logo-blue-across-ri.png"
-import hereToHelpImg from "../images/we-are-here-to-help.png"
+import heroToHelpImg from "../images/we-are-here-to-help.png"
 
 const HealthWellBeingPage = () => {
   return (
@@ -60,7 +49,7 @@ const HealthWellBeingPage = () => {
                 </Fade>
 
                 <div className="content-block__overflow-image mar-top-3">
-                  <StaticImage src={covidImg} alt="Health &amp; Well-Being"/>
+                  <StaticImage src="../images/covid-testing.png" alt="Health &amp; Well-Being"/>
                 </div>
 
               </div>
@@ -86,7 +75,7 @@ const HealthWellBeingPage = () => {
 
                     <div className="content-block__icon-block">
                       <div className="content-block__icon-block-icon">
-                        <StaticImage src={checkIcon} alt="Check"/>
+                        <StaticImage src="../images/icons/icon-authorization.svg" alt="Check"/>
                       </div>
                       <div className="content-block__icon-block-text">
                         Waiving of prior authorization and referral requirements for COVID-19 testing and treatment
@@ -95,7 +84,7 @@ const HealthWellBeingPage = () => {
                     
                     <div className="content-block__icon-block">
                       <div className="content-block__icon-block-icon">
-                        <StaticImage src={pillIcon} alt="Pill"/>
+                        <StaticImage src="../images/icons/icon-prescription.svg" alt="Pill"/>
                       </div>
                       <div className="content-block__icon-block-text">
                         The ability to fill prescriptions early
@@ -138,7 +127,7 @@ const HealthWellBeingPage = () => {
               <div className="content-block__col content-block__col--right"> 
                 <Slide up> 
                   <div className="mar-bot-4 mar-top-2 blue-across-ri-logo-wrap">
-                    <StaticImage src={blueAcrossLogo} alt="Blue Across Rhode Island"/>
+                    <StaticImage src="../images/logo-blue-across-ri.png" alt="Blue Across Rhode Island"/>
                   </div>
                   <SmallNumber 
                     styleName="small-number--blue"
@@ -181,7 +170,7 @@ const HealthWellBeingPage = () => {
             </div>
             <div className="content-block__col content-block__col--right">
               <div className="here-to-help-img">
-                <StaticImage src={hereToHelpImg} alt="We're Here to Help"/>
+                <img src={heroToHelpImg} alt="We're Here to Help"/>
               </div>
             </div>
           </div>         
@@ -206,7 +195,7 @@ const HealthWellBeingPage = () => {
                 </Fade>
 
                 <div className="content-block__overflow-image mar-top-3">
-                  <StaticImage src={housingImg} alt="Health &amp; Well-Being"/>
+                  <StaticImage src="../images/housing.png" alt="Health &amp; Well-Being"/>
                 </div>
 
               </div>
@@ -289,7 +278,7 @@ const HealthWellBeingPage = () => {
                 />
 
                 <div className="mar-top-8">
-                  <StaticImage src={kidsImg} alt="Kids Playing"/>
+                  <StaticImage src="../images/keeping-kids-playing.jpg" alt="Kids Playing"/>
                 </div>
               </Slide>
             </div> 
@@ -310,14 +299,14 @@ const HealthWellBeingPage = () => {
               <Fade>
                 <p>In the last two years, Oak Street Health, a network of primary care practices for adults on Medicare, has opened four locations in Rhode Island in collaboration with BCBSRI. The fourth location opened in November 2020 in Woonsocket. Through their well care model, Oak Street Health provides in-person, phone, and video visits; a 24/7 support line; transportation to appointments; and preventive care plans.</p> 
                 <div className="mar-top-3 mar-bot-4">
-                  <StaticImage src={healthImg2} alt="Health"/>
+                  <StaticImage src="../images/oak-street-health-img-2.jpg" alt="Health"/>
                 </div>
               </Fade>
             </div>
             <div className="content-block__col content-block__col--right"> 
               <Slide up>
                 <div className="mar-bot-4">
-                  <StaticImage src={healthImg1} alt="Health"/>
+                  <StaticImage src="../images/oak-street-health-img-1.jpg" alt="Health"/>
                 </div>
                 <VideoModal
                   caption={[<>Take a <u>virtual tour</u></>]}
@@ -356,7 +345,7 @@ const HealthWellBeingPage = () => {
                   Added 5 new Safe Zones
                 </h3>
                 <div className="mar-top-4 mar-bot-4">
-                  <StaticImage src={safeImg} alt="Safe Zone"/>
+                  <StaticImage src="../images/safe-zone-img.jpg" alt="Safe Zone"/>
                 </div>
                 <p>We now have <a href="/">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
               </div>
@@ -365,7 +354,7 @@ const HealthWellBeingPage = () => {
                   Provided education on antiracism
                 </h3>
                 <div className="mar-top-4 mar-bot-4">
-                  <StaticImage src={ibramImg} alt="Safe Zone"/>
+                  <StaticImage src="../images/ibram-kendi.jpg" alt="Safe Zone"/>
                 </div>
                 <p>The keynote speaker for our employee Diversity Week was <a href="/">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
               </div> 
@@ -382,7 +371,7 @@ const HealthWellBeingPage = () => {
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
                 <div className="mar-top-4 mar-bot-4">
-                  <StaticImage src={ashishImg} alt="Ashish Jha"/>
+                  <StaticImage src="../images/ashish-jha.jpg" alt="Ashish Jha"/>
                 </div>
                 <p>At our annual all-employee and community meeting, Dr. Ashish Jha, Dean of the Brown University School of Public Health, and Austin Frakt, Associate Professor at the Boston University School of Public Health, discussed how we can address the great disparities in health and healthcare exacerbated by the pandemic.</p>                
               </div>
@@ -410,7 +399,7 @@ const HealthWellBeingPage = () => {
               </h3>
               <div className="media-element">
                 <div className="media-element__image">
-                  <StaticImage src={bestPlacesImg} alt="Best Places to Work"/>
+                  <img src={bestPlacesImg} alt="Best Places to Work"/>
                 </div>
                 <div className="media-element__text">
                   <p>With a score of 100%, we were the only Rhode Island company to have received a perfect score on this national measure of LGBTQ workplace equality for the past six years consecutively.</p>
@@ -422,7 +411,7 @@ const HealthWellBeingPage = () => {
               </h3>
               <div className="media-element">
                 <div className="media-element__image">
-                  <StaticImage src={bellSealImg} alt="Workplace Mental Health Award"/>
+                  <img src={bellSealImg} alt="Workplace Mental Health Award"/>
                 </div>
                 <div className="media-element__text">
                   <p>Mental Health America awarded BCBSRI the highest possible designation a company can achieve for our commitment to the mental health and well-being of our employees. We are the first company in Rhode Island to receive a platinum designation.</p>
@@ -434,7 +423,7 @@ const HealthWellBeingPage = () => {
               </h3>
               <div className="media-element">
                 <div className="media-element__image">
-                  <StaticImage src={disabilityImg} alt="Disability Equality Index Score of 100"/>
+                  <img src={disabilityImg} alt="Disability Equality Index Score of 100"/>
                 </div>
                 <div className="media-element__text">
                   <p>We were one of two companies headquartered in Rhode Island to receive a top score of 100 on this national benchmarking survey and report on disability workplace equality.</p>

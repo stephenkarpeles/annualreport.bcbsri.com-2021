@@ -31,7 +31,7 @@
     height: 410px;
     position: relative;
     display: flex;
-    overflow: scroll;
+    overflow-x: scroll;
 
     @media (--x-large-breakpoint-up) {
       margin-left: calc((100vw - var(--container-max-width)) / 2);

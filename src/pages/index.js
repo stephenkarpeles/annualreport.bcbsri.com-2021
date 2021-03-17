@@ -10,10 +10,6 @@ import NumberBlock from "../components/number-block/number-block"
 import SplashBlock from "../components/splash-block/splash-block"
 import CtaBlock from "../components/cta-block/cta-block"
 
-// Images
-import bio1 from '../images/bio-1.jpg'
-import bio2 from '../images/bio-2.jpg'
-
 const IndexPage = () => {
   const [readMore, setReadMore] = useState();
 
@@ -48,13 +44,13 @@ const IndexPage = () => {
                 <Fade>
                   <div className="split-image-block">
                     <div className="split-image-block__col">
-                      <StaticImage src={bio1} alt="Michele Lederberg"/>
+                      <StaticImage src="../images/bio-1.jpg" alt="Michele Lederberg"/>
                       <div className="split-image-block__name">Michele Lederberg</div>
                       <div className="split-image-block__title">Interim President &amp; CEO</div>
                       <div className="split-image-block__pronoun">She/Her/Hers</div>
                     </div>
                     <div className="split-image-block__col">
-                      <StaticImage src={bio2} alt="John Langenus"/>
+                      <StaticImage src="../images/bio-2.jpg" alt="John Langenus"/>
                       <div className="split-image-block__name">John Langenus</div>
                       <div className="split-image-block__title">Board Chair</div>
                       <div className="split-image-block__pronoun">He/Him/His</div>

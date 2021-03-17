@@ -215,6 +215,25 @@ h4,
     margin-bottom: 15px;
   }
 
+  &--here-to-help {
+    .here-to-help-img {
+      img {
+        max-width: 100%;
+
+        @media (--small-breakpoint-down) {
+          margin-top: 60px;
+          max-width: 380px;
+          width: 100%;
+        }
+
+        @media (--extra-small-breakpoint-down) {
+          max-width: 100%;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+
   &--letter-intro {
     .letter-read-more-btn {
       display: none;

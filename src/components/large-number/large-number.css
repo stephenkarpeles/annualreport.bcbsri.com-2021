@@ -104,4 +104,42 @@
       }
     }
   }
+
+  &--here-to-help {
+    .large-number__number {
+      color: var(--color-29);
+      font-weight: 300;
+      font-size: 240px;
+      line-height: 260px;
+      font-family: var(--font-serif);
+
+      @media (--large-breakpoint-down) {
+        font-size: 200px;
+        line-height: 220px;
+      }
+
+      @media (--medium-breakpoint-down) {
+        font-size: 160px;
+        line-height: 180px;
+      }
+
+      @media (--extra-small-breakpoint-down) {
+        font-size: 120px;
+        line-height: 140px;
+      }
+    }
+
+    .large-number__text {
+      color: white;
+      font-family: var(--font-stack-regular);
+      text-transform: lowercase;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+
+      &::before {
+        background: var(--color-17);
+      }
+    }
+  }
 }

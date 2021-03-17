@@ -10,7 +10,7 @@ import VideoModal from "../components/video-modal/video-modal"
 import Blockquote from "../components/blockquote/blockquote"
 import SmallNumber from "../components/small-number/small-number"
 import LargeNumber from "../components/large-number/large-number"
-import HorizontalSlider from "../components/horizontal-slider/horizontal-slider"
+import HorizontalSliderAlt from "../components/horizontal-slider-alt/horizontal-slider-alt"
 // import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
@@ -31,6 +31,7 @@ import bestPlacesImg from "../images/logo-best-places-to-work.jpg"
 import bellSealImg from "../images/logo-bell-seal.png"
 import disabilityImg from "../images/logo-disability-equality-index.jpg"
 import blueAcrossLogo from "../images/logo-blue-across-ri.png"
+import hereToHelpImg from "../images/we-are-here-to-help.png"
 
 const HealthWellBeingPage = () => {
   return (
@@ -161,8 +162,29 @@ const HealthWellBeingPage = () => {
 
       <section style={{ backgroundColor: "#f7f9fa"}}>
         <Fade>
-          <HorizontalSlider/>
+          <HorizontalSliderAlt/>
         </Fade>
+      </section>
+
+      <section className="content-block content-block--here-to-help" style={{ backgroundColor: "#003E51"}}>
+        <div className="container container--small">
+          <div className="content-block__col-wrap">
+            <div className="content-block__col content-block__col--left">
+              <LargeNumber
+                styleName="large-number--here-to-help"
+                featNumSymbol=""
+                featNumNumber="469"
+                featNumValue=""
+                featNumText="employee volunteers participated"
+              />
+            </div>
+            <div className="content-block__col content-block__col--right">
+              <div className="here-to-help-img">
+                <img src={hereToHelpImg} alt="We're Here to Help"/>
+              </div>
+            </div>
+          </div>         
+        </div>
       </section>
 
       <section id="using-data-and-technology" className="content-block" style={{ backgroundColor: "#fff"}}>

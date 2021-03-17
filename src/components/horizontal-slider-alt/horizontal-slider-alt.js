@@ -14,7 +14,7 @@ import sliderImage10 from '../../images/gallery-volunteering-with-focus-11.jpg'
 
 const HorizontalSlider = () => {
   return (
-    <div className="horizontal-slider-wrap">
+    <div className="horizontal-slider-wrap-alt">
       <div className="horizontal-slider">        
         <div className="horizontal-slider__slide">
           <img src={sliderImage1} alt="Slider"/>

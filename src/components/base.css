@@ -216,13 +216,39 @@ h4,
   }
 
   &--here-to-help {
+    padding-top: 400px;
+    padding-bottom: 140px;
+
+    @media (--large-breakpoint-down) {
+      padding-bottom: 100px;
+    }
+
+    .content-block__col-wrap {
+      margin-left: -100px;
+      position: relative;
+
+      @media (--x-large-breakpoint-down) {
+        margin-left: -80px;
+      }
+
+      @media (--large-breakpoint-down) {
+        margin-left: 0;
+      }
+    }
+
     .here-to-help-img {
       img {
         max-width: 100%;
+        width: 420px;
+
+        @media (--large-breakpoint-down) {
+          max-width: 380px;
+          width: 100%;
+        }
 
         @media (--small-breakpoint-down) {
           margin-top: 60px;
-          max-width: 380px;
+          max-width: 360px;
           width: 100%;
         }
 

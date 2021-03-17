@@ -113,11 +113,11 @@ const FinancialReliefPage = () => {
         </Fade>
       </section>    
 
-      <Fade>
-        <HorizontalSlider
-          bgColor="#F7F9FA"
-        />
-      </Fade>
+      <section style={{ backgroundColor: "#F7F9FA"}}>
+        <Fade>
+          <HorizontalSlider/>
+        </Fade>
+      </section>
 
       <section id="offering-grants" className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>

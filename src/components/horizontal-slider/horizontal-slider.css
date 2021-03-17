@@ -2,25 +2,42 @@
 @import "../variables.css";
 
 .horizontal-slider-wrap {
-  padding: 0 0 300px;
+  overflow: hidden;
+  position: relative;
+  top: 250px;
+  margin-top: -250px;
+  margin-bottom: 310px;
+
+  ::-webkit-scrollbar {
+    height: 12px;
+  }
+ 
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 62, 81, .2);
+    height: 12px;
+    border-radius: 10px;
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 62, 81, .8);
+    outline: 1px solid rgba(0, 62, 81, 0);
+    border-radius: 10px;
+  }
 }
 
 .horizontal-slider {
   width: 100vw;
-  height: 380px;
+  height: 410px;
   position: relative;
+  display: flex;
+  overflow: scroll;
 
   @media (--x-large-breakpoint-up) {
-    padding-left: calc((100vw - var(--container-max-width)) / 2);
+    margin-left: calc((100vw - var(--container-max-width)) / 2);
   }
 
   @media (--large-breakpoint-down) {
-    padding-left: 4vw;
-  }
-
-  .scroll-horizontal {
-    margin-top: -100px;
-    top: 100px;
+    margin-left: 4vw;
   }
 
   &__slide {
@@ -32,37 +49,49 @@
 
     &:nth-child(1) {
       width: 560px;
+      min-width: 560px;
       height: 380px;
     }
 
     &:nth-child(2) {
       width: 320px;
+      min-width: 320px;
       height: 380px;
     }
 
     &:nth-child(3) {
       width: 560px;
+      min-width: 560px;
       height: 380px;
     }
 
     &:nth-child(4) {
       width: 320px;
+      min-width: 320px;
       height: 380px;
     }
 
     &:nth-child(5) {
       width: 320px;
+      min-width: 320px;
       height: 380px;
     }
 
     &:nth-child(6) {
       width: 320px;
+      min-width: 320px;
       height: 380px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
   &__scroll-indicator {
-    margin-top: 160px;
+    margin-top: 30px;
     border-radius: 50%;
     border: 1px solid rgba(0, 62, 81, 1);
     width: 80px;
@@ -87,6 +116,14 @@
       0%   { transform: translateY(0); }
       50%  { transform: translateX(7px); }
       100% { transform: translateY(0); }
-    }    
+    }   
+    
+    @media (--x-large-breakpoint-up) {
+      margin-left: calc((100vw - var(--container-max-width)) / 2);
+    }
+
+    @media (--large-breakpoint-down) {
+      margin-left: 4vw;
+    }
   }
 }

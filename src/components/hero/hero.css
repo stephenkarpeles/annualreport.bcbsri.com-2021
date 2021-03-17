@@ -320,6 +320,7 @@
     text-align: center;
     font-weight: 700;
     position: relative;
+    font-family: var(--font-stack-regular);
 
     animation-name: bounce-vertical;
     animation-duration: 2s;

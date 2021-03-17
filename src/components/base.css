@@ -215,6 +215,76 @@ h4,
     margin-bottom: 15px;
   }
 
+  &--letter-intro {
+    .letter-read-more-btn {
+      display: none;
+      border: none;
+      padding: 0;
+      -webkit-appearance: none;
+      appearance: none;
+      color: var(--color-15);
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: underline;
+      padding: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    @media (--small-breakpoint-down) {
+      .letter-read-more-btn {
+        display: block;
+      }
+
+      .content-block__col--left p:nth-child(2) {
+        position: relative;
+
+        &::after {
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 12px;
+          height: 150px;
+          width: 100%;
+          content: '';
+          z-index: 500;
+          background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+        }
+        
+      }
+
+      .content-block__col--left p:last-of-type {
+        display: none;
+      }
+
+      .content-block__col--right p {
+        display: none;
+      }
+    }
+
+     &--is-open {
+      @media (--small-breakpoint-down) {
+        .letter-read-more-btn {
+          display: none;
+        }
+
+        .content-block__col--left p:nth-child(2) {
+          &::after {
+            display: none;
+          }
+        }
+
+        .content-block__col--left p:last-of-type {
+          display: block;
+        }
+
+        .content-block__col--right p {
+          display: block;
+        }
+      }
+    }
+  }
+
   &--bottom-padding-large {
     padding: 120px 0 240px;
   }

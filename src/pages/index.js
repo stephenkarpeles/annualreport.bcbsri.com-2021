@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, {useState} from "react"
 import Fade from 'react-reveal/Fade'
 // import Slide from 'react-reveal/Slide'
 
@@ -14,14 +14,19 @@ import bio1 from '../images/bio-1.jpg'
 import bio2 from '../images/bio-2.jpg'
 
 const IndexPage = () => {
+  const [readMore, setReadMore] = useState();
+
+  const handleReadMore = () => {
+    setReadMore(!readMore)
+  }
+
   return (
     <Layout>
           
       <SplashBlock/>
 
-      <section className="content-block" style={{ backgroundColor: "#fff"}}>
-        
-          <div className="container container--small">
+      <section className={`content-block content-block--letter-intro ${readMore ? 'content-block--letter-intro--is-open' : ''}`} style={{ backgroundColor: "#fff"}}>        
+        <div className="container container--small">
             <Fade>
               <div className="content-block__intro">
                 <div className="eyebrow eyebrow--color-15">2020 Annual Report</div>
@@ -32,6 +37,7 @@ const IndexPage = () => {
               <div className="content-block__col content-block__col--left">
                 <p>There are no adequate words to describe the shock to the system that was 2020. A public health crisis led to an economic crisis. Heightened social unrest sprang from a backlash against longstanding racial injustice in our country. The crises of 2020 did not define Blue Cross &amp; Blue Shield of Rhode Island as a company, however. Rather, we regarded them as an accelerating force for change and a call to action. While our annual and community report cannot fully capture the impact of these monumental events on Rhode Islanders, what you will find here is cause for hope in a portrait of strength, resilience, and caring.</p>
                 <p>We saw the pandemic bring out the best in Rhode Islanders. Front line workers – postal carriers, grocery clerks, pharmacists, delivery drivers, nursing home staff, directors of homeless shelters – and all healthcare professionals – were elevated to hero status, putting their lives on the line.</p>
+                <button className="letter-read-more-btn" onClick={handleReadMore} onKeyDown={handleReadMore}>Read More</button>
                 <p>Blue Cross employees were inspired. They volunteered their time to sew masks and deliver meals with Meals on Wheels. They worked with the Rhode Island Coalition of the Homeless to get necessary supplies to dozens of homeless shelters and service providers across the state to keep people safe and mitigate community spread. Our company provided $25 million in premium relief to members and customers. We served as advisors to the Department of Health and collected and shared relevant data. We waived cost sharing for telehealth visits, and for testing, visits, and care related to COVID-19. At the end of the year, we delivered groceries to our most vulnerable Medicaid members.</p>         
               </div>
               <div className="content-block__col content-block__col--right">

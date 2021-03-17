@@ -1,5 +1,6 @@
 @import "../mixins.css";
 @import "../variables.css";
+@import "../breakpoints.css";
 
 .horizontal-slider-wrap {
   overflow: hidden;
@@ -87,6 +88,10 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+
+    @media (--extra-small-breakpoint-down) {
+      min-width: 260px !important;
     }
   }
 

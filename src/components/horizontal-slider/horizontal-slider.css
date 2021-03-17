@@ -11,6 +11,7 @@
 
   ::-webkit-scrollbar {
     height: 12px;
+    -webkit-appearance: none;
   }
  
   ::-webkit-scrollbar-track {

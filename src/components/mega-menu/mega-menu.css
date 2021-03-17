@@ -22,7 +22,7 @@
   opacity: 0;
   overflow: hidden;
   transition: visibility 0s, opacity 0.5s, background-image 0.6s ease;
-
+  
   @media (--small-breakpoint-down) {
     overflow: visible;
   }

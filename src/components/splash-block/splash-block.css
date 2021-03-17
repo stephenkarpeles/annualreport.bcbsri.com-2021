@@ -30,7 +30,7 @@
 
   @media (--small-breakpoint-down) {
     background-size: 170%;
-    background-position: right 440px;
+    background-position: right 380px;
     background-image: url('../../images/polygon-blue.svg');
     background-repeat: no-repeat;
   }
@@ -63,6 +63,15 @@
         font-family: var(--font-serif);
         font-size: 64px;
         font-weight: 900;
+      }
+
+      @media (--small-breakpoint-down) {
+        font-size: 46px;
+        line-height: 60px;
+
+        span {
+          font-size: 58px;
+        }
       }
     }
   }

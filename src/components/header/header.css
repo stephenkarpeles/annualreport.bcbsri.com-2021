@@ -32,6 +32,10 @@
         opacity: .75;
       }
     }
+
+    @media (--small-breakpoint-down) {
+      display: none;
+    }
   }
 
   &__logo {
@@ -43,6 +47,11 @@
 
     img {
       width: 156px;
+    }
+
+    @media (--small-breakpoint-down) {
+      margin-left: auto;
+      border-left: 0;
     }
   }
 

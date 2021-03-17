@@ -96,7 +96,7 @@ const HealthWellBeingPage = () => {
             <div className="content-block__full-width-col content-block__full-width-col--has-top-border">
               <Fade>
                 <p>We also introduced similar temporary benefits for our Medicare members, including <strong>100% coverage</strong> for inpatient care, behavioral health, diagnostic labs and imaging, and select drugs.</p>
-                <p>We also coordinated with government officials to share up-to-date information regarding coronavirus disease—as well as our temporary benefits—through our Keeping You Well and Well-Informed site.</p>
+                <p>For both employers and members, we coordinated with government officials to share up-to-date information regarding coronavirus disease—as well as our temporary benefits—through our Keeping You Well and Well-Informed site.</p>
               </Fade>
             </div>   
           </div>
@@ -177,12 +177,12 @@ const HealthWellBeingPage = () => {
         </div>
       </section>
 
-      <section id="using-data-and-technology" className="content-block" style={{ backgroundColor: "#fff"}}>
+      <section id="improving-access" className="content-block" style={{ backgroundColor: "#fff"}}>
         <div className="container container--small">
           <Fade>
             <div className="content-block__intro">
               <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
-              <h2>Using data and philanthropy to address housing</h2>
+              <h2>Improving access to healthy and affordable housing</h2>
             </div>
           </Fade>
           <div className="content-block__col-wrap">
@@ -221,7 +221,7 @@ const HealthWellBeingPage = () => {
                     featNumSymbol="$"
                     featNumNumber="575"
                     featNumValue={[<>K<sup>+</sup></>]}
-                    featNumText="To improve safe, affordable housing"
+                    featNumText="To increase access to safe, affordable housing"
                   />  
                 </Slide> 
 
@@ -347,7 +347,7 @@ const HealthWellBeingPage = () => {
                 <div className="mar-top-4 mar-bot-4">
                   <StaticImage src="../images/safe-zone-img.jpg" alt="Safe Zone"/>
                 </div>
-                <p>We now have <a href="/">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
+                <p>We now have <a href="https://www.bcbsri.com/safezones">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
               </div>
               <div className="content-block__col content-block__col--right mar-bot-3"> 
                 <h3 className="heading-alt">
@@ -356,7 +356,7 @@ const HealthWellBeingPage = () => {
                 <div className="mar-top-4 mar-bot-4">
                   <StaticImage src="../images/ibram-kendi.jpg" alt="Safe Zone"/>
                 </div>
-                <p>The keynote speaker for our employee Diversity Week was <a href="/">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
+                <p>The keynote speaker for our employee Diversity Week was <a href="https://www.ibramxkendi.com/">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
               </div> 
             </div> 
           </Fade>

@@ -10,16 +10,16 @@ const ByTheNumbers = () => {
         <div className="container container--x-small">
         <div className="by-the-numbers__intro">
           <h2>By The Numbers</h2>
-          <p>A decrease in office visits and procedures during the pandemic was offset by premium relief and planning for a rebound in the amount of healthcare that our members will require in the coming year.</p>
+          <p>Our financial performance in 2020 allowed us to create a premium relief program of almost $30 million for medical and dental customers. We also contributed $10 million to our philanthropy fund at the Rhode Island Foundation, including our BlueAngel Community Health grants focused on safe and affordable housing. The after-tax net gain of $42 million was driven by several factors: strong enrollment, a final installment of a federal tax refund, and lower-than-expected medical claims during the first half of the year as members deferred non-COVID-19-related care.</p>
         </div>
 
         <div className="by-the-numbers__feat-number-block">
           <h3>Overall Profit/Loss</h3>
-          <p>For the fourth consecutive year we have shown positive financial results, allowing us to contribute $44 million into reserves, money we set aside for the protection of all our members to pay future claims.</p>
+          <p>For the fourth consecutive year we have shown positive financial results, allowing us to contribute $42 million into reserves, money we set aside for the protection of all our members to pay future claims.</p>
           <div className="by-the-numbers__number-block">
             <div className="by-the-numbers__number-amount"><sup>$</sup>42,421,000</div>
           </div>
-          <h3>Premium Reserves</h3>
+          <h3>Statutory Reserves</h3>
           <p>In 2020, premium reserves that we held for the protection of our members totaled $416 million at year end.</p>
           <div className="by-the-numbers__number-block">
             <div className="by-the-numbers__number-amount"><sup>$</sup>415,814,000</div>

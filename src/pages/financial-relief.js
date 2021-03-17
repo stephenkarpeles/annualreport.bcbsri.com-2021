@@ -54,8 +54,9 @@ const FinancialReliefPage = () => {
                 
                 <Slide up>
                   <LargeNumber
-                    featNumSymbol="$"
-                    featNumNumber="25"
+                    styleName="large-number--has-tilde"
+                    featNumSymbol="~"
+                    featNumNumber={[<><sup>$</sup>30</>]}
                     featNumValue="M"
                     featNumText="In Premium Relief"
                   />
@@ -76,7 +77,7 @@ const FinancialReliefPage = () => {
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
                 <p>To help our community through this difficult time, we donated to specific COVID-19 relief efforts—including the COVID-19 Response Fund—as well as provided financial support to many nonprofit partners that helped them reallocate funds toward COVID-19 efforts.</p>
-                <p>In addition to financial support, Your Blue Van delivered supplies for the Rhode Island Coalition for the Homeless. To help protect first responders as well as our state’s most vulnerable citizens, we donated hand sanitizing products to the State of Rhode Island, City of Providence emergency responders, and nonprofit organizations like Family Service of Rhode Island.</p>
+                <p>In addition to financial support, Your Blue Van delivered supplies for the Rhode Island Coalition for the Homeless. To help protect first responders and our state’s most vulnerable citizens, we donated hand sanitizing products to the State of Rhode Island, City of Providence emergency responders, and nonprofit organizations like Family Service of Rhode Island.</p>
                 <p>BlueAngel volunteers donated their time to deliver meals to older adults through Meals on Wheels, sew masks for healthcare and direct service professionals, and consult with local nonprofits via Zoom.</p> 
 
                 <Slide up>
@@ -175,8 +176,8 @@ const FinancialReliefPage = () => {
 
               </div>
               <div className="content-block__col content-block__col--right"> 
-                <p>When the calls started coming in, we knew we had to help. Small businesses were hit especially hard during the pandemic. Many were faced with cash flow constraints. A BCBSRI team of two people worked with more than 150 businesses, setting up payment plans, extending payment terms and helping connect them with available resources to help their businesses survive.</p>
-                <p>With that help, businesses could tell their employees that they would not lose their health coverage in the middle of a pandemic.</p>
+                <p>When the calls started coming in, we knew we had to help. Small businesses were hit especially hard during the pandemic. Many were faced with cash flow constraints. A BCBSRI team of two people worked with more than 150 businesses, setting up payment plans, extending payment terms and helping connect them with available resources for their businesses.</p>
+                <p>With that assistance, businesses could tell their employees that they would not lose their health coverage in the middle of a pandemic.</p>
               
                 <Fade>
                   <Blockquote

@@ -10,12 +10,29 @@
   background-size: 62%;
   overflow: hidden;
 
+  @media (--hero-image-up) {
+    background-size: 55%;
+  }
+
   @media (--large-breakpoint-down) {
     background-size: 70%;
   }
 
   @media (--large-breakpoint-down) {
-    background-size: 70%;
+    background-size: 60%;
+    background-position: 101% 20%;
+  }
+
+  @media (--medium-breakpoint-down) {
+    background-size: 56%;
+    background-position: 101% 30%;
+  }
+
+  @media (--small-breakpoint-down) {
+    background-size: 170%;
+    background-position: right 440px;
+    background-image: url('../../images/polygon-blue.svg');
+    background-repeat: no-repeat;
   }
 
   &__title {
@@ -53,6 +70,22 @@
   &__image-row {
     display: flex;
     justify-content: space-between;
+
+    &--desktop {
+      @media (--small-breakpoint-down) {
+        display: none;
+      }
+    }
+
+    &--mobile {
+      @media (--medium-breakpoint-up) {
+        display: none;
+      }
+
+      @media (--small-breakpoint-down) {
+        display: block;
+      }
+    }
   }
 
   &__image {
@@ -60,6 +93,16 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    @media (--small-breakpoint-down) {
+      width: 100%;
+      margin-left: 4vw;
+      margin-bottom: 12px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
   }
 
   &__intro-text {

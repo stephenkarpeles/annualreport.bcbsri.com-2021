@@ -8,6 +8,8 @@ import heroImg1 from "../../images/hero-image-1.jpg"
 import heroImg2 from "../../images/hero-image-2.jpg"
 import heroImg3 from "../../images/hero-image-3.jpg"
 import heroImg4 from "../../images/hero-image-4.jpg"
+import heroImgMobile1 from "../../images/hero-image-mobile-1.jpg"
+import heroImgMobile2 from "../../images/hero-image-mobile-2.jpg"
 
 const SplashBlock = () => {
   return (
@@ -23,18 +25,26 @@ const SplashBlock = () => {
         </div>
       </div>
       <Slide bottom cascade>
-        <div className="splash-block__image-row">        
+        <div className="splash-block__image-row splash-block__image-row--desktop">        
           <div className="splash-block__image">
-            <img src={heroImg1} alt=""/>
+            <img src={heroImg1} alt="Couple"/>
           </div>
           <div className="splash-block__image">
-            <img src={heroImg2} alt=""/>
+            <img src={heroImg2} alt="Hands"/>
           </div>
           <div className="splash-block__image">
-            <img src={heroImg3} alt=""/>
+            <img src={heroImg3} alt="Father"/>
           </div>
           <div className="splash-block__image">
-            <img src={heroImg4} alt=""/>
+            <img src={heroImg4} alt="Doctor"/>
+          </div>
+        </div>
+        <div className="splash-block__image-row splash-block__image-row--mobile">        
+          <div className="splash-block__image">
+            <img src={heroImgMobile1} alt=""/>
+          </div>
+          <div className="splash-block__image">
+            <img src={heroImgMobile2} alt=""/>
           </div>
         </div>
       </Slide> 

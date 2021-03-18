@@ -1,7 +1,6 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
 import Slide from 'react-reveal/Slide'
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 // Components
@@ -213,12 +212,12 @@ const FinancialReliefPage = () => {
         </Fade>
       </section>
 
-        <Link target="_blank" rel="noreferrer" to="https://www.bcbsri.com/keepinformed/">
+        <a target="_blank" rel="noreferrer" href="https://www.bcbsri.com/keepinformed/">
           <FullWidthImage
             bgImg={websiteImg}
             altText="Financial Relief"
           />
-        </Link>
+        </a>
 
       <section id="supporting-providers" className="content-block" style={{ backgroundColor: "#fff"}}>
         <Fade>

@@ -137,7 +137,7 @@ const MegaMenu = () => {
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#offering-grants">Offering grants to behavioral health practices</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#helping-small-businesses">Helping small businesses during the pandemic</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#navigating-cares-act">Navigating the CARES Act</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#supporting-providers">Supporting providers with the rapid adoption of telehealth, advance payments</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#supporting-providers">Supporting providers with the rapid adoption of telehealth</Link></li>
                   </ul>
                 </Fade>
               </li>

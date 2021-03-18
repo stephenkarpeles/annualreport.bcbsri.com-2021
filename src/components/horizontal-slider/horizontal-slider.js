@@ -14,6 +14,9 @@ const HorizontalSlider = () => {
           <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-2.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
+          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-8.jpg" alt="Slider"/>
+        </div>
+        <div className="horizontal-slider__slide">
           <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-3.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
@@ -27,9 +30,6 @@ const HorizontalSlider = () => {
         </div>
         <div className="horizontal-slider__slide">
           <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-7.jpg" alt="Slider"/>
-        </div>
-        <div className="horizontal-slider__slide">
-          <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-8.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
           <StaticImage src="../../images/gallery-supporting-covid-relief-efforts-9.jpg" alt="Slider"/>

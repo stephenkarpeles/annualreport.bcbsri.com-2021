@@ -16,7 +16,7 @@ const HorizontalSlider = () => {
           <StaticImage src="../../images/gallery-volunteering-with-focus-3.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <StaticImage src="../../images/gallery-volunteering-with-focus-4.jpg" alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-12.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
           <StaticImage src="../../images/gallery-volunteering-with-focus-5.jpg" alt="Slider"/>
@@ -40,7 +40,7 @@ const HorizontalSlider = () => {
           <StaticImage src="../../images/gallery-volunteering-with-focus-11.jpg" alt="Slider"/>
         </div>
         <div className="horizontal-slider__slide">
-          <StaticImage src="../../images/gallery-volunteering-with-focus-12.jpg" alt="Slider"/>
+          <StaticImage src="../../images/gallery-volunteering-with-focus-4.jpg" alt="Slider"/>
         </div>
       </div>
       <div className="horizontal-slider__scroll-indicator">

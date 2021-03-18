@@ -16,6 +16,11 @@
     position: relative;
     top: 30px;
 
+    @media (--large-breakpoint-down) {
+      font-size: 50px;
+      line-height: 60px;
+    }
+
     @media (--medium-breakpoint-down) {
       font-size: 40px;
       line-height: 56px;
@@ -28,6 +33,11 @@
     color: var(--color-17);
     display: inline-block;
     font-family: var(--font-serif);
+
+    @media (--large-breakpoint-down) {
+      font-size: 180px;
+      line-height: 200px;
+    }
 
     @media (--medium-breakpoint-down) {
       font-size: 100px;
@@ -83,6 +93,11 @@
     color: var(--color-17);
     display: inline-block;
     font-family: var(--font-serif);
+
+    @media (--large-breakpoint-down) {
+      font-size: 50px;
+      line-height: 60px;
+    }
 
     @media (--medium-breakpoint-down) {
       font-size: 40px;

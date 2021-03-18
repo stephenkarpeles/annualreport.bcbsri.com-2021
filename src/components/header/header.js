@@ -22,11 +22,11 @@ const Header = () => {
           role="button" 
           tabIndex={0} 
           onClick={() => {
-            scrollTop();
+            //scrollTop();
             toggleMegaMenuClass();
           }} 
           onKeyDown={() => {
-            scrollTop();
+            //scrollTop();
             toggleMegaMenuClass();
           }}
         >

@@ -4,18 +4,15 @@
 
 .mega-menu {
   background-image: 
-    /* Load them all in advance so there's no delay on swap */
-    url('../../images/backgrounds/hero-bcg-health-wellbeing-new.jpg'),
-    url('../../images/backgrounds/hero-bcg-customer-convenience-new.jpg'),
-    url('../../images/backgrounds/hero-bcg-financial-relief-new.jpg');
-  position: absolute;
+    url('../../images/backgrounds/hero-bcg-nav-initial.jpg');
+  position: fixed;
   z-index: 9000;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-size: cover;
   background-position: right center;
   visibility: hidden;
@@ -24,7 +21,7 @@
   transition: visibility 0s, opacity 0.5s, background-image 0.6s ease;
   
   @media (--small-breakpoint-down) {
-    overflow: visible;
+    overflow: scroll;
   }
 
   .mega-menu-is-open & {
@@ -73,6 +70,10 @@
 
   &-is-open .mega-menu__content {
     left: 0; 
+    
+    @media (--small-breakpoint-down) {
+      overflow: scroll;
+    }
   }
 
   &__close-btn {
@@ -287,6 +288,10 @@ ul.mega-menu__subnav {
 }
 
 .body-subnav-1-is-open {
+  .mega-menu {
+    background-image: url('../../images/backgrounds/hero-bcg-health-wellbeing-new.jpg');
+  }
+
   .mega-menu__subnav.mega-menu__subnav--1 {
     display: block;
   }

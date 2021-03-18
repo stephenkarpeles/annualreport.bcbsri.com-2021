@@ -20,10 +20,10 @@ const ByTheNumbers = () => {
             <div className="by-the-numbers__number-amount"><sup>$</sup>42,421,000</div>
           </div>
           <h3>Statutory Reserves</h3>
-          <p>In 2020, premium reserves that we held for the protection of our members totaled $416 million at year end.</p>
+          <p>In 2020, statutory reserves that we held for the protection of our members totaled $416 million at year end.</p>
           <div className="by-the-numbers__number-block">
             <div className="by-the-numbers__number-amount"><sup>$</sup>415,814,000</div>
-            <div className="by-the-numbers__number-caption">Premium Reserves as of 12/31/2020</div>
+            <div className="by-the-numbers__number-caption">Statutory Reserves as of 12/31/2020</div>
           </div>
         </div>
 

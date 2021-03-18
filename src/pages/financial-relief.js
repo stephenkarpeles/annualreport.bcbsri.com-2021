@@ -176,7 +176,7 @@ const FinancialReliefPage = () => {
 
               </div>
               <div className="content-block__col content-block__col--right"> 
-                <p>When the calls started coming in, we knew we had to help. Small businesses were hit especially hard during the pandemic. Many were faced with cash flow constraints. A BCBSRI team of two people worked with more than 150 businesses, setting up payment plans, extending payment terms and helping connect them with available resources for their businesses.</p>
+                <p>When the calls started coming in, we knew we had to help. Small businesses were hit especially hard during the pandemic. Many were faced with cash flow constraints. A BCBSRI team of two people worked with more than 150 businesses, setting up payment plans, extending payment terms, and helping connect them with available resources for their businesses.</p>
                 <p>With that assistance, businesses could tell their employees that they would not lose their health coverage in the middle of a pandemic.</p>
               
                 <Fade>

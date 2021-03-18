@@ -95,7 +95,7 @@ const MegaMenu = () => {
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being">Creativity, speed, and collaboration</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#expanding-coverage">Expanding coverage during COVID-19—at no cost</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#volunteering">Volunteering with a focus on community and safety</Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#improving-access">Using data and philanthropy to address housing</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#improving-access">Improving access to healthy and affordable housing</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#keeping-kids-playing">Keeping kids playing during a pandemic</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#bringing-oak-street-health">Bringing Oak Street Health to more members</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#achieving-our-vision">Achieving our vision through Diversity, Equity &amp; Inclusion</Link></li>

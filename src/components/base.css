@@ -190,6 +190,11 @@ h4,
   background: white;
   overflow: hidden;
 
+  &#volunteering {
+    position: relative;
+    z-index: 500;
+  }
+
   @media (--small-breakpoint-down) {
     padding: 80px 0;
   }

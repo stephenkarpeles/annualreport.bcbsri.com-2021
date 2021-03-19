@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./header.css"
 import mainLogo from '../../images/logo-bcbsri.svg'
 
@@ -6,6 +6,7 @@ import { Link } from "gatsby"
 
 const Header = () => {
   const MegaMenuOpenClass = "mega-menu-is-open"
+  const [userScroll, setUserScroll] = useState(false);
 
   function toggleMegaMenuClass() {
     document.body.classList.toggle(MegaMenuOpenClass)
@@ -15,8 +16,18 @@ const Header = () => {
     window.scrollTo(0, 0);
   }
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () =>
+        setUserScroll(window.pageYOffset > 40)
+      );
+    }
+  }, []);
+
   return (
-    <header className="header">
+    <header className={`header ${
+        userScroll ? "header--user-has-scrolled" : ""
+      }`}>
       <div className="header__container">
         <div className="header__toggle-menu-btn" 
           role="button" 

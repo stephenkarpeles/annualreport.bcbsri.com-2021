@@ -7,6 +7,11 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  height: 80px;
+
+  &--user-has-scrolled {
+    box-shadow: 0 1px 4px rgba(100, 100, 100, .1);
+  }
 
   &__container {
     width: 92%;

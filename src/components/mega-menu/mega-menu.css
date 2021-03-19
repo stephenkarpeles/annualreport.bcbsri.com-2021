@@ -255,11 +255,11 @@ ul.mega-menu__subnav {
         position: relative;
 
          &::after {
-          content: url('../../images/icons/arrow-right-blue.svg');
+          content: url('../../images/icons/icon-arrow-circle-right-thicker-blue.svg');
           position: absolute;
-          right: -31px;
-          top: -3px;
-          width: 23px;
+          right: -21px;
+          top: 0;
+          width: 18px;
           display: inline-block;
 
           @media (--small-breakpoint-down) {
@@ -296,11 +296,11 @@ ul.mega-menu__subnav {
         position: relative;
 
          &::after {
-          content: url('../../images/icons/arrow-right-orange.svg');
+          content: url('../../images/icons/icon-arrow-circle-right-thicker-orange.svg');
           position: absolute;
-          right: -31px;
-          top: -3px;
-          width: 23px;
+          right: -21px;
+          top: 0;
+          width: 18px;
           display: inline-block;
 
           @media (--small-breakpoint-down) {
@@ -337,11 +337,11 @@ ul.mega-menu__subnav {
         position: relative;
 
          &::after {
-          content: url('../../images/icons/arrow-right-green.svg');
+          content: url('../../images/icons/icon-arrow-circle-right-thicker-green.svg');
           position: absolute;
-          right: -31px;
-          top: -3px;
-          width: 23px;
+          right: -21px;
+          top: 0;
+          width: 18px;
           display: inline-block;
 
           @media (--small-breakpoint-down) {

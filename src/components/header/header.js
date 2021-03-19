@@ -12,15 +12,12 @@ const Header = () => {
     document.body.classList.toggle(MegaMenuOpenClass)
   }
 
-  function scrollTop() {
-    window.scrollTo(0, 0);
-  }
-
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
         setUserScroll(window.pageYOffset > 40)
       );
+      return () => window.removeEventListener('scroll');
     }
   }, []);
 
@@ -32,12 +29,10 @@ const Header = () => {
         <div className="header__toggle-menu-btn" 
           role="button" 
           tabIndex={0} 
-          onClick={() => {
-            //scrollTop();
+          onClick={() => {            
             toggleMegaMenuClass();
           }} 
           onKeyDown={() => {
-            //scrollTop();
             toggleMegaMenuClass();
           }}
         >

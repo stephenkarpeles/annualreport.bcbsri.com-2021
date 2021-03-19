@@ -9,6 +9,9 @@ import iconHealthWellbeingWhite from '../../images/icons/icon-nav-health-well-be
 import iconCustomerConvenience from '../../images/icons/icon-nav-customer-convenience-orange.png'
 import iconFinancialRelief from '../../images/icons/icon-nav-financial-relief-green.png'
 import iconHealthWellbeing from '../../images/icons/icon-nav-health-well-being.png'
+import iconArrowRightBlue from '../../images/icons/icon-arrow-circle-right-thicker-blue.svg'
+import iconArrowRightGreen from '../../images/icons/icon-arrow-circle-right-thicker-green.svg'
+import iconArrowRightOrange from '../../images/icons/icon-arrow-circle-right-thicker-orange.svg'
 
 const MegaMenu = () => {
   // TODO - refactor this setup, to be more DRY
@@ -92,7 +95,7 @@ const MegaMenu = () => {
                 </div>
                 <Fade>
                   <ul className="mega-menu__subnav mega-menu__subnav--1">
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being">Creativity, speed, and collaboration</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being">Creativity, speed, and collaboration <img src={iconArrowRightBlue} alt=""/></Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#expanding-coverage">Expanding coverage during COVID-19—at no cost</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#volunteering">Volunteering with a focus on community and safety</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#improving-access">Improving access to healthy and affordable housing</Link></li>
@@ -112,7 +115,7 @@ const MegaMenu = () => {
                 </div>
                 <Fade>
                   <ul className="mega-menu__subnav mega-menu__subnav--2">
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience">Virtual tools and innovative benefits</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience">Virtual tools and innovative benefits <img src={iconArrowRightOrange} alt=""/></Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience#accelerating-telehealth">Accelerating the use of telehealth</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience#bringing-your-blue-store">Bringing Your Blue Store into homes</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/customer-convenience#making-healthcare-easier">Making healthcare easier for Medicare members</Link></li>
@@ -131,7 +134,7 @@ const MegaMenu = () => {
                 </div>
                 <Fade>
                   <ul className="mega-menu__subnav mega-menu__subnav--3">
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief">Assistance, empathy, and flexibility</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief">Assistance, empathy, and flexibility <img src={iconArrowRightGreen} alt=""/></Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#delivering-premium-relief">Delivering premium relief to customers</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#supporting-covid19-relief">Supporting COVID-19 relief efforts</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/financial-relief#offering-grants">Offering grants to behavioral health practices</Link></li>

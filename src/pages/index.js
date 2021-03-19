@@ -18,7 +18,7 @@ const IndexPage = () => {
   }
 
   return (
-    <Layout>
+    <Layout pageTitle="2020 BCBSRI Annual and Community Report">
           
       <SplashBlock/>
 

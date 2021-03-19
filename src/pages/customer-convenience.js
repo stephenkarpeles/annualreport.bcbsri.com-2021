@@ -22,7 +22,7 @@ import telehealthImg from '../images/telehealth.png'
 
 const CustomerConveniencePage = () => {
   return (
-    <Layout>
+    <Layout pageTitle="Customer Convenience | 2020 BCBSRI Annual and Community Report">
       <Hero
         styleName="hero--orange-accent hero--customer-convenience"
         bgImg={HeroImg}

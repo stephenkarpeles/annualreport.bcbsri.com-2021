@@ -20,7 +20,7 @@ import videoKidsImage from '../images/video-kids-want-to-know.jpg'
 
 const FinancialReliefPage = () => {
   return (
-    <Layout>
+    <Layout pageTitle="Financial Relief | 2020 BCBSRI Annual and Community Report">
       <Hero
         styleName="hero--financial-relief"
         bgImg={HeroImg}

@@ -25,7 +25,7 @@ import heroToHelpImg from "../images/we-are-here-to-help.png"
 
 const HealthWellBeingPage = () => {
   return (
-    <Layout>
+    <Layout pageTitle="Health & Well-Being | 2020 BCBSRI Annual and Community Report">
       <Hero
         styleName="hero--blue-accent hero--health-well-being"
         bgImg={HeroImg}

@@ -10,6 +10,7 @@ const Layout = props => {
   return (
     <div id="App">
       <Helmet>
+        <title>{props.pageTitle}</title>
         <link href="//cloud.typenetwork.com/projects/5316/fontface.css/" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="//use.typekit.net/mpp0kpf.css"/>
         <link rel="preload" as="image" href="/static/nav-bcg-customer-convenience-ace152e7286337049ba218febd96f9e8.jpg"/>

@@ -250,8 +250,11 @@ ul.mega-menu__subnav {
       
       a {
         color: var(--color-5);
-        text-transform: uppercase;;
-        
+        text-transform: uppercase;
+
+        &:hover {
+          text-decoration: underline;
+        }        
       }
     }
 
@@ -274,8 +277,11 @@ ul.mega-menu__subnav {
       
       a {
         color: var(--color-20);
-        text-transform: uppercase;;
-        
+        text-transform: uppercase;
+
+        &:hover {
+          text-decoration: underline;
+        }        
       }
     }
 
@@ -298,8 +304,11 @@ ul.mega-menu__subnav {
       
       a {
         color: var(--color-21);
-        text-transform: uppercase;;
+        text-transform: uppercase;   
         
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
 

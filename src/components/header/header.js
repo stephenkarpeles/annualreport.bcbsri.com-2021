@@ -17,7 +17,7 @@ const Header = () => {
       window.addEventListener("scroll", () =>
         setUserScroll(window.pageYOffset > 40)
       );
-      return () => window.removeEventListener('scroll');
+      return () => window.removeEventListener('scroll', setUserScroll);
     }
   }, []);
 

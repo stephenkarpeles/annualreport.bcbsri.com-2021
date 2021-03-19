@@ -26,7 +26,7 @@ const IndexPage = () => {
         <div className="container container--small">
             <Fade>
               <div className="content-block__intro">
-                <div className="eyebrow eyebrow--color-15">2020 Annual Report</div>
+                <div className="eyebrow eyebrow--color-15">Introduction</div>
                 <h2>Letter from our Leadership</h2>
               </div>
             </Fade>

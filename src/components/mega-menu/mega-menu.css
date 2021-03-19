@@ -245,6 +245,16 @@ ul.mega-menu__subnav {
   }
 
   &--1 {
+    li:first-child {
+      margin-bottom: 2rem;
+      
+      a {
+        color: var(--color-5);
+        text-transform: uppercase;;
+        
+      }
+    }
+
     @media (--small-breakpoint-down) {
       bottom: auto;
     }
@@ -259,6 +269,16 @@ ul.mega-menu__subnav {
   }
 
   &--2 {
+    li:first-child {
+      margin-bottom: 2rem;
+      
+      a {
+        color: var(--color-20);
+        text-transform: uppercase;;
+        
+      }
+    }
+
     @media (--small-breakpoint-down) {
       bottom: auto;
     }
@@ -273,6 +293,16 @@ ul.mega-menu__subnav {
   }
 
   &--3 {
+    li:first-child {
+      margin-bottom: 2rem;
+      
+      a {
+        color: var(--color-21);
+        text-transform: uppercase;;
+        
+      }
+    }
+
     @media (--small-breakpoint-down) {
       bottom: auto;
     }

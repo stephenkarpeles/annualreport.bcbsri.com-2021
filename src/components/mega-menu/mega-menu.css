@@ -247,10 +247,21 @@ ul.mega-menu__subnav {
   &--1 {
     li:first-child {
       margin-bottom: 2rem;
+      position: relative;
       
       a {
         color: var(--color-5);
         text-transform: uppercase;
+        position: relative;
+
+         &::after {
+          content: url('../../images/icons/arrow-right-blue.svg');
+          position: absolute;
+          right: -31px;
+          top: -3px;
+          width: 23px;
+          display: inline-block;
+        }
 
         &:hover {
           text-decoration: underline;
@@ -278,6 +289,16 @@ ul.mega-menu__subnav {
       a {
         color: var(--color-20);
         text-transform: uppercase;
+        position: relative;
+
+         &::after {
+          content: url('../../images/icons/arrow-right-orange.svg');
+          position: absolute;
+          right: -31px;
+          top: -3px;
+          width: 23px;
+          display: inline-block;
+        }
 
         &:hover {
           text-decoration: underline;
@@ -304,7 +325,17 @@ ul.mega-menu__subnav {
       
       a {
         color: var(--color-21);
-        text-transform: uppercase;   
+        text-transform: uppercase;
+        position: relative;
+
+         &::after {
+          content: url('../../images/icons/arrow-right-green.svg');
+          position: absolute;
+          right: -31px;
+          top: -3px;
+          width: 23px;
+          display: inline-block;
+        }   
         
         &:hover {
           text-decoration: underline;

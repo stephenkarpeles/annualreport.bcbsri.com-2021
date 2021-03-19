@@ -347,7 +347,7 @@ const HealthWellBeingPage = () => {
                 <div className="mar-top-4 mar-bot-4">
                   <StaticImage src="../images/safe-zone-img.jpg" alt="Safe Zone"/>
                 </div>
-                <p>We now have <a href="https://www.bcbsri.com/safezones">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
+                <p>We now have <a target="_blank" href="https://www.bcbsri.com/safezones">41 sites</a> certified to provide safe, affirming, and inclusive care to the LGBTQ community.</p>                
               </div>
               <div className="content-block__col content-block__col--right mar-bot-3"> 
                 <h3 className="heading-alt">
@@ -356,7 +356,7 @@ const HealthWellBeingPage = () => {
                 <div className="mar-top-4 mar-bot-4">
                   <StaticImage src="../images/ibram-kendi.jpg" alt="Safe Zone"/>
                 </div>
-                <p>The keynote speaker for our employee Diversity Week was <a href="https://www.ibramxkendi.com/">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
+                <p>The keynote speaker for our employee Diversity Week was <a target="_blank" href="https://www.ibramxkendi.com/">Dr. Ibram X. Kendi</a>, one of America’s foremost historians and leading antiracist voices. He is the author of <em>Stamped from the Beginning</em> and <em>How to be an Antiracist</em>.</p>                 
               </div> 
             </div> 
           </Fade>

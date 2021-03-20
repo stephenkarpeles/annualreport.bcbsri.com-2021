@@ -235,6 +235,8 @@ ul.mega-menu__subnav {
     margin-bottom: 1.25rem;
 
     &:first-child {
+      font-size: 15px;
+
       a {
         img {
           position: relative;

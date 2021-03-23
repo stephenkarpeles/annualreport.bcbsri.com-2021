@@ -17,6 +17,7 @@
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^3.1.0",
+    "gatsby-plugin-google-gtag": "^3.1.0",
     "gatsby-plugin-image": "^1.1.0",
     "gatsby-plugin-manifest": "^2.11.0",
     "gatsby-plugin-postcss": "^3.7.0",

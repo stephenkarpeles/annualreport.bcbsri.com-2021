@@ -11,6 +11,7 @@ import VideoModal from "../components/video-modal/video-modal"
 import Blockquote from "../components/blockquote/blockquote"
 import SmallNumber from "../components/small-number/small-number"
 import LargeNumber from "../components/large-number/large-number"
+import CtaBlock from "../components/cta-block/cta-block"
 
 //Images
 import HeroImg from "../images/backgrounds/hero-bcg-customer-convenience-new.jpg"
@@ -306,6 +307,7 @@ const CustomerConveniencePage = () => {
         </Fade>
       </section>
 
+      <CtaBlock/>
       <ByTheNumbers/>
     </Layout>
   )

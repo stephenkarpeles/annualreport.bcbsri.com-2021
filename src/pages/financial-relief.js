@@ -12,7 +12,7 @@ import VideoModal from "../components/video-modal/video-modal"
 import Blockquote from "../components/blockquote/blockquote"
 import LargeNumber from "../components/large-number/large-number"
 import FullWidthImage from "../components/full-width-image/full-width-image"
-import CtaBlock from "../components/cta-block/cta-block"
+import CtaBlockAlt from "../components/cta-block-alt/cta-block-alt"
 
 //Images
 import HeroImg from "../images/hero-bcg-financial-relief-fullsize.jpg"
@@ -255,7 +255,7 @@ const FinancialReliefPage = () => {
         </Fade>
       </section>
 
-      <CtaBlock/>
+      <CtaBlockAlt/>
       <ByTheNumbers/>
     </Layout>
   )

@@ -209,6 +209,10 @@ ul.mega-menu__subnav {
   -webkit-transition: all .5s linear 0s;
   transition: all .5s linear 0s;
 
+  @media (--hero-image-up) {
+    padding: 205px 3vw 0;
+  }
+
   @media (--small-breakpoint-down) {
     width: 100%;
     padding: 2rem 0;

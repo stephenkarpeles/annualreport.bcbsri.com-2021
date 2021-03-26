@@ -12,7 +12,7 @@ import Blockquote from "../components/blockquote/blockquote"
 import SmallNumber from "../components/small-number/small-number"
 import LargeNumber from "../components/large-number/large-number"
 import HorizontalSliderAlt from "../components/horizontal-slider-alt/horizontal-slider-alt"
-import CtaBlock from "../components/cta-block/cta-block"
+import CtaBlockAlt from "../components/cta-block-alt/cta-block-alt"
 // import FullWidthImage from "../components/full-width-image/full-width-image"
 
 //Images
@@ -435,7 +435,7 @@ const HealthWellBeingPage = () => {
         </div>
       </section>
 
-      <CtaBlock/>
+      <CtaBlockAlt/>
       <ByTheNumbers/>
     </Layout>
   )

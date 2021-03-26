@@ -93,7 +93,7 @@ const AccordionItem = ({
         <div className="accordion-item__arrow">
           <svg version="1.1" id="Layer_1" x="0px" y="0px"
              viewBox="0 0 48 48">          
-          <path id="Arrow" class="st0" d="M48,24l-3.8-6L43,18.8l2.8,4.4H0v1.5h45.7L43,29.2l1.3,0.8L48,24L48,24z"/>
+          <path id="Arrow" className="st0" d="M48,24l-3.8-6L43,18.8l2.8,4.4H0v1.5h45.7L43,29.2l1.3,0.8L48,24L48,24z"/>
           </svg>  
         </div>
       </div>

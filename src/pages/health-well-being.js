@@ -435,7 +435,9 @@ const HealthWellBeingPage = () => {
         </div>
       </section>
 
-      <CtaBlockAlt/>
+      <CtaBlockAlt
+        styleName="cta-block-alt--hide-health-well-being"
+      />
       <ByTheNumbers/>
     </Layout>
   )

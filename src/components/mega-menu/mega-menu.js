@@ -65,6 +65,12 @@ const MegaMenu = () => {
     document.body.classList.remove(SubnavTwoBodyClass);
   }
 
+  function scrollFinancialRelief() {
+    document.querySelector('.mega-menu__subnav--3').scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  }
+
   return (
     <div className="mega-menu">
       <Slide left>
@@ -124,7 +130,14 @@ const MegaMenu = () => {
                   </ul>
                 </Fade>
               </li>
-              <li className="mega-menu__nav-item mega-menu__nav-item--3" onClick={toggleSubnavThree} onKeyDown={toggleSubnavThree}>
+              <li className="mega-menu__nav-item mega-menu__nav-item--3" 
+                // onClick={toggleSubnavThree} 
+                // onKeyDown={toggleSubnavThree}
+                  onClick={() => {
+                    toggleSubnavThree();
+                    scrollFinancialRelief();
+                  }}
+                >
                 <div className="mega-menu__nav-item-title">
                   <span>Financial<br/>Relief</span>
                   <span>

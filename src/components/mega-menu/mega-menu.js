@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useRef } from "react"
 import "./mega-menu.css"
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
@@ -65,10 +65,10 @@ const MegaMenu = () => {
     document.body.classList.remove(SubnavTwoBodyClass);
   }
 
+  const menuThreeRef = useRef()
+
   function scrollFinancialRelief() {
-    document.querySelector('.mega-menu__subnav--3').scrollIntoView({ 
-      behavior: 'smooth' 
-    });
+    menuThreeRef.current.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
@@ -138,7 +138,7 @@ const MegaMenu = () => {
                     scrollFinancialRelief();
                   }}
                 >
-                <div className="mega-menu__nav-item-title">
+                <div ref={menuThreeRef} className="mega-menu__nav-item-title">
                   <span>Financial<br/>Relief</span>
                   <span>
                     <img src={iconFinancialReliefWhite} alt=""/>

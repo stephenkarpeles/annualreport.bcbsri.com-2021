@@ -18,7 +18,7 @@ const CtaBlockAlt = (props) => {
         <Link to="/" className="cta-block-alt__item cta-block-alt__item--homepage">
           <Fade>
             <h3>Return to<br/>Homepage</h3>
-            <Link to="/" className="cta-block-alt__link">Learn More <img src={iconArrowRightDarkBlue} alt=""/></Link>
+            <Link to="/" className="cta-block-alt__link">Home <img src={iconArrowRightDarkBlue} alt=""/></Link>
           </Fade>
         </Link>
         <Link to="/health-well-being" className="cta-block-alt__item cta-block-alt__item--health-well-being">

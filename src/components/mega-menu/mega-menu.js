@@ -65,12 +65,6 @@ const MegaMenu = () => {
     document.body.classList.remove(SubnavTwoBodyClass);
   }
 
-  const menuThreeRef = useRef()
-
-  function scrollFinancialRelief() {
-    menuThreeRef.current.scrollIntoView({ behavior: 'smooth' })
-  }
-
   return (
     <div className="mega-menu">
       <Slide left>
@@ -135,10 +129,9 @@ const MegaMenu = () => {
                 // onKeyDown={toggleSubnavThree}
                   onClick={() => {
                     toggleSubnavThree();
-                    scrollFinancialRelief();
                   }}
                 >
-                <div ref={menuThreeRef} className="mega-menu__nav-item-title">
+                <div className="mega-menu__nav-item-title">
                   <span>Financial<br/>Relief</span>
                   <span>
                     <img src={iconFinancialReliefWhite} alt=""/>

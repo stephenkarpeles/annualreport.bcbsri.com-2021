@@ -66,6 +66,7 @@
     @media (--small-breakpoint-down) {
       width: 100%;
       height: 580px;
+      margin-bottom: 30px;
     }
 
     a {

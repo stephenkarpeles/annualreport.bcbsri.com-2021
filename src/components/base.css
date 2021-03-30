@@ -787,17 +787,18 @@ h4,
 }
 
 .investing-footnote {
-  padding: 0 0 90px;
+  padding: 35px 0 85px;
   background: white;
   text-align: center;
   font-size: 14px;
   line-height: 24px;
   font-style: italic;
+  background: var(--color-25);
   color: var(--color-10);
   font-family: var(--font-stack-light);
 
   @media (--large-breakpoint-down) {
-    padding: 20px 0 90px;
+    padding: 25px 0 80px;
   }
 
   sup {

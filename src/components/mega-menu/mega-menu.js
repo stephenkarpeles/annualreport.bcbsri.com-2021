@@ -1,4 +1,4 @@
-import React, { useRef } from "react"
+import React from "react"
 import "./mega-menu.css"
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
@@ -87,7 +87,7 @@ const MegaMenu = () => {
             <ul>
               <li className="mega-menu__nav-item mega-menu__nav-item--1" onClick={toggleSubnavOne} onKeyDown={toggleSubnavOne}>
                 <div className="mega-menu__nav-item-title">
-                  <span>Health &amp;<br/>Well-being</span>
+                  <span>Health &amp;<br/>Well-Being</span>
                   <span>
                     <img src={iconHealthWellbeingWhite} alt="Icon"/>
                     <img src={iconHealthWellbeing} alt="Icon"/>
@@ -96,7 +96,7 @@ const MegaMenu = () => {
                 <Fade>
                   <ul className="mega-menu__subnav mega-menu__subnav--1">
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being">Creativity, speed, and collaboration <img src={iconArrowRightBlue} alt=""/></Link></li>
-                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#expanding-coverage">Expanding coverage during COVID-19—at no cost</Link></li>
+                    <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#expanding-coverage">Expanding coverage during COVID-19 &mdash; at no added cost to members</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#volunteering">Volunteering with a focus on community and safety</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#improving-access">Improving access to healthy and affordable housing</Link></li>
                     <li><Link onClick={hideMegaMenu} onKeyDown={hideMegaMenu} to="/health-well-being#keeping-kids-playing">Keeping kids playing during a pandemic</Link></li>

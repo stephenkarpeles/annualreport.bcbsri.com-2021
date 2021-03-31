@@ -101,7 +101,7 @@ const FinancialReliefPage = () => {
                   <Blockquote
                     blockquoteText="When Rhode Island PBS launches a project of interest and importance to the health and well-being of our community—whether it is prevention of opioid overdose or now COVID-19 information—we are grateful we can count on Blue Cross’s leadership and enthusiastic partnership."
                     blockquoteAuthor="David W. Piccerelli"
-                    blockquoteAuthorTitle="President of WSBE Rhode Island PBS"
+                    blockquoteAuthorTitle="President, WSBE Rhode Island PBS"
                   />
                 </Slide>
               </div> 
@@ -133,14 +133,14 @@ const FinancialReliefPage = () => {
                       <li>Newport County Community Mental Health Center</li>
                       <li>Providence Behavioral Health Associates, Inc.</li>
                       <li>Lisa M. Rocchio, Ph.D. &amp; Associates, Inc.</li>
-                      <li>Barrington Behavioral Health Services, LLC,</li>
+                      <li>Barrington Behavioral Health Services, LLC</li>
                     </ul>
                   </div>
 
                   <Blockquote
                     blockquoteText="These grants can help transform smaller practices where thousands of Rhode Islanders receive vital services each year."
                     blockquoteAuthor="Sarah Fleury"
-                    blockquoteAuthorTitle="LICSW, CPHQ, BCBSRI manager of behavioral health"
+                    blockquoteAuthorTitle="LICSW, CPHQ, BCBSRI manager of Behavioral health"
                   />
                 </Fade>         
 
@@ -229,7 +229,7 @@ const FinancialReliefPage = () => {
             </div>
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
-                <p>As providers saw an increasing number of their patients virtually, BCBSRI led the way by expanding access to telehealth and reducing the cost for patients ahead of state requirements. This gave providers a head start in transferring their practices to a virtual environment before COVID restrictions were enacted.</p>
+                <p>As providers saw an increasing number of their patients virtually, BCBSRI led the way by expanding access to telehealth and reducing the cost for patients ahead of state requirements. This gave providers a head start in transferring their practices to a virtual environment before COVID-19 restrictions were enacted.</p>
 
                 <Slide up>
                   <LargeNumber

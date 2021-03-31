@@ -31,7 +31,7 @@ const HealthWellBeingPage = () => {
         styleName="hero--blue-accent hero--health-well-being"
         bgImg={HeroImg}
         heading={["Health &", <br/>, "Well-Being"]}
-        subheading="New virtual tools and innovative benefits helped Rhode Islanders gain more control over their own health and well-being."
+        subheading="Creativity, speed, and collaboration were key to increasing access to care for Rhode Islanders during the COVID-19 pandemic."
       />
 
       <section id="expanding-coverage" className="content-block" style={{ backgroundColor: "#fff"}}>
@@ -45,7 +45,7 @@ const HealthWellBeingPage = () => {
             <div className="content-block__col-wrap">
               <div className="content-block__col content-block__col--left">
                 <Fade>
-                  <p>To help remove barriers to care among our 400,000+ members during the pandemic, BCBSRI introduced temporary benefits that help members access the services they need—with no added worries about cost.</p>
+                  <p>To help remove barriers to care among our 400,000+ members during the pandemic, BCBSRI introduced temporary benefits that helped members access the services they need—with no added worries about cost.</p>
                   <p>Our priority was to ensure our members have safe, uninterrupted access to high-quality healthcare during this pandemic—whether they needed help for COVID-19 or other health conditions.</p>
                 </Fade>
 
@@ -97,7 +97,7 @@ const HealthWellBeingPage = () => {
             <div className="content-block__full-width-col content-block__full-width-col--has-top-border">
               <Fade>
                 <p>We also introduced similar temporary benefits for our Medicare members, including <strong>100% coverage</strong> for inpatient care, behavioral health, diagnostic labs and imaging, and select drugs.</p>
-                <p>For both employers and members, we coordinated with government officials to share up-to-date information regarding coronavirus disease—as well as our temporary benefits—through our Keeping You Well and Well-Informed site.</p>
+                <p>For both employers and members, we coordinated with government officials to share up-to-date information regarding coronavirus disease—as well as our temporary benefits—through our <a target="_blank" rel="noreferrer" href="https://www.bcbsri.com/keepinformed/">Keeping You Well and Well-Informed site</a>.</p>
               </Fade>
             </div>   
           </div>
@@ -330,7 +330,7 @@ const HealthWellBeingPage = () => {
           </Fade>
           <div className="content-block__full-width-col content-block__full-width-col--no-spacing">
             <Fade>
-              <p>Passionately leading a state of health and well-being across Rhode Island requires honest input and innovative solutions to longstanding issues such as systemic racism that lead to health inequities. Diversity, equity, and inclusion are integral to our workplace culture and our approach to providing healthcare.</p>
+              <p>Passionately leading a state of health and well-being across Rhode Island requires honest input and innovative solutions to longstanding issues such as systemic racism that lead to health inequities. Diversity, equity, and inclusion (DEI) are integral to our workplace culture and our approach to providing healthcare.</p>
             </Fade>
 
             <div className="mar-top-7 mar-bot-4"> 
@@ -364,7 +364,7 @@ const HealthWellBeingPage = () => {
 
           <div className="content-block__full-width-col mar-top-10">
             <h3 className="heading-alt">
-              Held a COVID discussion on health equity
+              Held a COVID-19 discussion on health equity
             </h3>
           </div>
 
@@ -380,7 +380,7 @@ const HealthWellBeingPage = () => {
                 <div className="mar-top-2">
                   <Blockquote 
                     styleName="blockquote--blue"
-                    blockquoteText="We have to think about the social factors that create the conditions for what has happened as a result of the pandemic, but we also have to think about the healthcare system’s response to those conditions… given all the inequities in our society, the healthcare system must be part of the solution and not part of the problem."
+                    blockquoteText="We have to think about the social factors that create the conditions for what has happened as a result of the pandemic, but we also have to think about the healthcare system’s response to those conditions … given all the inequities in our society, the healthcare system must be part of the solution and not part of the problem."
                     blockquoteAuthor="Dr. Ashish Jha"
                     blockquoteAuthorTitle="Dean, Brown University School of Public Health"
                   />  

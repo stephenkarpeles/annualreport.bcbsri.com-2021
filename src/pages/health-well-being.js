@@ -39,7 +39,7 @@ const HealthWellBeingPage = () => {
             <Fade>
               <div className="content-block__intro">
                 <div className="eyebrow eyebrow--color-15">Health &amp; Well-Being</div>
-                <h2>Expanding coverage during COVID-19 — at no added cost to members</h2>
+                <h2>Expanding coverage during COVID-19&mdash;at no added cost to members</h2>
               </div>
             </Fade>
             <div className="content-block__col-wrap">

@@ -95,7 +95,7 @@ const IndexPage = () => {
           />
           <NumberBlock
             numBlockNumber={[<><sup>$</sup>3,207,818</>]}
-            numBlockCaption="invested by the company through financial or in-kind donations or distributions from the Rhode Island Community Health Fund at the RI Foundation"
+            numBlockCaption="invested by the company through financial or in-kind donations or distributions from the Blue Cross & Blue Shield of Rhode Island Community Health Fund at the RI Foundation"
           />
         </div>
         <div className="investing-footnote">
